@@ -1,0 +1,18 @@
+#profile_sims_box {
+  padding-top: 41px;
+  width: 232px;
+  height: 153px;
+  background: url(/img/profile_ground.gif) no-repeat 0 0;
+  border-collapse: separate;
+}
+#profile_sims_box .outer {
+  height: 100px;
+}
+#profile_sims_name {
+  padding-top: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  display: block
+}

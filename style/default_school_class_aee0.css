@@ -1,0 +1,150 @@
+@charset "UTF-8";#page_content{border:0;background:url(/img/bg_dziennik.gif) repeat-y #fff}
+#path{width:580px;margin-bottom:4px}
+#default_school_class_page #left_panel{float:left;width:270px;display:inline;margin-right:17px}
+#default_school_class_page #details{float:left;width:692px}
+.buttons .button{vertical-align:middle;display:inline}
+.users .user{margin-right:17px}
+#dziennik .content{border:0;padding:5px 0 0;background:transparent}
+#dziennik .buttons{width:150px}
+#dziennik .buttons .ban_button{margin-top:3px}
+#dziennik .buttons .mod_button{margin:1px 2px 0 3px}
+#users,.users,.users .user{position:relative}
+.ban_button{float:right;width:14px;height:12px}
+.ban_button img{filter:alpha(opacity=50);-moz-opacity:.50;opacity:.50}
+.ban_button:hover img{filter:alpha(opacity=100);-moz-opacity:1.0;opacity:1.0}
+.mod_button{float:right;width:14px;height:12px}
+.mod_button img{filter:alpha(opacity=50);-moz-opacity:.50;opacity:.50}
+.mod_button:hover img{filter:alpha(opacity=100);-moz-opacity:1.0;opacity:1.0}
+.users .user .ban_button{top:0}
+#top_buttons .buttons .button img{width:87px}
+.student_info .button img{vertical-align:-4px}
+.student .student_name,.student .city_content{overflow:hidden}
+.student_expanded .student_info{margin-left:110px;padding:8px 4px 20px}
+.student_expanded .bottom{clear:both;width:268px;position:relative}
+.student_expanded .buttons{position:absolute;left:114px;bottom:0;z-index:30}
+.student_expanded .buttons .count{margin-left:4px}
+.student .city_strut_y{height:11px;float:right;width:1px}
+.student .city_content{float:right;text-align:left}
+.student_collapsed .city_content{width:199px}
+.student_expanded .city_content{width:136px}
+.student_expanded .student_photo{display:inline;position:relative;float:left;margin:3px 0 0 3px;padding:1px;border:1px solid #404144}
+.student_photo img{vertical-align:middle;border:1px solid;border-color:#c3c3c3 #b3b3b3 #b3b3b3 #c3c3c3}
+.student{font-size:7pt;position:relative;border:1px solid #d5d5d5;margin-bottom:2px}
+.student_collapsed{background:url(/img/bg_pozycjazwinieta.gif) repeat-x #fff}
+.student_expanded{padding-bottom:3px;position:relative;background:url(/img/bg_pozycjazwinieta.gif) repeat-x #fff}
+#dziennik{padding-bottom:79px;margin-top:9px}
+.student .student_name a:visited,.student .student_name a:active,.student .student_name a:link,.student .student_name a:hover{font-size:8pt;color:#ce0000;font-weight:bold}
+.student .city{color:#376a91}
+.student_expanded .contact .value{color:#376a91}
+.student_expanded .contact .label{font-weight:bold}
+.student_expanded .contact{border-collapse:collapse}
+.student_expanded .city{padding-bottom:20px;position:relative}
+.student_expanded .contact td{padding:0;margin:0}
+.student_expanded .contact td.value{padding-left:12px}
+.student_expanded .student_name,.student_expanded .city{z-index:30;width:137px;position:relative}
+.student_collapsed{cursor:pointer}
+#dziennik{position:relative}
+.student .nr{position:absolute}
+.student_collapsed .nr_collapsed{font-size:18px;left:9px;top:2px;color:#6e6e6e}
+.student_collapsed .nr_expanded{display:none}
+.student_expanded .nr_collapsed{display:none}
+.student_expanded .nr_expanded{right:8px;top:20px;font:bold 36px/1em 'Trebuchet MS',Helvetica,sans-serif;color:#f2f2f2;z-index:20}
+.student_info .buttons{margin-top:5px}
+.student_collapsed .student_name,.student_collapsed .city{width:200px;margin-left:40px}
+.student_collapsed{padding:3px 0}
+.student_collapsed .buttons,.student_collapsed .contact,.student_collapsed .student_photo{display:none}
+.student_expand_btn,.student_collapse_btn,.student_expand_btn:visited,.student_expand_btn:active,.student_expand_btn:link,.student_expand_btn:hover,.student_collapse_btn:visited,.student_collapse_btn:active,.student_collapse_btn:link,.student_collapse_btn:hover{color:#376a91;cursor:pointer;position:absolute;right:4px;top:4px;font-family:"Courier New";font-size:12px}
+#expand_collapse_all_btn,#expand_collapse_all_btn a:visited,#expand_collapse_all_btn a:active,#expand_collapse_all_btn a:link,#expand_collapse_all_btn a:hover{cursor:pointer;margin-bottom:4px}
+#default_school_class_info{padding-bottom:10px}
+#default_school_class_info .info{margin:0 1px 11px 1px;padding:0 0 0 8px;border-left:6px solid #1876ac}
+#default_school_class_info .info_limited{width:284px}
+#default_school_class_info .info .teacher,#default_school_class_info .info .profile{font-size:8pt;color:#292929;margin-bottom:2px}
+#default_school_class_info .info .teacher .value,#default_school_class_info .info .profile .value{font-weight:bold}
+#default_school_class_info .info .moderator{margin-top:9px}
+#default_school_class_info .info .status{margin-top:1px}
+#default_school_class_info .info .moderator,#default_school_class_info .info .status{font-size:7pt;color:#9b9b9b}
+#default_school_class_info .info .moderator .value,#default_school_class_info .info .status .value{color:#1267b2}
+#default_school_class_info .options_menu{position:relative;z-index:50}
+#default_school_class_info .options_registered_user li.option a{width:105px}
+#default_school_class_info .options_unregistered_user li.option a{width:155px}
+#default_school_class_info .options_menu{position:relative;top:-25px;right:-5px}
+div.options_button{line-height:19px;color:#fff;position:absolute;right:5px;top:0;cursor:pointer;z-index:200}
+ul.options_list{position:absolute;z-index:100;margin:0;padding:0;border:3px solid #156898}
+ul.options_list li{background:url(/img/bg_opcje_content.gif) repeat-x;height:20px;margin:0;text-align:left}
+.options_button_pushed{height:28px}
+ul.options_list a:hover,ul.options_list a:visited,ul.options_list a:active,ul.options_list a:link{display:block;padding:2px 4px;font-weight:bold}
+ul.options_list li.option:hover,ul.options_list li.option a:hover{background:url(/img/bg_opcje_content.gif) repeat-x #000}
+ul.options_list a:visited,ul.options_list a:active,ul.options_list a:link{color:#fff}
+#default_school_class_info .options_list{position:absolute;right:0;top:0}
+#default_school_class_info .register .msg{margin-top:5px;font-size:8pt;font-weight:bold}
+#default_school_class_info .register .buttons{position:relative;margin-left:100px;height:45px}
+#default_school_class_info .msg{position:absolute;left:10px;top:10px}
+#default_school_class_info .register .button{position:absolute;top:10px}
+#default_school_class_info .register .buttons .teacher{left:0}
+#default_school_class_info .register .buttons .member{left:62px}
+#default_school_class_info .register .buttons .guest{left:117px}
+#default_school_class_info{position:relative}
+#default_school_class_info .register{position:absolute;right:10px;top:40px;background:url(/img/bg_buttony_dopiszsie.gif) no-repeat;width:268px;height:56px}
+#default_school_class_info .hello{margin-top:35px;border-top:1px solid #1876ac;padding:2px 13px}
+#default_school_class_info .recent_users{font-weight:bold}
+#default_school_class_info #class_photo_and_ads{width:340px;position:relative;float:right}
+#default_school_class_info .class_photo{position:relative;background:#87bf3b;width:340px;text-align:right}
+#default_school_class_info .class_photo a{color:#fafc7a}
+#default_school_class_info .class_photo p{margin:20px 15px}
+#default_school_class_info .class_photo a.show_gallery_link{margin-right:10px;font-size:11px}
+#default_school_class_info .class_photo img{margin:5px 10px 5px 10px}
+#default_school_class_info .class_photo_header{position:relative;background:url(/img/mainphotobox_header_short.gif) no-repeat top;height:22px}
+#default_school_class_info .class_photo_label{position:absolute;top:4px;left:235px;color:#fafc7a;font-size:11px;font-weight:bold}
+#default_school_class_info .geo_label{position:absolute;top:4px;left:255px;font-size:11px;color:#fff}
+#default_school_class_info .photo_separator{margin:5px 28px}
+#default_school_class_info .class_photo_footer{background:url(/img/mainphotobox_bottom.gif) no-repeat bottom;height:6px}
+#users{width:340px}
+#users div.users{background:#f5f5f5;margin-top:5px}
+#users div.users .users_header{border-left:6px solid #1876ac;color:#c10049;font-size:12px;font-weight:bold;padding:3px 10px}
+#users div.users p{font-size:10px;padding:0 15px 15px 15px}
+#users #teachers{margin-top:12px}
+#users #guests{margin-top:8px}
+#users ul.users{margin:0;padding:8px 4px 8px 24px;font-size:8pt}
+.applier_vote_btn{vertical-align:-2px}
+.applier_vote_btn img{filter:alpha(opacity=50);-moz-opacity:.50;opacity:.50}
+.applier_vote_btn:hover img{filter:alpha(opacity=100);-moz-opacity:1.0;opacity:1.0}
+table.users{border-collapse:collapse;font-size:8pt;margin-left:23px}
+table.users tr.empty{height:4px}
+table.users td{margin:0;padding:1px}
+table.users .limited{width:100px}
+.applier_voting{text-align:right;background:#ebebeb;width:100px;color:#a5a5a5}
+.applier_voting .applier_vote_btn{margin-left:2px}
+.last_school_class_photos .photo_frame{margin:0 auto;height:102px;width:102px}
+.last_school_class_photos .photos{margin:10px auto;width:500px}
+.last_school_class_photos td img{border:1px solid #404144}
+.last_school_class_photos .info{text-align:center}
+.last_school_class_photos p{margin:10px 30px 20px 155px}
+#recent_threads .list{margin-bottom:1px;width:100%}
+#recent_threads .name{border-bottom:0}
+#recent_threads td .name{padding:0 10px}
+#recent_threads .count{width:60px;text-align:center;vertical-align:middle;background:#f4f6f9}
+#recent_threads .last_post{width:150px;padding:2px 5px}
+#recent_threads .last_post,#recent_threads .last_post a{color:#252525;font-size:11px}
+#recent_threads .last_post .demo{text-decoration:underline;font-weight:bold}
+#bottom_ads{width:580px;text-align:center;margin:15px 0}
+.hint_box{position:relative}
+.hint_box .hint_msg{font-size:11px}
+.school_hint_strut{width:1px;height:20px;float:right}
+.hint_box .hint_box_header,.hint_box .hint_box_text{padding-left:7px;padding-right:7px}
+.school_hint{width:235px;position:relative}
+.school_hint_box .hint_box_header{background:url(/img/partybox_header.png) no-repeat;color:#fff600;padding:3px 8px;font-weight:bold;font-size:11px;position:relative;height:18px}
+.school_hint_box .hint_box_date{position:absolute;text-align:right;right:7px;top:5px;color:#fff;width:80px}
+.school_hint_box .hint_box_title{width:153px;padding:2px 0}
+.school_hint_box .hint_box_text{background:#156b9c;padding:5px 8px;color:#fff}
+.school_hint_box .hint_box_footer{background:url(/img/partybox_bottom.png) no-repeat;height:4px}
+.school_hint_box .hint_box_text a{color:#fff}
+.school_hint_box .hint_box_text a{font-weight:bold}
+#dziennik_footer_container{height:0;clear:left;float:left;position:relative;z-index:70}
+#dziennik_footer{position:absolute;z-index:90;background:url(/img/dziennik_footer.gif) repeat-x bottom;height:78px;top:-68px;left:-8px;width:276px}
+#dziennik_footer_right{position:absolute;left:268px;top:-68px;background:url(/img/dziennik_footer_right.gif) repeat-x bottom;height:78px;width:9px;z-index:80}
+#users div#stories{background:#156b9c;color:#fff;font-weight:bold;font-size:11px}
+#users #stories .users_header{color:#fff;margin-left:5px;border-left:6px solid #c4e894;padding-left:5px}
+#users #stories ul{margin:0;padding:5px 0 10px 0;list-style-type:disc;list-style-position:inside}
+#stories ul li{padding:2px 0;border-bottom:1px solid #1776a6;padding-left:17px}
+.last_comments_on_forum>.content{padding:0}
+#default_school_class_info a.create_event{position:relative;top:-30px}

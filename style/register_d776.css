@@ -1,0 +1,875 @@
+@charset "UTF-8";
+
+#register_top {
+    padding-bottom: 1px;
+    margin: -3px -19px 10px;
+    position: relative;
+    border-bottom: 1px solid #bdd0e5
+}
+
+#register_top h3 {
+    padding: 10px 0 5px 12px;
+    margin: 0;
+    font-size: 12px;
+    border-left: 8px solid #7da1c5;
+    color: #4e5a63;
+    background: #e2eef6
+}
+
+#content_main #register_top p {
+    margin: 0;
+    padding: 0 0 10px 12px;
+    font-size: 11px;
+    border-left: 8px solid #7da1c5;
+    color: #4e5a63;
+    background: #e2eef6
+}
+
+#content_main p.ssl_hint {
+    padding: 0;
+    margin: 0 0 10px;
+    font-size: 11px;
+    color: #7190ae
+}
+
+#content_main p.ssl_hint a {
+    color: #7190ae
+}
+
+#content_main p.ssl_hint .raquo {
+    font-weight: normal;
+    color: #bcc8d1
+}
+
+.media_register .cool_box_inner,
+.new_user_register .cool_box_inner {
+    padding: 3px 19px 15px
+}
+
+.new_user_register .captcha_row,
+.media_register .captcha_row {
+    padding-bottom: 13px;
+    margin-bottom: 9px;
+    background: url(/img/hr.gif) repeat-x 0 100%
+}
+
+.captcha_row .clear {
+    height: 0;
+    overflow: hidden
+}
+
+.new_user_register .captcha_row img,
+.media_register .captcha_row img {
+    margin-bottom: 3px
+}
+
+div.roundbox {
+    margin-top: 3px
+}
+
+#recover_pas #content_main,
+#confirmation_req #content_main,
+#login_page #content_main,
+#change_pas #content_main {
+    width: 100%;
+    float: none
+}
+
+#content_main .belka {
+    font-size: 11px;
+    text-align: left
+}
+
+#content_main .small {
+    font-size: 10px
+}
+
+#content_main a.small {
+    font-size: 10px
+}
+
+#content_main p {
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-left: 2px
+}
+
+#content_main div.cool_box {
+    text-align: left
+}
+
+#content_main table.pom td.lewo {
+    vertical-align: top
+}
+
+#content_main table.pom td.gora {
+    padding-left: 10px;
+    padding-top: 20px
+}
+
+#content_main table.pom td.gora_edit {
+    padding-top: 10px !important;
+    vertical-align: top !important;
+    text-align: center;
+    width: 100%
+}
+
+#content_main table.pom td.gora_edit div.avatar {
+    margin-lefT: auto;
+    margin-right: auto
+}
+
+#content_main table.pom {
+    padding-left: 5px;
+    padding-top: 5px;
+    vertical-align: top
+}
+
+#content_main table.dane {
+    margin: 0;
+    border-collapse: collapse;
+    font-size: 11px;
+    width: 100%;
+    vertical-align: middle
+}
+
+#content_main table.waskie_dane input {
+    width: 210px !important
+}
+
+#content_main table.waskie_dane textarea {
+    width: 210px !important
+}
+
+#content_main textarea {
+    width: 210px !important;
+    height: 70px
+}
+
+#content_main table.dane td {
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px
+}
+
+#content_main table.dane td.co {
+    vertical-align: middle;
+    width: 100%
+}
+
+#content_main table.dane td.wartosc {
+    vertical-align: middle
+}
+
+#content_main div.niebieski {
+    margin-top: 3px;
+    border: 1px solid #bfd5e4;
+    border-top: 2px solid #3786c3;
+    width: 400px;
+    background-color: #d2e4f2;
+    padding: 5px
+}
+
+#content_main div.prawo {
+    vertical-align: middle;
+    text-align: right;
+    width: 100%
+}
+
+#content_main div.niebieski input {
+    width: 270px;
+    height: 15px
+}
+
+#content_main ul {
+    list-style-position: outside;
+    padding-left: 0;
+    margin-left: 0;
+    padding-top: 3px
+}
+
+#content_main form {
+    display: inline
+}
+
+#content_main div.informacje {
+    margin-top: 70px;
+    text-align: left;
+    font-size: 11px
+}
+
+#content_main div.informacje p {
+    margin-top: 10px
+}
+
+#content_main div.wylaczenieodp {
+    font-size: 11px;
+    margin-top: 15px;
+    margin-bottom: 10px
+}
+
+#content_main label.starred {
+    font-weight: bold
+}
+
+.reg_privacy_select {
+    width: 274px
+}
+
+#content_main table.dane tr.reg_merged td {
+    padding-top: 8px
+}
+
+#login_hint {
+    padding: 0;
+    font-size: 10px
+}
+
+#confirmation_request {
+    padding: 20px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    background: #eff5fb
+}
+
+#nice_wrapper {
+    font-size: 11px;
+    padding: 12px 5px 13px;
+    bordeR: 1px solid #e1e8f0;
+    background: #f3f7fb;
+    overflow: hidden
+}
+
+#nice_wrapper form {
+    padding: 15px;
+    text-align: right
+}
+
+#nice_wrapper form label {
+    font-weight: bold
+}
+
+#nice_wrapper form button {
+    margin-bottom: 0
+}
+
+#nice_wrapper input,
+#recover input {
+    width: 264px;
+    margin: 0;
+    font-size: 11px;
+    border: 1px solid #96a8b2;
+    color: #5a7a9b
+}
+
+div.column_left {
+    text-align: right;
+    width: 150px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #2e3136;
+    padding: 1px;
+    margin-top: 4px
+}
+
+div.row {
+    position: relative;
+    padding: 9px 0 0 0
+}
+
+div.column_right {
+    width: 350px;
+    padding: 0;
+    margin-top: 1px;
+    float: left;
+    clear: right;
+    text-align: left
+}
+
+div.notify {
+    width: 0;
+    height: 0;
+    float: right;
+    position: relative;
+    left: -400px
+}
+
+#recover select {
+    margin-right: 10px;
+    border: 1px solid #b8c5ce
+}
+
+#nice_wrapper select {
+    margin-right: 10px;
+    border: 1px solid #96a8b2;
+    font-size: 11px;
+    color: #5a7a9b
+}
+
+#nice_wrapper .regulamin {
+    padding: 6px;
+    margin: 0;
+    overflow: hidden;
+    color: #444;
+    border: 1px solid #e1e8f0;
+    line-height: 18px;
+    background: #fff;
+    width: 726px;
+    float: left
+}
+
+#nice_wrapper .terms_container {
+    overflow: hidden;
+    background: url(/img/hr.gif) repeat-x 0 100%;
+    margin-bottom: 9px;
+    padding-bottom: 13px
+}
+
+#nice_wrapper .regulamin_txt {
+    padding: 6px;
+    height: 200px;
+    margin: 0;
+    overflow: auto;
+    border: 1px solid #e1e8f0;
+    line-height: 18px;
+    background: #fff;
+    width: 726px;
+    float: left
+}
+
+#nice_wrapper .regulamin .row {
+    padding: 10px 0;
+    overflow: hidden;
+    border-top: 1px solid #e1e8f0
+}
+
+#nice_wrapper .regulamin .row:first-child {
+    border-top: 0
+}
+
+#regulamin a {
+    color: #355971
+}
+
+#nice_wrapper .regulamin input {
+    width: 15px;
+    padding: 0;
+    margin: 2px 0 0;
+    float: left;
+    border: 0
+}
+
+#nice_wrapper .regulamin label {
+    padding-left: 30px;
+    display: block
+}
+
+#nice_wrapper .regulamin label a {
+    color: #175d90
+}
+
+#nice_wrapper button {
+    margin: 15px 0 0 420px
+}
+
+#form1_birth_date_day,
+#form1_birth_date_month {
+    width: 47px
+}
+
+#form1_birth_date_year {
+    width: 65px
+}
+
+#nice_wrapper p.ssl_hint {
+    padding: 5px 3px
+}
+
+p.confirm {
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 70px;
+    padding: 20px 0
+}
+
+.dotted_bottom {
+    border-bottom: 1px dotted #ccc;
+    padding: 5px;
+    width: 390px
+}
+
+.blue_arrow {
+    color: #8ab6e2;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 4px;
+    vertical-align: middle
+}
+
+#hide_div {
+    display: none
+}
+
+#login_hint p {
+    padding: 5px;
+    margin: 0
+}
+
+#content_main p.red {
+    position: relative;
+    margin-top: -6px;
+    border: 1px solid #dc6868;
+    color: #a62a2e;
+    background: #ffe1de
+}
+
+#content_main p.green {
+    position: relative;
+    margin-top: -6px;
+    border: 1px solid #6596a2;
+    color: #4e8109;
+    background: #f0ffdc
+}
+
+#content_main p.blue {
+    position: relative;
+    margin-top: -6px;
+    border: 1px solid #7da1c5;
+    color: #4e5a63;
+    background: #e2eef6
+}
+
+#content_main .small_blue_info {
+    padding-left: 5px;
+    font-size: 11px;
+    color: #4e5a63
+}
+
+.padding_0 {
+    padding: 0 !important
+}
+
+.padding_10 {
+    padding-top: 10px !important
+}
+
+.right_240 {
+    float: right;
+    width: 240px;
+    margin-top: 40px
+}
+
+.right_250 span.title {
+    margin-left: 4px
+}
+
+#notifications {
+    float: right;
+    width: 242px
+}
+
+#content_main .fancy_box_yellow {
+    width: 312px;
+    position: absolute;
+    right: -321px;
+    top: -16px;
+    margin-top: 15px
+}
+
+select {
+    padding: 2px
+}
+
+.recover_first_column,
+.confirmation_first_column {
+    width: 556px
+}
+
+#recover_holder,
+#confirmation_holder,
+#change_password_holder {
+    width: 556px;
+    padding-top: 4px;
+    background: transparent url(/img/recover_top.gif) no-repeat left top
+}
+
+#recover_holder .inner,
+#confirmation_holder .inner,
+#change_password_holder .inner {
+    position: static;
+    padding-bottom: 4px;
+    background: transparent url(/img/recover_bottom.gif) no-repeat left bottom
+}
+
+#recover_holder form,
+#confirmation_holder form,
+#change_password_holder form {
+    display: block;
+    background: #fff;
+    border-left: 1px solid #b8d3ea;
+    border-right: 1px solid #b8d3ea;
+    padding: 0 1px
+}
+
+#recover_holder form .row,
+#confirmation_holder form .row,
+#change_password_holder form .row {
+    width: auto;
+    padding: 7px 0 7px 8px
+}
+
+#recover_holder form .row select {
+    margin-right: 6px
+}
+
+#recover_holder form fieldset,
+#confirmation_holder form fieldset,
+#change_password_holder form fieldset {
+    background: #6c92b2 url(/img/bg_login.gif) repeat-x left top;
+    width: auto;
+    padding: 7px 0
+}
+
+#recover_holder form label,
+#confirmation_holder form label {
+    float: left;
+    width: 110px;
+    padding: 0 6px 0 0;
+    margin: 0;
+    text-align: right;
+    color: #fff;
+    font-size: .9em;
+    font-weight: normal;
+    line-height: 2.2em
+}
+
+#recover_holder form input,
+#recover_holder form select,
+#confirmation_holder form input {
+    font-size: .9em;
+    color: #5e7a94;
+    margin-right: 10px
+}
+
+#recover_holder .tips_holder,
+#confirmation_holder .tips_holder {
+    width: 536px;
+    padding-top: 2px;
+    background: transparent url(/img/tips_top.gif) no-repeat left top
+}
+
+.tips_inner {
+    padding-bottom: 2px;
+    background: transparent url(/img/tips_bottom.gif) no-repeat left bottom
+}
+
+.tips_content {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    background-color: #d2e9fc;
+    overflow: hidden;
+    padding: 10px;
+    font-size: .9em
+}
+
+.tips_content h4 {
+    font-size: 1.2em;
+    color: #375b7b;
+    margin: 0 0 10px
+}
+
+.tips_content ul {
+    margin: 0;
+    padding: 0;
+    color: #2b2b2b;
+    clear: both;
+    font-weight: normal
+}
+
+.recover_second_column,
+.confirmation_second_column {
+    width: 414px
+}
+
+#recover_confirmation {
+    padding: 20px
+}
+
+#change_password_holder {
+    margin: 20px 0 20px 7px
+}
+
+#change_password_holder h4 {
+    color: #fff;
+    font-size: 1.2em;
+    margin: 0 0 10px;
+    padding-left: 8px
+}
+
+#change_password_holder label,
+#change_password_holder dl {
+    color: #fff
+}
+
+#change_password_holder dl,
+#change_password_holder dt,
+#change_password_holder dd {
+    display: inline;
+    margin: 0
+}
+
+#change_password_holder dd {
+    font-weight: bold
+}
+
+#change_password_holder .row input {
+    width: 100px;
+    margin-right: 10px;
+    color: #5c7a96;
+    font-size: .9em
+}
+
+#change_password_holder .row button {
+    margin: 0
+}
+
+.wide {
+    width: 849px !important
+}
+
+#content_main .fancy_box_red {
+    width: 640px
+}
+
+#recover_pas .fancy_box,
+#confirmation_req .fancy_box,
+#login_page .fancy_box,
+#change_pas .fancy_box {
+    border: 1px solid #f1c9cd;
+    background-color: #fff2f2;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: auto
+}
+
+#change_pas .fancy_box {
+    width: 512px;
+    margin-left: 8px
+}
+
+#recover_pas .fancy_box span.title,
+#confirmation_req .fancy_box span.title,
+#login_page .fancy_box span.title,
+#change_pas .fancy_box span.title {
+    font-size: 13px;
+    background-color: transparent;
+    color: #9d6363;
+    padding: 0
+}
+
+#recover_pas .fancy_box .content,
+#confirmation_req .fancy_box .content,
+#login_page .fancy_box .content,
+#change_pas .fancy_box .content {
+    padding: 0
+}
+
+#recover_pas .fancy_box ul,
+#confirmation_req .fancy_box ul,
+#login_page .fancy_box ul,
+#change_pas .fancy_box ul {
+    padding: 0;
+    margin: 10px 0 0
+}
+
+#recover_pas .fancy_box ul li,
+#confirmation_req .fancy_box ul li,
+#login_page .fancy_box ul li,
+#change_pas .fancy_box ul li {
+    color: #de5361;
+    list-style-type: none;
+    padding: 0 0 0 10px;
+    background: transparent url(/img/bullet.gif) no-repeat left 4px
+}
+
+#login_page div.questions ul a,
+#confirmation_req div.questions ul a,
+#recover_pas div.questions ul a,
+#change_pas .fancy_box ul a {
+    color: #c0e2fe
+}
+
+label {
+    margin-right: 10px
+}
+
+#fikcyjne_top {
+    margin-left: -6px;
+    margin-right: -6px
+}
+
+#accept_terms {
+    line-height: 18px
+}
+
+#accept_terms p {
+    margin: 10px 0
+}
+
+#regulamin_tresc {
+    height: 216px;
+    overflow: auto;
+    background: #fff;
+    border: 1px solid #d0deeb;
+    font-size: 11px;
+    line-height: 18px
+}
+
+#regulamin_tresc span.section_name {
+    padding-left: 20px;
+    font-weight: bold
+}
+
+fieldset {
+    border: 0;
+    width: 250px;
+    padding: 3px;
+    margin: 0
+}
+
+legend {
+    display: none
+}
+
+h4 {
+    color: #000;
+    font-size: 11px;
+    margin-bottom: 2px
+}
+
+div#is_real {
+    background: #fff;
+    border: 1px solid #d0deeb;
+    width: auto;
+    padding: 7px;
+    width: 270px;
+    margin-bottom: 15px
+}
+
+div#is_real label {
+    font-weight: bold;
+    float: left;
+    font-size: 12px;
+    margin-left: 3px
+}
+
+div#is_real label input {
+    float: left
+}
+
+h3 {
+    font-size: 11px
+}
+
+div.roundbox {
+    font-size: 12px
+}
+
+ul.index li a {
+    color: #000
+}
+
+ul.index li a .section_name {
+    color: #466073
+}
+
+#nice_wrapper .no_margin input {
+    width: auto;
+    margin: 5px
+}
+
+div.side_margin p {
+    line-height: 18px
+}
+
+#content_main .fancy_box span.mark {
+    display: none
+}
+
+#dont_accept {
+    margin-left: 30px
+}
+
+#inactive_profile {
+    padding: 30px 0 30px 30px;
+    background: #eff5fb
+}
+
+#content_main #inactive_profile table.dane {
+    width: 732px
+}
+
+#content_main #inactive_profile table.dane td.co {
+    text-align: right
+}
+
+#content_main #inactive_profile table.dane td.co label {
+    background: transparent url(/img/bullet.gif) no-repeat scroll 0 58%;
+    color: #000;
+    margin-right: 10px;
+    padding-left: 10px;
+    font-weight: bold
+}
+
+#content_main #inactive_profile table.dane textarea {
+    width: 350px !important;
+    height: 160px
+}
+
+#content_main #inactive_profile table.dane sup {
+    display: none
+}
+
+.nk_terms h2 {
+    color: #4a84ac;
+    background: url(/) no-repeat 0 8px;
+    margin: 0;
+    padding: 0 16px
+}
+
+.nk_terms h2 span {
+    display: block;
+    border-bottom: 1px solid #d9e5ee
+}
+
+.nk_terms h4 {
+    color: #246a9d
+}
+
+.nk_terms h4 span {
+    display: block;
+    padding: 0 12px;
+    background: url(/) no-repeat 0 -17px;
+    font-weight: normal
+}
+
+.nk_terms h4 strong {
+    display: block;
+    margin: 0 12px;
+    border-bottom: 1px solid #246a9d
+}
+
+.nk_terms p {
+    padding: 5px 12px
+}
+
+.nk_terms li {
+    padding: 5px 0
+}
+
+.nk_terms ol.lower-alpha {
+    list-style-type: lower-alpha
+}

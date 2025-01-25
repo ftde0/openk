@@ -1,0 +1,20 @@
+{
+  "name": "openk",
+  "version": "1.0",
+  "description": "generic api reconstructs for nasza-klasa",
+  "main": "back.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nk",
+    "nasza-klasa",
+    "api"
+  ],
+  "dependencies": {
+    "express": "latest",
+    "readline-sync": "^1.4.10"
+  },
+  "author": "dxegom",
+  "license": "ISC"
+}

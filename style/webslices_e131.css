@@ -1,0 +1,79 @@
+/* MAILS WEBSLICE */
+div.entry-content {
+  margin:0;
+  width:800px;
+  padding:10px 20px 0 20px;
+  background-color:#fff;
+  height:50px;
+  overflow:hidden;
+}
+div.entry-content span {
+  float:left;
+  line-height:24px;
+  color:#226396;
+  font:15px Tahoma, Verdana, Helvetica, Arial, Sans-Serif;
+}
+div.entry-content img {
+  float:right;
+}
+
+.mails_list_slice_content {
+  margin:0 0 0 0 !important;
+  width:800px;
+  height:550px;
+  overflow:auto;
+  border:1px solid #e0e9f1;
+  background-color:#f3f7fb;
+}
+
+.mails_list_slice_content .row {
+  background-position:11px center;
+  width:774px;
+}
+.mails_list_slice_content .border {
+  padding:4px 0;
+  zoom:1;
+  overflow:hidden;
+  border:1px solid #fff !important;
+}
+.mails_list_slice_content .checkbox {
+  display:none;
+}
+.mails_list_slice_content .od {
+  width:300px !important;
+  float:left;
+  margin:0 0 0 40px;
+  padding:0;
+  overflow:hidden;
+  text-align:left;
+}
+.mails_list_slice_content .msg {
+  width:385px !important;
+  float:left;
+  margin:0 0 0 10px;
+  padding:0;
+  overflow:hidden;
+  text-align:left;
+}
+.mails_list_slice_content .msg .author_name {
+  margin-bottom:2px;
+}
+.mails_list_slice_content .dust_bin {
+  display:none;
+}
+
+.mails_list_slice_content .unread a {
+  color:#63a604;
+  font-weight:bold;
+}
+
+.mails_list_slice_content .thead .date_who {
+  text-align:left;
+  padding-left:39px;
+}
+.mails_list_slice_content .thead .temat_wiadomosci {
+  text-align:left;
+  padding-left:60px;
+}
+/* / MAILS WEBSLICE */
+

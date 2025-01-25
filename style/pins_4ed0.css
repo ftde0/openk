@@ -1,0 +1,327 @@
+#page {
+  overflow-x: visible;
+}
+.friend_list_box {
+  width: 335px;
+  overflow: auto;
+  position : absolute;
+  top : 26px;
+  left : 0;
+  overflow-x : hidden;
+  background: #fff;
+  border: 1px solid #92b3cb;
+}
+#pin_friends {
+  padding: 10px;
+  margin: 5px auto;
+  background-color: #fafafa;
+  border: 1px solid  #d8dfe3;
+  font-size: 11px;
+  display: none;
+  zoom: 1;
+}
+#photos #pin_friends .separator {
+  background: 0;
+}
+
+.pin_friend_std {
+  color: #51759a;
+}
+
+a.pin_friend_over {
+  color: #9cc6e5;
+}
+
+.pin_info_box {
+  width: 176px;
+  color: #fff;
+  text-align: left;
+  padding: 4px 7px;
+  line-height: 16px;
+  cursor: pointer;
+  position: relative;
+  font-size: 11px;
+  overflow: hidden;
+  zoom: 1;
+}
+
+div.pin_info_box p {
+  padding: 0;
+}
+
+.pin_arrow {
+  background: transparent url(/img/pins/popup_dziubek2) no-repeat 0 0;
+  width: 4px;
+  height: 6px;
+  position: absolute;
+  top: 5px;
+  right: -4px;
+}
+
+.pin_info_box_cont p { 
+  padding: 2px;
+  margin: 0;
+}
+
+/*************************************************/
+div#pin_cont {
+  position: relative;
+  margin: 0 auto;
+}
+button#pin_add_button {
+  background: transparent url('/img/pins/button_przypnij') no-repeat 0 0;
+  width: 111px;
+  height: 18px;
+  position: absolute;
+  right: 3px;
+  top: 2px;
+}
+div.pin_mark_blue, div.pin_mark_green {
+  position: absolute;
+  display: block;
+  height: 24px;
+  width: 16px;
+  background: transparent url('/img/pins/pin_mark_blue') no-repeat 0 0;
+  cursor: pointer;
+}
+div.pin_mark_green {
+  background-image: url('/img/pins/pin_mark_green');
+}
+.pin_box_green, .pin_box_blue {
+  position: absolute;
+  width: 192px;
+  height: auto;
+  zoom: 1;
+}
+.pin_box_top {
+  height: 2px;
+  overflow: hidden;
+  background: transparent url(/img/pins/pinezki_komentarz_top) no-repeat 0 0;
+  width: 192px;
+}
+.pin_box_green .pin_box_top {
+  background: transparent url(/img/pins/pinezki_komentarz_top_green) no-repeat 0 0;
+}
+.pin_info_box_cont {
+  background: #1a7eb8;
+  border-left: 1px solid #1d4366;
+  border-right: 1px solid #1d4366;
+  height: 100%;
+}
+.pin_box_green .pin_info_box_cont {
+  background: #85be39;
+  border-left: 1px solid #3d610d;
+  border-right: 1px solid #3d610d;
+}
+.pin_info_box_right {
+  background: transparent url(/img/pins/pinezki_komentarz_right) repeat-y top right;
+}
+.pin_box_bottom {
+  height: 2px;
+  overflow: hidden;
+  background: transparent url(/img/pins/pinezki_komentarz_bottom) repeat-x 0 0;
+  width: 192px;
+}
+.pin_box_green .pin_box_bottom {
+  background: transparent url(/img/pins/pinezki_komentarz_bottom_green) repeat-x 0 0;
+}
+.pin_edit_form { 
+  position: absolute;
+  text-align: left;
+}
+form.pin_edit_form {
+  color: #fff;
+}
+#div_js {
+  zoom: 1;
+}
+#pin_fl_search {
+  width: 237px;
+  height: 16px;
+  padding-left: 28px;
+  margin: 0; 
+  vertical-align: top;
+  background: #fff url(/img/icon/people.gif) no-repeat 6px 50%;
+}
+#pin_fl_dropdown {
+  width: 337px;
+  clear: both;
+  background: #fff;
+  border-color: #CDDDE9;
+  border-style: solid;
+  border-width: 0 1px 1px;
+  position: relative;
+  left: 0;
+  top: 3px;
+}
+#pin_fl_dropdown .recipient {
+  width: 312px;
+}
+#album_view div.grid_row {
+  border: 0;
+}
+p.pf_info {
+  clear: both;
+  color: #b5e0ff;
+  padding: 0 0 5px 0;
+  margin: 0;
+}
+.pf_description {
+  background: #fff;
+  border: 1px solid #a7c2d1;
+  width: 332px;
+  height: 75px;
+  padding: 5px 0 5px 5px;
+  margin: 0;
+}
+.pf_cancel {
+  float: right;
+  width: 15px;
+  height: 20px;
+  background: transparent url(/img/friends/x) no-repeat 0 5px;
+  cursor: pointer;
+}
+div.navy_box_content input.pf_checkbox {
+  width: 20px;
+}
+div.navy_box_content button.pf_submit {
+  float: right;
+  margin: 0 0 0 80px;
+  position: relative;
+  right: -1px;
+}
+div.navy_box_content button.pf_submit.low{
+  top: 22px;
+  right: -3px;
+}
+div#friend_search_div input, div#friend_div input {
+  color: #000;
+  font-weight: bold;
+  background: #fff;
+  font-size: 11px;
+}
+div#friend_search_div input#friend_search {
+  background: #eee;
+  color: #888;
+}
+div.navy_box_content {
+  width: 339px;
+  padding:7px 7px 8px;
+  overflow: auto;
+}
+div.recipient p {
+  color: #000;
+  margin: 0;
+}
+p.pin_info_box_login_label, p.pin_info_box_description_label {
+  color: #f8ffb5;
+  font-weight: bold;
+  zoom: 1;
+  position: relative;
+}
+p.pin_info_box_login_label {
+  margin-top: -3px;
+}
+hr.pin_info_box_description_separator, hr.spacer {
+  height: 1px;
+  color: #3797bc;
+  background-color: #3797bc;
+  border: none;
+}
+#pin_cont hr.pin_info_box_description_separator {
+  background-color: #3797bc;
+  border-color: #3797bc;
+}
+#pin_cont .pin_box_green hr.pin_info_box_description_separator {
+  background-color: #a5db5a;
+  border-color: #a5db5a;
+  color: #a5db5a;
+}
+hr.pin_info_box_description_separator {
+  margin-top: 5px;
+}
+hr.spacer {
+  width: 165px;
+  padding: 0 5px;
+}
+#pin_cont .pin_box_green hr.spacer {
+  background-color: #a5db5a;
+  border-color: #a5db5a;
+  color: #a5db5a;
+}
+a.remove_button {
+  color: #ff7b69 !important;
+  font-size: 10px;
+  margin-left: 103px;
+}
+span.friends_box_title {
+  font-weight: bold;
+}
+div#add_pin_link {
+  float: left;
+  margin: 3px 21px 0 9px;
+  cursor: pointer;
+}
+#pin_permission {
+  float: left;
+  padding: 5px 0 1px 23px;
+  background: transparent url(/img/photos/ico_pin_small) no-repeat 0 6px;
+  color: #7d8d9d;
+  font-size: 11px;
+}
+#pins_settings {
+  display: inline;
+}
+#pins_settings_select {
+  padding: 2px 2px 2px 3px;
+  margin: 0 0 0 5px;
+  color: #3b5977;
+  font-size: 10px;
+}
+div#friend_list_container {
+  zoom: 1;
+}
+p.pin_info_box_description {
+  margin: 2px 0;
+  font-size: 11px;
+}
+a.pin_info_box_login {
+  color: #fff !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+a.pin_info_box_login: hover {
+  text-decoration: underline;
+}
+p.pin_info_box_city {
+  color: #bce9ff;
+  margin-top: -3px;
+}
+.info_remove_button {
+  background: transparent url(/img/pins/pinezki_usumnie) no-repeat 0 2px;
+  display: block;
+  padding-left: 16px;
+  margin: 6px auto;
+  width: 120px;
+  line-height: 12px;
+}
+a.info_remove_button {
+  color: #bce9ff;
+  font-size: 10px;
+}
+#pin_cont .pin_box_green a.info_remove_button {
+  color: #caf492;
+}
+span.info_remove_info {
+  color: #bce9ff;
+  font-size: 10px;
+  display: block;
+  width: 120px;
+  text-align: left;
+  margin-left: 28px;
+  padding: 9px 0;
+}
+span.block_button img {
+  margin-right: 3px;
+  cursor: pointer;
+}

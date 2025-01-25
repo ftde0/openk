@@ -1,0 +1,101 @@
+.survey_form,
+.survey_results {
+  width: 100%;
+  font-size: 11px;
+}
+.survey_results p {
+  margin: 0 32px 0 0;
+}
+.survey_title {
+  margin: 3px 0 0 7px;
+  padding: 5px 0 5px 10px;
+  line-height: 13px;
+  font-weight: bold;
+  background: url(/img/ico_schoolpointer.gif) no-repeat 0 7px;
+  color: #082b3f;
+}
+.survey_question,
+.survey_regulations {
+  margin-left: 7px;
+  border-top: 1px dotted #d2e2eb;
+}
+.survey_row {
+  position: relative;
+}
+.survey_row label {
+  padding: 2px 0 3px;
+  margin-left: 22px;
+  min-height: 13px;
+  display: block;
+}
+.survey_row input {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.survey_regulations {
+  padding: 5px 0 0 15px;
+}
+.survey_regulations input {
+  margin-right: 5px;
+}
+.survey_question_header {
+  margin-left: 10px;
+  padding: 5px 0 5px 18px;
+  font-weight: bold;
+  background: url(/img/bullet.gif) no-repeat 0 9px;
+  color: #7f9db9;
+}
+.survey_question_body {
+  margin-left: 10px;
+  padding: 0 5px 5px;
+}
+#survey_submit {
+  margin: 5px 0 5px 7px;
+  padding-bottom: 2px;
+  width: 99px;
+  height: 19px;
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: bold;
+  background: url(/img/blue_btn_bg.gif) no-repeat;
+  color: #407da9;
+}
+.survey_question_body textarea,
+.survey_question_body select {
+  display: block;
+}
+.survey_question_body textarea {
+  width: 98%;
+}
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ results ] --- */
+.survey_bar {
+  margin: 2px 0 7px;
+  border: 1px solid #98b2cf;
+  padding: 1px;
+  position: relative;
+}
+.survey_bar_percent {
+  height: 10px;
+  background: #98b2cf;
+}
+.survey_bar_stats {
+  font-size: 9px;
+  color: #7f9db9;
+  position: absolute;
+  top: -13px;
+  right: 0;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ errors ] -------- */
+#survey_errors_view #content_main .fancy_box_red {
+  padding: 0;
+}
+#survey_errors_view .fancy_box_red .mark,
+#survey_errors_view .fancy_box_red .title {
+  display: none;
+}

@@ -1,0 +1,135 @@
+#blinking_tab_box_content {
+  width: 174px;
+  margin: 0 auto;
+}
+#blinking_tab_box_content .btab_top {
+  width: 174px;
+  height: 4px;
+  background: transparent url(/img/bg_btab_top_narrow.gif) no-repeat 0 0;
+  overflow: hidden;
+}
+#blinking_tab_box_content .btab_content {
+  width: 174px;
+  background: transparent url(/img/bg_btab_narrow.gif) repeat-y 0 0;
+  position: relative;
+}
+#blinking_tab_box_content .btab_bottom {
+  width: 174px;
+  height: 4px;
+  background: transparent url(/img/bg_btab_bottom_narrow.gif) no-repeat 0 0;
+  overflow: hidden;
+}
+#blinking_tab_box_content p.header {
+  color: #414141;
+  font-weight: bold;
+  margin-left: 10px;
+}
+#blinking_tab_box_content #dispose_mail {
+  position: absolute;
+  right: 5px;
+  top: 1px;
+  cursor: pointer;
+}
+#blinking_tab_box_content .avatar {
+  padding-top: 5px;
+  margin: 0 auto;
+}
+#blinking_tab_box_content p.title a {
+  color: #363636;
+  font-weight: bold;
+  margin: 2px 9px;
+}
+#blinking_tab_box_content p.content {
+  margin: 4px 9px;
+  font-size: 12px;
+  line-height: 20px;
+}
+#blinking_tab_box_content p.content img {
+  vertical-align: middle;
+}
+#blinking_tab_box_content p.content a {
+  color: #414141;
+  line-height: 15px;
+}
+#blinking_tab_box_content p.title, 
+#blinking_tab_box_content p.content {
+  width: 158px;
+  overflow: hidden;
+}
+#blinking_tab_box_content hr {
+  border-color: #e4edf1;
+  margin: 5px;
+}
+#blinking_tab_box_content hr.btab_hr {
+  background-color: #c5d7e2;
+  margin: 8px 5px;
+}
+#blinking_tab_box_content a.zamknij {
+  display: block;
+  float: left;
+  margin: 7px 9px 0 0;
+  padding-left: 9px;
+}
+#blinking_tab_box_content a.odpowiedz {
+  display: block;
+  float: left;
+  margin: 5px 0 0;
+}
+#blinking_tab_box_content a.alone {
+  float: none;
+  text-align: center;
+}
+p.btab_invite {
+  text-align: center;
+  font-size: 11px;
+  color: #363636;
+  font-weight: bold;
+  margin: 0 30px;
+}
+.btab_content .avatar_additional_invitations {
+  margin: 5px 30px;
+}
+#mark_as_read {
+  margin-left: 20px;
+}
+.btab_content label {
+  color: #b3b3b3;
+  position: relative;
+  top: -1px;
+  left: 3px;
+}
+p.btab_cont {
+  text-align: center;
+  line-height: 16px;
+}
+p.btab_cont span.txt {
+  background: transparent url(/img/avatar_list_gift.gif) no-repeat 0 0;
+  color: #434343;
+  padding-left: 22px;
+}
+p.btab_cont span.card {
+  background-image: url(/img/avatar_list_card);
+}
+.btab_cont a {
+  display: block;
+  font-weight: bold;
+}
+.btab_cont a span.raquo {
+  color: #175D90;
+  float: none;
+}
+p.btab_rejected {
+  background: transparent url(/img/avatar_list_remove.gif) no-repeat 0 50%;
+  color: #363636;
+  padding-left: 24px;
+  margin: 10px 15px 10px 21px;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - nktalk - - - */
+p.btab_nktalk_invitation {
+  text-align: center;
+  font-size: 11px;
+  color: #363636;
+  font-weight: bold;
+  margin: 0 15px;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - / nktalk - - - */

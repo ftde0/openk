@@ -1,0 +1,527 @@
+div.allegro_add {
+  width: 450px;
+}
+div.allegro_add div.buttons form.btn2 {
+  padding-right:0;
+}
+
+div.auction {
+  overflow: hidden;
+  font-size: 10px;
+}
+
+div.auction div {
+  padding-left: 2px;
+  margin: 6px;
+  clear: both;
+  overflow: hidden;
+}
+
+div.auction dl {
+  height: 15px;
+  margin: 0;
+  line-height: 15px;
+  color: #466589;
+}
+div.auction dl a,
+div.auction dl a:hover {
+  color: #466589;
+}
+
+div.auction dt {
+  width: 24px;
+  float: left;
+  text-indent: -99999px;
+  overflow: hidden;
+}
+
+div.auction dd {
+  margin: 0;
+  float: left;
+}
+
+div.auction .thumb {
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  border-bottom: 3px solid #e2ecf8;
+  text-align: center;
+}
+
+div.auction .owner {
+  margin: 0 6px 0;
+  border-bottom: 1px solid #f0f3f7;
+  line-height: 16px;
+}
+
+div.auction .owner a {
+  color: #4a7095;
+}
+
+div.auction div.name {
+  width: 175px;
+  padding: 4px 0 10px 8px;
+  margin: 0;
+  overflow: hidden;
+}
+
+div.auction.with_img {
+  margin-right: 5px;
+}
+
+div.owner {
+  overflow: hidden;
+}
+
+div.owner a {
+  color: #155d90;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+div.owner span {
+  background:transparent url("/img/auction_owner_fade.png") repeat-y scroll right center;
+  display:block;
+  height:100%;
+  right: 0;
+  position:absolute;
+  width:12px;
+  z-index:900;
+}
+
+div.auction a.auction_name, div.auction div.name a {
+  color: #282828;
+  font-weight: bold;
+}
+div.auction .deadline dt {
+  background: url(/img/auction_icons.gif) no-repeat 0 -15px;
+}
+div.auction .price dt {
+  background: url(/img/auction_icons.gif) no-repeat 0 -32px;
+}
+
+div.auction .buy_now dt {
+  background: url(/img/auction_icons.gif) no-repeat 0 1px;
+}
+
+div.auction .deadline,
+div.auction .price,
+div.auction .buy_now {
+  margin: 0 7px;
+  padding: 0 0 5px;
+}
+
+#auctions_wo_js, #auctions_with_js {
+  margin: 0 auto;
+}
+#auctions_wo_js .cool_box,
+#auctions_with_js .cool_box {
+  margin: 7px auto 0;
+}
+#auctions_with_js{
+  display:none;
+}
+
+#content_main div.gray_gradient, #auctions_with_js tr td {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#content_main div.cool_box_content div.gray_gradient {
+  border-bottom: none;
+  margin:  0 -3px;
+  overflow: hidden;
+}
+
+#content_main div.gray_gradient_item {
+  float: left;
+  width: 198px;
+  height: 237px;
+  overflow: hidden;
+  background: transparent url(/img/dots_recentlyadded.gif) repeat-y 100% 0;
+}
+
+#content_main #auctions_with_js div.gray_gradient_item {
+  width: 191px;
+}
+
+#content_main #auctions_with_js div.gray_gradient_item_hover {
+  background: transparent url(/img/bg_allegro_aukcje_hover.gif) repeat-x 100% 100%;
+  height: 237px;
+  width: 190px;
+  margin-right: 1px;
+  overflow: hidden;
+}
+#content_main #auctions_with_js div.gray_gradient_item_hover .thumb {
+  margin-right: 5px;
+}
+
+#auctions_with_js div.auctions_list_tools {
+  height: 25px;
+  margin: 0 -3px;
+  position: relative;
+  top: -3px;
+  background: transparent url(/img/bg_friends_top.gif) repeat-x scroll 0 0;
+}
+
+#profile_page #auctions_with_js div.wyszukaj {
+  right: 167px;
+}
+
+#profile_page #auctions_with_js div.filter {
+  right: 15px;
+}
+
+#auctions_with_js div.sortowanie {
+  font-weight: bold;
+  left: 15px;
+  top: 10px;
+  position: absolute;
+  font-size: 11px;
+}
+
+#auctions_with_js div.wgceny {
+  left: 100px;
+  position: absolute;
+  top: 8px;
+}
+
+#auctions_with_js div.alfabetycznie {
+  top: 8px;
+  position: absolute;
+  left: 190px;
+}
+
+#auctions_with_js div.wgdaty {
+  position: absolute;
+  left: 290px;
+  top: 8px;
+}
+
+#auctions_with_js div.wyszukaj {
+  font-weight: bold;
+  right: 156px;
+  top: 10px;
+  position: absolute;
+  font-size: 11px;
+}
+
+#auctions_with_js div.filter {
+  right: 10px;
+  top: 10px;
+  position: absolute;
+}
+
+#auctions_with_js div.filter input {
+  height: 15px;
+  width: 140px;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -1px;
+}
+
+#auctions_list_window {
+  position: relative;
+  outline: none;
+}
+
+#auctions_with_js div.auctions_list_tools div {
+  display: inline;
+}
+
+#auctions_with_js table {
+  border-collapse: collapse;
+}
+
+#auctions_with_js td {
+  padding: 0;
+  background: transparent url(/img/dots_recentlyadded.gif) repeat-y 100% 0;
+}
+
+#auctions_with_js div.gray_gradient_item {
+  float: none;
+  width: 195px;
+}
+
+#content_main #user_all_auctions div.gray_gradient_item {
+  width: 25%;
+}
+
+div.paginator_to_right {
+  height: 25px;
+  margin: 5px 0;
+}
+
+div.paginator_to_right div.paginator {
+  float: right;
+}
+/*allegro binding*/
+.allegro_bind .cool_box_content {
+  zoom:1;
+  background: transparent url(/img/tlo_dopowiadomien.gif) no-repeat 0 0;
+}
+.allegro_bind .cool_box_content .cool_box_inner {
+  padding:16px 0 0;
+  background:transparent;
+}
+.allegro_bind  #form_bind #dymek{
+  float:left;
+  display:inline;
+  width:500px;
+  height:189px;
+  padding:1px 1px 1px 9px;
+  margin:0 0 43px 20px;
+  background: transparent url(/img/dymek.gif) no-repeat 0 0;
+  font-weight:bold;
+  color:#4F3723;
+}
+.allegro_bind  #form_bind #gabka{
+  float:left;
+  width:123px;
+  height:116px;
+  margin:30px 0 0 4px;
+  behavior: url(/script/iepngfix.htc); /* obsługa przezroczystych png w IE */
+  background: transparent url(/img/pan_gabka_gada.png.gif) no-repeat 0 0;
+}
+.allegro_bind #form_bind,
+.allegro_bind #form_unbind{
+  font-size:11px;
+  text-align:center;
+}
+.allegro_bind #form_unbind{
+  margin:47px 0 50px;
+}
+.allegro_bind #form_unbind p{
+  margin:0 0 27px;
+}
+.allegro_bind #form_bind p.change_bind{
+  position:relative;
+  top:25px;
+}
+.allegro_bind #form_bind a,
+.allegro_bind #form_unbind a{
+  font-weight:bold;
+}
+.allegro_bind #form_bind p{
+  line-height:20px;
+}
+.allegro_bind #form_bind .not_necessary{
+  font:20px Arial, sans-serif;
+  color:#87BF3B;
+  margin:20px 0 15px;
+}
+.allegro_bind #allegro_log_pass {
+  background:#F1F6FB;
+  border:1px solid #DDEEFA;
+  margin:16px 60px 40px;
+  padding:12px 0;
+}
+.allegro_bind p.errors {
+  display:none;
+}
+#content_main .allegro_bind ul.errors {
+  clear:both;
+  padding-bottom:0;
+  margin-bottom:-4px;
+  position:relative;
+  top:10px;
+}
+.allegro_bind ul.errors li{
+  list-style:none;
+  color:red;
+  font-weight:bold;
+}
+.allegro_bind fieldset {
+  border:0;
+  padding:0;
+  margin:0;
+  clear:both;
+}
+.allegro_bind #password_step {
+  position: relative;
+  padding-top:8px;
+}
+.allegro_bind #password_step #bind_button {
+  position: absolute;
+  top: 50px;
+  left: 230px;
+}
+.allegro_bind #allegro_log_pass label{
+  width:228px;
+  float:left;
+  padding:3px 6px 0 0;
+  text-align:right;
+  font-size:12px;
+  color:#407DA9;
+  font-weight:bold;
+}
+
+.allegro_bind  #allegro_log_pass #allegro_login,
+.allegro_bind  #allegro_log_pass #allegro_password{
+  width:176px;
+  float:left;
+  font-weight:bold;
+  font-size:11px;
+  padding:3px;
+  border:1px solid #6190B9;
+}
+.allegro_bind #login_verification_info {
+  clear:both;
+  font-weight:bold;
+  height:18px;
+  margin-bottom:-13px;
+}
+.allegro_bind #login_row button {
+  float:left;
+  margin-left:15px;
+}
+.allegro_bind .green_info {
+  position:relative;
+  height:40px;
+  margin:0 19px 27px;
+  background: #fff url(/img/info_zielone_srodek.gif) repeat-x 0 0;
+  color:#36550C;
+}
+.allegro_bind #form_unbind .green_info p {
+  margin:0;
+  padding:13px 0 0;
+}
+.allegro_bind #form_unbind .green_info a {
+  color:#36550C;
+}
+
+.allegro_bind .green_info .left_side{
+  display:block;
+  width:3px;
+  height:40px;
+  position:absolute;
+  left:0;
+  top:0;
+  background: #fff url(/img/info_zielone_lewy.gif) no-repeat 0 0;  
+}
+.allegro_bind .green_info .right_side{
+  display:block;
+  width:3px;
+  height:40px;
+  position:absolute;
+  right:0;
+  top:0;
+  background: #fff url(/img/info_zielone_prawy.gif) no-repeat 0 0;
+}
+#allegro_start #page_content {
+  padding: 0;  
+}
+#allegro_start .content_main_wide {
+  width: 100%
+}
+div#allegro_add {
+  height: 602px;
+  margin-top: 1px;
+  overflow: hidden;
+  font-size: 11px;
+  background: #fff url(/img/bg_allegro_start.gif) no-repeat 50% 0;
+}
+div#allegro_add h2 {
+  width: 611px;
+  height: 68px;
+  margin: 29px 0 0 96px; 
+  text-indent: -99999px;
+  overflow: hidden;
+  background: url(/img/hd_allegro_start.gif) no-repeat;
+}
+div#allegro_flash {
+  position: absolute;
+  top: 155px;
+  left: 179px;
+  width: 323px;
+  height: 200px;
+  background: #d8e9ed;
+}
+div#allegro_flash * {
+  background: #000;
+}
+div#bind {
+  top: 155px;
+  background: #e5f7c9;
+  border: 1px solid #7ca840;
+  color: #36550c;
+}
+div#create {
+  top: 300px;
+  background: #fff5bb;
+  border: 1px solid #e2c000;
+  color: #4f3723;
+}
+div#bind, div#create {
+  font-weight: bold;
+  text-align: center;
+  width: 258px;
+  position: absolute;
+  left: 629px;
+  padding: 19px 10px;
+}
+div#bind p, div#create p {
+  margin: 0 0 15px;
+}
+div#faq {
+  position: absolute;
+  left: 657px;
+  top: 495px;
+}
+div.allegro_box,
+div.allegro_box .owner {
+  position: relative;
+}
+div.allegro_box .coolbox_bottom {
+  clear:both;
+}
+a#allegro_box_bind {
+  position: absolute;
+  right: 7px;
+  bottom: 5px;
+  font-size: 11px;
+  color: #2A466E;
+}
+/*  swiąteczna zmiana w aukcjach allegro START */ 
+#prezentyContainer {
+  float:left;
+  width: 100%;
+  font-size:10px;
+  padding: 10px 0;
+  font-family:Tahoma,sans-serif,arial,helvetica;
+  text-align:left;
+}
+#prezentyContainer .prezentyItem {
+  float: left;
+  width: 33%;
+  height: 200px;
+  overflow: hidden;
+  background: transparent url(/img/dots_recentlyadded.gif) repeat-y scroll 0 0;
+}
+#prezentyContainer .first {
+  background: none;
+}
+#prezentyContainer p {
+  margin-bottom:0;
+  margin-top: 5px;
+  padding: 0 7px;
+}
+#prezentyContainer .prezentyImg {
+  text-align: center;
+}
+#prezentyContainer .prezentyTitle {
+  height:27px;
+  text-decoration:underline;
+  font-weight:bold;
+  color:#5095B6;
+  overflow:hidden;
+}
+#prezentyContainer .prezentyPrice {
+  color:#f00;
+}
+.allegroxmass_error{
+  padding: 2px 2px 2px 5px;
+}
+/*  swiąteczna zmiana w aukcjach allegro END */
+
+

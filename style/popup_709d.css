@@ -1,0 +1,391 @@
+/*--------------------------------------------------  nk_popup -----*/
+.nk_popup_body {
+  position: absolute;
+  z-index: 100001;
+}
+.nk_popup_body .top {
+  height: 25px;
+  margin: 0 3px;
+  background: transparent url(/img/bg_gradient_player.gif) repeat-x 0 0;
+}
+.nk_popup_body  .right ,
+.nk_popup_body  .left {
+  overflow: hidden;
+  position: relative;
+}
+.nk_popup_body .top .right {
+  width: 3px;
+  height: 25px;
+  right: -3px;
+  background: transparent url(/img/bg_gradient_player.gif) no-repeat 100% -64px;
+  float: right;
+}
+.nk_popup_body .top .left {
+  width: 3px;
+  height: 25px;
+  left: -3px;
+  background: transparent url(/img/bg_gradient_player.gif) no-repeat 0 -32px;
+  float: left;
+}
+.nk_popup_body .top .title {
+  float: left;
+  padding: 7px 0 0;
+  color: #b5e0ff;
+  font-weight: bold;
+  font-size: 11px;
+  text-align: left;
+}
+.nk_popup_body .top .close {
+  float: right;
+  width: 14px;
+  height: 14px;
+  margin: 6px 0 0;
+  background: transparent url(/img/icons.gif) no-repeat 5px 4px;
+  text-indent: -999em;
+  overflow: hidden;
+  cursor: pointer;
+}
+.nk_popup_body .content {
+  clear: both;
+  padding: 7px 9px;
+  text-align: center;
+  background: #125c87;
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.6em;
+}
+.nk_popup_body .content .attention {
+  display: block;
+  margin: 6px auto;
+  color: #eeff7c;
+  font-weight: bold;
+}
+.nk_popup_body .content .buttons  button{
+  margin: 14px 4px;
+}
+.nk_popup_body .bottom {
+  height: 2px;
+  margin: 0 2px;
+  background: #125c87;
+  font-size: 0;
+  line-height: 0;
+}
+.nk_popup_body .bottom .right {
+  width: 2px;
+  height: 2px;
+  right: -2px;
+  background: transparent url(/img/bg_gradient_player.gif) no-repeat 0 -97px;
+  float: right;
+}
+.nk_popup_body .bottom .left {
+  width: 2px;
+  height: 2px;
+  left: -2px;
+  background: transparent url(/img/bg_gradient_player.gif) no-repeat 0 -93px;
+  float: left;
+}
+.nk_popup_overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100000;
+  background: #000;
+}
+.nk_popup_overlay_hint {
+  z-index: 100001;
+  position: absolute;
+  right: 5px;
+  bottom: 400px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #fff;
+}
+/*-------------------------------------------------- end nk_popup --*/
+
+/*-------------------------------------------------- transaction suggestions using nk_popoup -----*/
+.might_buy_popup .top {
+  height: 26px;
+  padding: 0 0 0 5px;
+  margin: 0;
+  border: 1px solid #215b86;
+  background: url(/img/roster_dropdown_top.gif) repeat-x;
+}
+.might_buy_popup .top .left,
+.might_buy_popup .top .right {
+  display: none;
+}
+.might_buy_popup .top .title {
+  color: #eaffb3;
+  padding-left: 4px;
+}
+.might_buy_popup .top .close {
+  display: block;
+  width: 26px;
+  height: 25px;
+  margin: 0;
+  background: url(/img/nktalk_window_close.gif) no-repeat;
+}
+.might_buy_popup .top .close:hover {
+  background-position: 0 100%;
+}
+.might_buy_popup h2 {
+  float: left;
+  display: inline;
+  width: 573px;
+  height: 63px;
+  margin: 11px 0 15px 18px;
+  background: transparent url(/img/popup_headers.gif) no-repeat 0 0;
+  overflow: hidden;
+  text-indent: -999em;
+}
+.might_buy_popup h3 {
+  float: left;
+  display: inline;
+  clear: both;
+  width: 564px;
+  height: 25px;
+  margin: 23px 0 10px 36px;
+  background: transparent url(/img/popup_headers.gif) no-repeat 0 -117px;
+  text-indent: -999em;
+}
+#might_buy_container {
+  width: 977px;
+  height: 509px;
+  overflow: hidden;
+  border: 1px solid #d4e2ed;
+  background: #478696 url(/img/popoup_bg.gif) no-repeat 0 0;
+}
+.might_buy_popup ul {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+.might_buy_popup ul li {
+  float: left;
+  position: relative;
+}
+.might_buy_popup ul.suggestions {
+  margin: 0 0 0 29px;
+}
+.might_buy_popup ul.suggestions li {
+  width: 290px;
+  height: 91px;
+  margin: 7px 8px;
+  border: 1px solid #3e789b;
+  background: #f4f7fb url(/img/popoup_elements.gif) no-repeat -1px 10px;
+}
+.might_buy_popup ul.suggestions a {
+  display: block;
+  height: 91px;
+}
+.might_buy_popup ul.suggestions p {
+  float: right;
+  width: 176px;
+  padding: 10px;
+  margin: 0;
+  background: transparent url(/img/popoup_elements.gif) repeat-x 0 100%;
+  font-weight: bold;
+  color: #4c6177;
+  text-align: left;
+  line-height: 15px;
+  cursor: pointer;
+}
+.might_buy_popup ul.suggestions span {
+  display: block;
+  width: 67px;
+  height: 23px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  background: transparent url(/img/popoup_elements.gif) no-repeat -10px -926px;
+  text-indent: -999em;
+  cursor: pointer;
+}
+.might_buy_popup ul.suggestions .superminki {
+  background-position: -1px -141px;
+}
+.might_buy_popup ul.suggestions .eurogabki {
+  background-position: 2px -292px;
+}
+.might_buy_popup ul.suggestions .guests {
+  background-position: 0 -453px;
+}
+.might_buy_popup ul.suggestions .transfer {
+  background-position: 6px -604px;
+}
+.might_buy_popup ul.suggestions .podaruj_eurogabki {
+  background-position: 6px -756px;
+}
+.might_buy_popup ul.gifts {
+  padding: 10px 0 0 48px;
+  overflow: hidden;
+}
+.might_buy_popup ul.gifts li {
+  display: inline;
+  width: 160px;
+  margin: 0 20px 0 0;
+}
+.might_buy_popup ul.gifts li img {
+  border: 1px solid #c8dbe7;
+}
+.might_buy_popup ul.gifts li .gift_name {
+  display: block;
+  font: normal normal bold 11px/15px Tahoma, Arial, Sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+}
+/*-------------------------------------------------- movie_player using nk_popoup -----*/
+/* trigger link */
+.parser .youtube_link,
+.parser .wrzuta_link ,
+.parser .vimeo_link ,
+.parser .interia_link ,
+.parser .video_google_link ,
+.parser .dailymotion_link ,
+.parser .image_link ,
+.parser .spryciarze_link,
+.parser .lookr_link {
+  display: block;
+  padding: 0 8px 0 0;
+  margin: 0 4px 0 0;
+  cursor: pointer;
+  color: #4281bc;
+  font-size: 11px;
+  line-height: 17px;
+}
+#content_main .parser .link {
+  padding: 0 3px;
+  font-size: 11px;  
+  color: #4281bc;
+}
+#content_main .parser .player.bad,
+#content_main .parser .link.bad {
+  color: #c20000;
+  background: #fbd5d5;
+}
+.parser a.youtube_link .icon,
+.parser a.wrzuta_link .icon,
+.parser a.vimeo_link .icon,
+.parser a.interia_link .icon,
+.parser a.image_link .icon,
+.parser a.video_google_link .icon,
+.parser a.dailymotion_link .icon,
+.parser a.spryciarze_link .icon,
+.parser a.lookr_link .icon,
+.my .parser a.youtube_link  .icon,
+.my .parser a.wrzuta_link  .icon ,
+.my .parser a.vimeo_link  .icon,
+.my .parser a.interia_link  .icon,
+.my .parser a.image_link  .icon,
+.my .parser a.spryciarze_link .icon,
+.my .parser a.lookr_link .icon {
+  float: none;
+  line-height: 15px;
+  padding-left: 12px;
+  background: transparent url(/img/icons.gif) no-repeat 0 -15px;
+}
+.parser .player.bad .icon {
+  background: transparent url(/img/icons.gif) no-repeat -15px -15px;
+}
+.link .link_msg {
+  display: none;
+}
+.player .link_msg {
+  display: none;
+}
+
+/* player content */
+.nk_movie_player .content  {
+  padding: 4px;
+}
+.nk_movie_player .top .title{
+  display: block;
+  height: 18px;
+  padding: 0 0 0 18px;
+  margin: 4px 0 0;
+  background: transparent url(/img/icons.gif) no-repeat scroll -16px 4px;
+  line-height: 1.6em;
+}
+.nk_movie_player .youtube_description{
+  text-align: left;
+  line-height: 1.6em;
+  margin: 7px 0 7px 3px;
+}
+
+/*----------------------------------------------- end transaction suggestions using nk_popoup -----*/
+
+
+/*----------------------------------------------- nktalk splash screen  -----*/
+.nktalk_welcome_screen2 #popup_content {
+  background: transparent url(/img/nktalk_splash.gif) no-repeat;
+  width: 811px;
+  height: 494px;
+  padding: 0;
+  text-indent: -9999em;
+  position: relative;
+}
+.nktalk_welcome_screen2 .bottom {
+  display: none;
+}
+.nktalk_welcome_screen2 .nktalk_more,
+.nktalk_welcome_screen2 .nktalk_start,
+.nktalk_welcome_screen2 .nktalk_later {
+  text-indent: -9999em;
+  position: absolute;
+  bottom: 33px;
+  cursor: pointer;
+}
+.nktalk_welcome_screen2 .nktalk_more {
+  width: 166px;
+  height: 31px;
+  background: url(/img/nktalk_more:1.gif) no-repeat;
+  left: 0;
+  outline: none;
+}
+.nktalk_welcome_screen2 .nktalk_start {
+  width: 335px;
+  height: 49px;
+  bottom: 24px;
+  right: 175px;
+  background: url(/img/nktalk_start.gif) no-repeat;
+}
+.nktalk_welcome_screen2 .nktalk_later {
+  width: 165px;
+  height: 31px;
+  right: 0;
+  background: url(/img/nktalk_later.gif) no-repeat;
+}
+/*-------------------------------------------- end nktalk splash screen  -----*/
+
+/*  - - - - - - - - - - - - - - - - [ pasujące pytania przy wysyłaniu pyatnia do supportu ] - - - - - - - */
+#support_see_also_container h2 {
+  font-size: 14px;
+}
+#support_see_also_container ul {
+  background: url(/img/bg_top_border.gif) repeat-x 0 0 #fff;
+  margin: 0;
+  padding: 1em 1em 1em 4.4em;
+  font-size: 12px;
+  text-align: left;
+  color: #000;
+  border-bottom: 2px solid #bdbec0;
+}
+#support_see_also_container li {
+  border-bottom: 1px solid #eee;
+}
+#support_see_also_container a.question {
+  background: url(/img/btns.gif) no-repeat scroll -299px -109px;
+  color: #000;
+  display: block;
+  font-weight: bold;
+  margin: 0.8em 0 0.8em 1em;
+  padding: 0 0 0 19px;
+}
+
+
+/*  - - - - - - - - - - - - - - - - [ pasujące pytania przy wysyłaniu pyatnia do supportu - END] - - - - - - - */

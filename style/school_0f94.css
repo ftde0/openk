@@ -1,0 +1,960 @@
+@charset "UTF-8";
+
+#school_users_count {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 11px
+}
+
+#school_page .hint_box {
+    width: 200px;
+    float: right;
+    margin-right: 2px;
+    position: relative
+}
+
+#school_class_search_info {
+    width: 530px;
+    padding: 10px;
+    position: relative
+}
+
+#school_class_search_info img {
+    position: absolute;
+    left: 8px;
+    top: 18px
+}
+
+#school_class_search_info .info_txt {
+    margin-left: 28px
+}
+
+.hint_box {
+    position: relative
+}
+
+.hint_box .hint_icon {
+    position: absolute;
+    left: 5px;
+    top: 30px;
+    float: left
+}
+
+.hint_box .hint_msg {
+    margin-left: 32px;
+    font-size: 11px
+}
+
+.school_hint_strut {
+    width: 1px;
+    height: 20px;
+    float: right
+}
+
+.hint_box .hint_box_header,
+.hint_box .hint_box_text {
+    padding-left: 7px;
+    padding-right: 7px
+}
+
+.def_hint_box .hint_box_header {
+    background: #70b22f url(/web/20151203162138im_/http://0.static.nk-net.pl/img/hints/top) no-repeat top;
+    color: #fff;
+    height: 18px;
+    line-height: 19px;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 11px
+}
+
+.def_hint_box .hint_box_text {
+    border: solid #b6df80;
+    border-width: 4px 1px 1px 1px;
+    background: #fff;
+    color: #000;
+    padding: 5px 2px
+}
+
+.school_hint_box {
+    border: 1px solid #111
+}
+
+#faculty_page .school_hint {
+    width: 200px
+}
+
+.school_hint_box .hint_box_header {
+    background: #1267b2;
+    color: #fff;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 11px;
+    position: relative
+}
+
+.school_hint_box .hint_box_date {
+    position: absolute;
+    text-align: right;
+    right: 7px;
+    top: 2px;
+    color: #c4def5;
+    width: 80px
+}
+
+.school_hint_box .hint_box_title {
+    width: 120px;
+    padding: 2px 0
+}
+
+.school_hint_box .hint_box_text {
+    background: #93d049;
+    color: #000;
+    padding: 5px 7px;
+    text-align: right
+}
+
+#school_page {
+    position: relative;
+    margin-bottom: 15px
+}
+
+#school_page h2 {
+    margin: 10px 0 0 0
+}
+
+#school_page .patron {
+    font-size: 12px;
+    position: relative;
+    top: 8px;
+    left: 1px;
+    width: 300px
+}
+
+#school_page p {
+    margin-left: 5px
+}
+
+.avatars td {
+    width: 19%
+}
+
+#school_page .search_classes td.icon {
+    text-align: center;
+    width: 24px
+}
+
+#school_page .search_classes td.nr {
+    width: 12px;
+    text-align: right
+}
+
+#school_page .search_classes td.name {
+    padding-right: 5px;
+    width: 60px
+}
+
+#school_page .search_classes td.profile {
+    padding-right: 10px
+}
+
+#school_page .search_classes td.years {
+    width: 100px;
+    font-weight: bold
+}
+
+#school_page .search_classes td.teacher {
+    overflow: hidden
+}
+
+#school_page .search_classes tr.empty_row {
+    height: 9px
+}
+
+#school_page .search_classes td {
+    color: #323131
+}
+
+#school_page .school_faculties td {
+    padding-right: 10px
+}
+
+#school_page .school_faculties td.icon,
+#school_page .school_faculties td.nr {
+    padding: 1px
+}
+
+#school_page .last_photos_and_address {
+    float: right;
+    padding: 1px 0 10px 10px;
+    width: 500px
+}
+
+#school_page .last_school_photos td {
+    width: 125px;
+    padding: 10px 22px;
+    text-align: center;
+    vertical-align: middle
+}
+
+#school_page .last_school_photos td img {
+    border: 2px solid #b6df80;
+    width: 112px
+}
+
+#school_page .address {
+    border: #b6df80 dashed;
+    border-width: 1px 0;
+    font-size: 11px;
+    color: #022f57
+}
+
+#school_page .address td {
+    padding: 1px
+}
+
+#school_page .address .label {
+    width: 118px
+}
+
+#school_page .address .value {
+    font-weight: bold
+}
+
+.school_buttons {
+    float: right
+}
+
+#school_page div.school_kick_user_form {
+    clear: right;
+    float: right;
+    margin-bottom: 10px
+}
+
+#school_page h2 {
+    font-size: 17px
+}
+
+#school_page div.inline_form {
+    padding-left: 5px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 12px
+}
+
+#school_page div.inline_form select {
+    font-size: 11px
+}
+
+ul.classes_1,
+ul.classes_0 {
+    margin: 5px !important;
+    padding: 0 !important
+}
+
+ul.classes_1 li,
+ul.classes_0 li {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin: 3px 0;
+    padding: 0 !important
+}
+
+ul.classes_1 li a {
+    font-weight: bold
+}
+
+#school_page .photo {
+    width: 280px;
+    text-align: center;
+    float: right
+}
+
+#school_page .photo img {
+    border: 4px solid #b6df80;
+    margin: 0;
+    padding: 0
+}
+
+#school_page .no_photo {
+    width: 228px;
+    height: 100px;
+    padding: 20px;
+    vertical-align: middle;
+    border: 1px solid #eee
+}
+
+#class_search {
+    margin-top: 10px
+}
+
+.inline_form select,
+.inline_form input[type=text] {
+    margin: 0 5px
+}
+
+#class_page {
+    position: relative
+}
+
+#class_page h2 {
+    font-size: 17px
+}
+
+#class_page .teacher {
+    font-size: 13px;
+    position: relative;
+    top: -10px;
+    left: 0;
+    margin-bottom: 20px
+}
+
+#class_page .teacher .value {
+    font-style: italic
+}
+
+#class_page .class_photo img {
+    text-align: center;
+    vertical-align: middle
+}
+
+#class_photo_and_ads {
+    width: 326px;
+    float: right;
+    margin: 2px
+}
+
+#class_photo_and_ads .ads {
+    margin-top: 25px;
+    padding: 5px 2px
+}
+
+#class_page .class_photo {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px #777 dotted;
+    padding: 5px 2px
+}
+
+#class_page div.green_box_sm {
+    margin-bottom: 10px
+}
+
+#class_page .users {
+    padding-left: 0 !important;
+    margin-left: 0
+}
+
+#class_page .users li {
+    list-style: decimal inside;
+    padding-bottom: 1px;
+    padding-left: 0 !important;
+    margin-left: 0;
+    border-bottom: 1px solid #e7e6df;
+    margin-bottom: 2px
+}
+
+#my_schools h4 {
+    text-align: center;
+    font-size: 13px
+}
+
+#my_schools table.list {
+    font-size: 12px
+}
+
+#class_page div.content {
+    padding: 10px
+}
+
+#schoolclass_add .content {
+    font-size: 12px;
+    padding: 5px
+}
+
+#schoolclass_add .row {
+    padding: 5px 0
+}
+
+#schoolclass_add .row label {
+    margin: 0 5px
+}
+
+#schoolclass_add #form1_main_teacher {
+    width: 230px
+}
+
+#my_schools table.list {
+    width: 655px;
+    margin: 0 auto;
+    border: 0
+}
+
+#my_schools table.list td {
+    border-width: 1px 0
+}
+
+#my_schools {
+    padding: 1px 0 0 2px
+}
+
+#my_schools .your_schools {
+    margin-right: 0
+}
+
+.your_schools .content {
+    margin: -5px
+}
+
+#my_schools * {
+    zoom: 1
+}
+
+#my_schools h2 {
+    clear: both;
+    padding: 3px 0 3px 15px;
+    margin: 0;
+    background: #033a62;
+    text-align: left;
+    color: #fff;
+    font-size: 11px;
+    background: #689ec6;
+    overflow: auto
+}
+
+#my_schools .school_type {
+    float: left;
+    width: 580px
+}
+
+#my_schools .status,
+#my_schools .year {
+    font-weight: normal;
+    float: left;
+    width: 96px;
+    text-align: center
+}
+
+#my_schools .year {
+    width: 79px;
+    margin-right: 6px
+}
+
+#my_schools .school {
+    font-size: 11px;
+    clear: both;
+    overflow: hidden;
+    padding: 0 0 4px
+}
+
+#my_schools .school .school_name {
+    display: block;
+    padding: 0 0 0 27px;
+    margin: 11px 0;
+    background: transparent url(/web/20151203162138im_/http://0.static.nk-net.pl/img/box/ico_schoolpointer) no-repeat 13px 50%;
+    font-weight: bold;
+    color: #000
+}
+
+#my_schools .school .school_name span {
+    font-weight: normal;
+    display: inline
+}
+
+#my_schools .school .school_class {
+    padding: 0;
+    margin: 0;
+    overflow: hidden
+}
+
+#my_schools .school .school_class li {
+    overflow: hidden;
+    padding: 3px 0 3px 39px;
+    background: transparent url(/web/20151203162138im_/http://0.static.nk-net.pl/img/arrow2) no-repeat 27px 5px
+}
+
+#my_schools .school .school_class a {
+    float: left;
+    clear: both;
+    width: 560px;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #edeff1;
+    font-weight: bold
+}
+
+#my_schools .school .school_class a.gosc {
+    font-weight: normal
+}
+
+#my_schools .school .school_class .status,
+#my_schools .school .school_class .year {
+    padding: 0 0 10px;
+    border-bottom: 1px solid #edeff1
+}
+
+#content_main #my_schools .school .no_border * {
+    border-bottom: 0
+}
+
+#fresh_users {
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+
+#my_schools table.list {
+    margin: 0 auto;
+    position: relative;
+    top: 1px;
+    left: 0;
+    width: 655px;
+    border: 0
+}
+
+#my_schools td.school_years {
+    width: 80px;
+    padding: 10px
+}
+
+#my_schools div.find_school {
+    margin: 15px 5px;
+    text-align: center
+}
+
+#content_main table.years {
+    color: #5095b6;
+    border-collapse: collapse;
+    margin-top: 10px;
+    width: 100%
+}
+
+#content_main table.years td {
+    padding: 2px
+}
+
+#content_main table.years th {
+    padding: 4px;
+    background: #033a62;
+    color: #fff;
+    font-weight: bold;
+    font-size: 11px
+}
+
+#schoolclass_add #letter {
+    margin: 0 6px;
+    width: 36px
+}
+
+#schoolclass_add #main_teacher input {
+    width: 220px
+}
+
+#schoolclass_add {
+    margin-top: 5px
+}
+
+#schoolclass_add .grid_box {
+    float: left
+}
+
+#schoolclass_add .add_class_box {
+    margin-right: 10px;
+    width: 530px
+}
+
+#schoolclass_add .years_list {
+    width: 246px
+}
+
+#schooladd .school_fields td {
+    vertical-align: top;
+    height: 40px
+}
+
+#schooladd .school_fields .hint {
+    font-size: 10px;
+    margin: 0 !important;
+    padding: 1px
+}
+
+#schooladd {
+    margin: 0 10px 40px 10px
+}
+
+#schooladd .city_info {
+    margin-bottom: 5px
+}
+
+#schooladd table.school_fields {
+    width: 430px;
+    margin-top: 5px
+}
+
+#schooladd table.school_fields td.wartosc {
+    width: 320px
+}
+
+#schooladd table.school_fields td.wartosc input,
+#schooladd table.school_fields td.wartosc select {
+    width: 95%
+}
+
+#schooladd table.school_fields td.co {
+    padding-top: 4px
+}
+
+#schooladd table.school_fields tr.required td.co {
+    padding-top: 0
+}
+
+.show_all {
+    display: inline;
+    float: right
+}
+
+#faculty_page .years_selection {
+    width: 365px;
+    float: left;
+    padding-bottom: 2px
+}
+
+#faculty_page .years_selection label {
+    margin-right: 5px
+}
+
+#faculty_page .years_selection select,
+#faculty_page .years_selection label {
+    font-size: 10pt
+}
+
+#faculty_page .years_selection .selection_type {
+    position: relative;
+    left: 12px;
+    top: 0
+}
+
+#faculty_page .years_selection .after_selection_type {
+    display: block;
+    margin-bottom: 7px
+}
+
+#faculty_page .years_selection .simple_button {
+    margin-left: 5px
+}
+
+#faculty_page .hello {
+    float: left;
+    width: 313px;
+    text-align: center;
+    color: #3f4144;
+    padding-right: 10px
+}
+
+#faculty_page .hello .yo {
+    margin: 5px 0;
+    padding: 0
+}
+
+#faculty_page #members {
+    margin-top: 10px;
+    border-top: 1px solid #5095b6;
+    padding-top: 5px;
+    border-bottom: 1px solid #dceaf1;
+    margin-bottom: 4px
+}
+
+#faculty_page #members .paginator {
+    float: right;
+    margin-right: 8px;
+    font-size: 8pt;
+    margin-bottom: 5px
+}
+
+#faculty_page #members .users {
+    width: 100%;
+    margin: 11px 0 16px 0;
+    border-collapse: collapse
+}
+
+#faculty_page #members .users td {
+    padding-top: 4px;
+    padding-bottom: 4px
+}
+
+#faculty_page #members .users .years {
+    width: 100px;
+    text-align: right;
+    padding-right: 10px
+}
+
+#faculty_page #members .users .nr {
+    width: 22px
+}
+
+#faculty_page #members .users .nr {
+    padding-left: 10px
+}
+
+#faculty_page #members .users .name {
+    padding-left: 2px
+}
+
+#faculty_page #members .users tr.row_1 {
+    background: #f5f5f5
+}
+
+#faculty_page h2 a,
+#faculty_page h3 a {
+    color: #000
+}
+
+#schoolfaculty_add {
+    margin-top: 10px
+}
+
+#schoolfaculty_add .faculty_profile,
+#schoolfaculty_add .faculty_type,
+#schoolfaculty_add .faculty_years_num {
+    margin-bottom: 5px
+}
+
+#schoolfaculty_add .faculty_custom_type {
+    margin-left: 47px
+}
+
+#schoolfaculty_add .faculty_custom_type input {
+    position: relative;
+    left: 3px;
+    margin-top: 1px;
+    width: 200px;
+    top: 0
+}
+
+#schoolfaculty_add .faculty_department {
+    margin-bottom: 15px
+}
+
+#schoolfaculty_add .faculty_department input {
+    position: relative;
+    left: 32px;
+    width: 200px;
+    top: 0
+}
+
+#schoolfaculty_add .faculty_profile input {
+    position: relative;
+    left: 25px;
+    width: 200px;
+    top: 0
+}
+
+#schoolfaculty_add .faculty_type select {
+    position: relative;
+    left: 4px;
+    width: 208px;
+    top: 0
+}
+
+#schoolfaculty_add .faculty_years_num select {
+    position: relative;
+    left: 23px;
+    top: 0
+}
+
+#schoolfaculty_add button {
+    position: relative;
+    left: -5px;
+    top: 0;
+    margin: 6px 0
+}
+
+#schoolfaculty_add .if_register {
+    margin-top: 5px
+}
+
+#schoolfaculty_add .if_register input {
+    margin-left: 0
+}
+
+#schoolfaculty_add .add_form {
+    width: 325px
+}
+
+#schoolfaculty_add .register_details {
+    padding: 5px 0
+}
+
+#schoolfaculty_add .register_details label {
+    margin-right: 5px
+}
+
+#schoolfaculty_add .hint_box {
+    position: absolute;
+    left: 345px;
+    top: 10px;
+    width: 435px
+}
+
+#schoolfaculty_add .def_hint_box .hint_box_header {
+    background: #70b22f
+}
+
+#schoolfaculty_add #form1 {
+    position: relative
+}
+
+#schoolfaculty_add .hint_box_text {
+    position: relative;
+    padding: 8px 10px 0 8px;
+    height: 50px;
+    font-size: 9pt
+}
+
+#schoolfaculty_add .hint_box_text .icon {
+    position: absolute;
+    left: 10px;
+    top: 14px
+}
+
+#schoolfaculty_add .hint_box_text .info {
+    margin-left: 38px
+}
+
+#schoolfaculty_register .years {
+    margin: 10px 2px
+}
+
+#schoolfaculty_register .cancel_btn {
+    position: relative;
+    left: 90px;
+    top: -22px
+}
+
+#faculty_page .last_school_class_photos,
+#class_page .last_school_class_photos {
+    margin-bottom: 5px
+}
+
+#faculty_page .last_school_class_photos table.photos {
+    width: 654px
+}
+
+#faculty_page .last_school_class_photos table.photos td {
+    width: 105px;
+    vertical-align: top
+}
+
+.last_school_class_photos .show_gallery_link:visited,
+.last_school_class_photos .show_gallery_link:hover,
+.last_school_class_photos .show_gallery_link:link {
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 10px
+}
+
+#faculty_page .ads {
+    width: 470px;
+    margin: 0 auto 10px auto
+}
+
+#school_page .ads {
+    width: 470px;
+    margin: 0 auto 10px auto
+}
+
+#faculty_page .school_hint {
+    position: relative;
+    float: right;
+    width: 176px;
+    margin-top: 15px;
+    margin-right: 3px
+}
+
+#class_page .school_hint {
+    position: relative;
+    float: right;
+    width: 206px;
+    margin-top: 15px;
+    margin-right: 3px
+}
+
+#faculty_page .faculty_name {
+    float: left;
+    width: 580px;
+    margin-right: 5px
+}
+
+#class_page .school_class_name {
+    float: right;
+    width: 443px;
+    margin-right: 5px;
+    position: relative
+}
+
+#school_users .users {
+    margin: 10px 0;
+    width: 100%;
+    border-collapse: collapse
+}
+
+#school_users .users td.name {
+    width: 370px;
+    padding: 4px
+}
+
+#school_users .users td.nr {
+    width: 20px
+}
+
+#school_users tr.user1 {
+    background: #eee
+}
+
+#school_users td.avatar {
+    width: 120px
+}
+
+#school_users .sel_type {
+    margin: 0 15px 0 5px
+}
+
+#school_users .info,
+.inline_form {
+    margin: 5px
+}
+
+#school_users .splitter {
+    padding: 4px 8px
+}
+
+#school_users .nobody_info {
+    width: 470px;
+    margin: 50px auto
+}
+
+#last_schools_users,
+.last_mates .avatars,
+.last_mates table {
+    padding-left: 9px
+}
+
+.last_mates td {
+    padding: 0
+}
+
+#last_schools_users .avatar,
+#last_schools_users .avatar_no_js,
+.last_mates .avatar,
+.last_mates .avatar_no_js {
+    padding: 0 21px
+}
+
+.last_comments_on_forum {
+    position: relative;
+    zoom: 1;
+    z-index: -1
+}
+
+.massive_unregister_item {
+    text-align: center;
+    margin-bottom: 10px
+}

@@ -1,0 +1,44 @@
+#photo_upload_box .box.box2 {
+    padding-top: 1px;
+    width: 100%;
+}
+#photo_upload_box .box_content {
+    padding: 15px 15px;
+}
+#photo_upload_box .part {
+    margin-top: 5px;
+}
+#photo_upload_box select,
+#new-album-header,
+#new-album-header input {
+    width: 100%;
+}
+#new-album-header #counter {
+    text-align: right;
+}
+#new-album,
+#new-album input {
+    width: 100%;
+}
+#photo_upload_box hr {
+    background-color: #A7C2D1;
+    margin: 23px 0px;
+}
+#photo_upload_box textarea {
+    height: 95px;
+    width: 100%;
+    resize: none;
+    margin-bottom: 23px;
+}
+#photo_upload_box .send_button {
+    float: right;
+    width: 150px;
+}
+#photo_upload_box .send_button .btn_m {
+    width: 150px;
+}
+#h {
+    margin-bottom: 30px;
+    color: transparent;
+    visibility: hidden;
+}

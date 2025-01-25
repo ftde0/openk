@@ -1,0 +1,669 @@
+@charset "UTF-8";
+
+#content_main {
+    zoom: 1;
+}
+
+#letter_choice {
+    margin-top: 15px;
+    padding: 20px 0 0 6px;
+    border-top: 1px solid #edeff1;
+}
+
+.letters {
+    width: 725px;
+    float: left;
+    clear: both;
+    padding: 9px 10px 10px 28px;
+    margin: 0 0 1em -6px;
+    overflow: hidden;
+    border-bottom: 1px solid #EDEFF1;
+}
+
+#country .letters .letter_separator {
+    float: left;
+    width: 1px;
+    height: 12px;
+    margin: 5px 0 0 1px;
+    background: #C5D7E6;
+}
+
+#country .letters a,
+#country .letters span {
+    float: left;
+    color: #175D90;
+    padding: 1px 0 0 0;
+    margin: 3px 2px;
+    width: 16px;
+    height: 15px;
+    text-align: center;
+}
+
+#country .letters .letter_active,
+#country .letters span.active_letter {
+    color: #fff;
+    font-weight: bold;
+    background: url(/web/20110905164808im_/http://static.nasza-klasa.pl/img/school/active_letter) no-repeat 1px 0;
+    outline: none;
+}
+
+#country .letters a.letter:hover {
+    color: #175D90;
+    background: url(/web/20110905164808im_/http://static.nasza-klasa.pl/img/school/hover_letter) no-repeat 1px 0;
+}
+
+#country .wysrodkowany {
+    padding-top: 2px;
+}
+
+div.ajax_loading {
+    background: transparent url(/img/ajax_loading.gif) no-repeat 50%;
+    margin: 5px 0 5px 0;
+}
+
+table.properties td {
+    margin: 0;
+    padding: 0 2px 10px 5px;
+}
+
+table.properties td.name {
+    text-align: right;
+}
+
+table.properties td.value {
+    text-align: left;
+}
+
+div.inline_form {
+    font-size: 11px;
+}
+
+div.inline_form form {
+    display: inline;
+}
+
+div.inline_form select,
+div.inline_form input,
+div.inline_form button {
+    font-size: 10px;
+    vertical-align: middle;
+    display: inline;
+}
+
+div.inline_form label {
+    vertical-align: middle;
+    display: inline;
+}
+
+div.yes_no_box {
+    margin: 0 auto;
+    padding: 10px;
+    background: #dfd;
+    color: black;
+    border: 1px solid #afa;
+    text-align: center;
+    width: 300px;
+}
+
+div.yes_no_box div.msg {
+    padding: 2px;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+div.yes_no_box div.buttons {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#content_main .buttons {
+    text-align: right;
+}
+
+#content_main .buttons form {
+    display: inline;
+}
+
+div.navigator {
+    padding-left: 24px;
+}
+
+.navigator form {
+    display: inline;
+}
+
+.navigator li {
+    margin-bottom: 2px;
+}
+
+#country {
+    font-size: 11px;
+    padding-bottom: 10px;
+}
+
+#country h3 {
+    padding: 10px 20px 5px 20px;
+    margin: 0;
+    font-size: 12px;
+}
+
+#country h3 .value {
+    color: #dd3e00;
+}
+
+#country h4 {
+    text-align: center;
+    font-size: 13px;
+}
+
+#country ul#wojs {
+    margin: 5px 0 0 0 !important;
+    padding: 15px 0 !important;
+    border-top: 1px solid #edeff1;
+    text-align: center;
+    color: #B8D2E5;
+    clear: both;
+}
+
+#country ul#wojs li {
+    display: inline;
+}
+
+#country ul#wojs li a:link,
+#country ul#wojs li a:visited,
+#country ul#wojs li a:hover {
+    color: #175D90;
+}
+
+#country .inline_form {
+    margin: 5px 10px 10px 20px;
+}
+
+#country hr {
+    border: solid black;
+    border-width: 1px 0 0 0;
+}
+
+#country .label {
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+#country #school_list_search {
+    overflow: hidden;
+    zoom: 1;
+}
+
+#country .woj_info,
+#country .city_info,
+#country .school_type_info {
+    font-size: 12px;
+    padding: 0 0 6px 6px;
+    line-height: 1.7em;
+}
+
+#country .school_type_info {
+    margin-bottom: 8px;
+    margin-top: -5px;
+}
+
+#country #school_type_search h3,
+#country #school_list_search h3 {
+    padding: 26px 20px 5px 7px;
+    border-top: 1px solid #EDEFF1;
+    margin-top: 13px;
+}
+
+#country .woj_info .label,
+#country .city_info .label,
+#country .school_type_info .label {
+    font-weight: normal;
+}
+
+#country .woj_info .value,
+#country .city_info .value,
+#country .school_type_info .value {
+    font-weight: bold;
+    color: #175D90;
+}
+
+#replace_by_cities {
+    clear: both;
+}
+
+#country .graphic_paginator {
+    clear: both;
+    margin-top: 5px;
+    margin: 0;
+}
+
+#replace_by_cities .graphic_paginator,
+#city_selection .graphic_paginator {
+    padding: 0 0 .7em;
+    margin: 0 0 .7em -6px;
+    border-bottom: 1px solid #EDEFF1;
+    height: 21px;
+    overflow: hidden;
+}
+
+#popular_choice,
+#city_selection {
+    padding: 0 0 0 6px;
+    zoom: 1;
+}
+
+#popular_choice ul {
+    margin: 5px 20px 5px 20px;
+    margin: 5px 20px 20px 13px !important;
+    padding: 0;
+}
+
+#replace_by_cities ol {
+    clear: both;
+    margin: 15px 20px 5px 20px;
+    margin: 13px 20px 12px 30px !important;
+    padding: 0;
+}
+
+#popular_choice ul li,
+#replace_by_cities ol li {
+    margin: 0;
+    clear: both;
+    text-indent: 10px;
+}
+
+#replace_by_cities ol li {
+    list-style-position: outside;
+    padding: .3em 0 .3em 0;
+    color: #b6cbdd;
+    font-weight: bold;
+}
+
+#replace_by_cities ol li span {
+    color: #000;
+    font-weight: normal;
+}
+
+#popular_choice ul li {
+    list-style: none;
+    padding: 3px 0 2px 17px;
+    background: transparent url(/img/bullet.gif) no-repeat 0 60%;
+}
+
+#popular_choice ul a,
+#replace_by_cities ol a,
+#city_selection ol a {
+    width: 16em;
+    display: -moz-inline-stack;
+    display: inline-block;
+    clear: both;
+    font-weight: bold;
+    color: #175D90;
+}
+
+#city_selection ol a {
+    width: auto;
+}
+
+#country .schools li {
+    margin-bottom: 2px;
+}
+
+#replace_by_cities ol li,
+#city_selection ol li {
+    list-style-position: outside;
+    padding: .3em 0 .3em 0;
+    color: #b6cbdd;
+    font-weight: bold;
+}
+
+.school_add_info {
+    margin-top: 15px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.school_search_form label {
+    margin: 0 5px;
+}
+
+#school_search_results {
+    margin-bottom: 10px;
+}
+
+#school_search_results .schools_list_header {
+    font-weight: bold;
+    font-size: 11px;
+    margin: 5px 2px;
+}
+
+#school_search_results .content {
+    font-size: 12px;
+    padding: 1px 0;
+}
+
+#country table.list td,
+#school_search_results table.list td {
+    border-width: 1px 0;
+}
+
+#country table.list th,
+#school_search_results table.list th {
+    background: #033a62;
+    color: #fff;
+    padding-left: 2px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 11px;
+}
+
+#school_search_results table.list {
+    width: 100%;
+}
+
+#school_search_results td.nr {
+    padding: 0 5px;
+}
+
+#school_search_results table.list th.nr {
+    padding-left: 5px;
+}
+
+#country table.list {
+    margin-top: 5px;
+    width: 627px;
+}
+
+#country .cool_box_inner {
+    padding: 6px;
+    zoom: 1;
+}
+
+#country .school_search_header {
+    color: #87BF3B;
+    padding: 0 0 2px 35px;
+    font: bold 17px Arial, Tahoma, sans-serif;
+    border-bottom: 1px solid #EDEFF1;
+    margin: 0;
+    zoom: 1;
+}
+
+#country #quick_search {
+    margin: .8em 0 3em;
+}
+
+#country #quick_search label {
+    margin: 0 5px;
+}
+
+#country #woj_selection_bar {
+    margin: 20px 0 19px;
+}
+
+#country #woj_selection img {
+    display: block;
+    margin: 0 auto;
+}
+
+#country #city_selection_bar,
+#country #school_type_search_bar {
+    margin: 18px 0 19px;
+}
+
+#country #quick_search .school_search_header,
+#country #quick_search_bar .school_search_header {
+    background: transparent url(/img/ico_magnifiermap.gif) no-repeat 4px 36%;
+    margin-bottom: 2px;
+    margin-top: .3em;
+}
+
+#country #woj_selection .school_search_header,
+#country #woj_selection_bar .school_search_header {
+    background: transparent url(/web/20110905164808im_/http://static.nasza-klasa.pl/img/school/ico_binocularsmap) no-repeat 6px 34%;
+}
+
+#country #school_type_search .school_search_header,
+#country #school_type_search_bar .school_search_header {
+    background: transparent url(/web/20110905164808im_/http://static.nasza-klasa.pl/img/school/ico_inneszkoly) no-repeat 8px 48%;
+}
+
+#country #city_selection .school_search_header,
+#country #city_selection_bar .school_search_header {
+    background: transparent url(/web/20110905164808im_/http://static.nasza-klasa.pl/img/school/ico_city) no-repeat 5px 27%;
+}
+
+#country #abroad_country_selection .school_search_header,
+#country #abroad_country_selection_bar .school_search_header {
+    background: transparent url(/web/20110905164808im_/http://static.nasza-klasa.pl/img/school/ico_world) no-repeat 5px 27%;
+}
+
+#school_search_results .paginator {
+    margin: 3px;
+}
+
+#school_search_results tr.school {
+    height: 19px;
+}
+
+#school_list_search .schools,
+#school_list_search .universities {
+    clear: both;
+    float: left;
+    padding: 2px 0 15px;
+    margin: 0;
+    width: 100%;
+}
+
+#school_list_search .schools li,
+#school_list_search .universities li {
+    clear: both;
+    padding: 5px 0;
+    width: 100%;
+}
+
+#school_list_search .schools li a,
+#school_list_search .universities li a {
+    color: #175D90;
+    font-size: 11px;
+}
+
+#school_list_search .school_nr {
+    float: left;
+    width: 36px;
+    text-align: center;
+    color: #B6CBDD;
+    font-weight: bold;
+}
+
+#school_list_search .universities .school_name {
+    width: 100%;
+}
+
+#school_list_search .school_name {
+    float: left;
+    width: 560px;
+    padding: 0 0 0 8px;
+}
+
+#school_list_search .school_patron {
+    float: left;
+    width: 148px;
+    padding: 0 0 0 8px;
+}
+
+#country div .schools_list_ol_header {
+    font-weight: bold;
+    font-size: 11px;
+    color: #000;
+    padding: 10px 0 3px;
+    border-bottom: 1px solid #EDEFF1;
+    margin: 0;
+    float: left;
+    width: 770px;
+}
+
+#country div .no_entries {
+    display: block;
+    padding: 10px 0 3px 6px;
+    margin: 0;
+}
+
+#country div.schools_list_ol_header * {
+    color: #000;
+}
+
+#school_search_results .cool_box_inner p {
+    margin: 10px;
+}
+
+#country p {
+    margin: 6px 0;
+}
+
+#country .school_type_search_boxes {
+    margin: 11px 0 40px;
+}
+
+#country .school_type_search_box {
+    margin: 0 75px 0 0;
+    display: inline;
+    float: right;
+    width: 274px;
+    background: white;
+}
+
+#country .school_type_search_box_header {
+    height: 57px;
+    position: relative;
+    left: -3px;
+    top: 0;
+}
+
+#country .school_type_search_box_content {
+    background: #fff;
+    padding: 7px 1px 4px 19px;
+    border: solid #a7c2d1;
+    border-width: 0 1px 1px 1px;
+    color: inherit;
+    font: bold 11px Tahoma, Arial, sans-serif;
+}
+
+.school_type {
+    padding: 0;
+    list-style: none;
+    margin: 0 15px 0 0;
+}
+
+.school_type li {
+    padding: 0 0 0 42px;
+}
+
+#country .school_type a:visited,
+#country .school_type a:link {
+    display: block;
+    padding: 5px 0 8px 14px;
+    text-decoration: none;
+    color: #175d91;
+    background: url(/img/bullet.gif) no-repeat 0 10px;
+    zoom: 1;
+}
+
+#country .school_type .last a:visited,
+#country .school_type .last a:link {
+    background-position: 0 14px;
+}
+
+#country .school_type a:hover,
+#country .school_type a:focus,
+#country .school_type a:active {
+    text-decoration: underline;
+    background-color: #F7F8F9;
+}
+
+#country .school_type .the_only a:visited,
+#country .school_type .the_only a:link {
+    background-position: 0 15px;
+    padding: 10px 0 11px 14px;
+    border-bottom: 1px solid #edeff1;
+}
+
+#country .school_type .last a:visited,
+#country .school_type .last a:link {
+    background-position: 0 12px;
+    padding: 7px 0 11px 14px;
+    border-bottom: 1px solid #edeff1;
+}
+
+#country .school_type .school_type_ a:visited,
+#country .school_type .school_type_ a:link,
+#country .school_type .school_type_ a:hover,
+#country .school_type .school_type_ a:active {
+    font-size: 14px;
+    color: #408DD1;
+    background-position: 0 14px;
+}
+
+#country .school_type_search_box .school_type.last li a:visited,
+#country .school_type_search_box .school_type.last li a:link {
+    border-bottom: none;
+}
+
+.school_type_9 {
+    background: url(/web/20110905164808im_/http://static.nasza-klasa.pl/img/school/ico_studia.gif) no-repeat 3px 54%;
+}
+
+.school_type_3 {
+    background: url(/web/20110905164808im_/http://static.nasza-klasa.pl/img/school/ico_liceumogolnoksztalcace.gif) no-repeat 5px 50%;
+}
+
+.school_type_4 {
+    background: url(/web/20110905164808im_/http://static.nasza-klasa.pl/img/school/ico_technikum.gif) no-repeat 5px 50%;
+}
+
+.school_type_5 {
+    background: url(/web/20110905164808im_/http://static.nasza-klasa.pl/img/school/ico_liceumprofilowane.gif) no-repeat 5px 58%;
+}
+
+.school_type_6 {
+    background: url(/web/20110905164808im_/http://static.nasza-klasa.pl/img/school/ico_zawodowa.gif) no-repeat 5px 45%;
+}
+
+.school_type_2 {
+    background: url(/web/20110905164808im_/http://static.nasza-klasa.pl/img/school/ico_gimnazjum.gif) no-repeat 0 50%;
+}
+
+.school_type_1 {
+    background: url(/web/20110905164808im_/http://static.nasza-klasa.pl/img/school/ico_szkolapodstawowa.gif) no-repeat 5px 54%;
+}
+
+.school_type_7 {
+    background: url(/web/20110905164808im_/http://static.nasza-klasa.pl/img/school/ico_muzyczna.gif) no-repeat 6px 32%;
+}
+
+.school_type_8 {
+    background: url(/web/20110905164808im_/http://static.nasza-klasa.pl/img/school/ico_inneszkoly.gif) no-repeat 3px 49%;
+}
+
+#abroad_country_selection form#form1 {
+    padding: 0 0 10px 6px;
+}
+
+#report_missing_country_form .fields {
+    margin: 10px 0 10px 8px;
+}
+
+#city_add_form {
+    margin-bottom: 5px;
+}
+
+#city_add_form .fields {
+    margin: 10px;
+}
+
+#city_add_form .fields .country_field {
+    margin-bottom: 7px;
+}
+
+#city_add_form .fields .country_field .value {
+    margin-left: 55px;
+}

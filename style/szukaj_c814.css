@@ -1,0 +1,368 @@
+#szukaj #content_main {
+  padding: 0 0 43px;
+}
+
+#szukaj .search_box{
+  background:#e4f3fe;
+  border:solid 1px #a9bdce;
+  border-bottom-color:#86b0d2;
+}
+
+#szukaj .search_form{
+  padding: 20px 0 20px 269px;
+  height: 41px;
+}
+
+#szukaj .search_form input.gs_text_input{
+  width:370px;
+  margin:0;
+  font-size:11px;
+}
+
+#szukaj .search_form button{
+  margin:0 3px;
+}
+
+#szukaj #page #page_content .search_form .gs_btn_szukaj {
+  margin: 05px;
+}
+
+#szukaj #page #page_content .search_form .input_button input{
+  background:transparent url(/img/cooldarkbutton_middle.gif) repeat-x 0 0;
+  padding:0px 5px 0px 5px;
+  text-align:center;
+  vertical-align:middle;
+  height:23px;
+  width:60px;
+  white-space:nowrap;
+  color:#fff;
+}
+
+#szukaj #page #page_content .search_form .input_button .right_corner {
+  background:transparent url(/img/cooldarkbutton_right.gif) no-repeat scroll right top;
+  height:23px;
+}
+
+#szukaj .search_form #powered_by_google{
+  position:relative; 
+  top:12px; 
+  left:0px;
+}
+
+#szukaj .search_tabs {
+  padding:10px 9px 6px 260px;
+  margin:0;
+  overflow:auto;
+  background:url(/img/top_menu.gif) repeat-x 0 100%;
+  zoom:1;
+}
+
+#szukaj .search_box .no_graphics {
+  padding-left: 373px;
+}
+
+#szukaj .search_tabs li {
+  float:left;
+  padding-right:1px;
+}
+#szukaj .search_tabs li a{
+  display:block;
+  width:116px;
+  height:17px;
+  padding:5px 0 0;
+  text-align:center;
+  color:#125881;
+  font-weight:normal;
+  font-size:11px;
+  background:transparent url(/img/menu_bg.gif) repeat-x 0 -22px;
+}
+#szukaj .search_tabs li a:hover,
+#szukaj .search_tabs li.active a{
+  font-weight:bold;
+  color:#fff;
+  background:transparent url(/img/menu_bg.gif) repeat-x 0 0;
+}
+
+#szukaj .detailed_search{
+  background:transparent url(/img/detailed_search.gif) repeat-x 0 0;
+  border:solid 1px #ddeefa;
+  padding: 5px 4px;
+  margin-bottom:3px;
+}
+
+#szukaj .detailed_search .search_results{
+  width:556px;
+  float:left;
+}
+
+
+#szukaj .detailed_search .search_results{
+  width: 658px;
+  margin-right: 10px;
+  float: left;
+}
+
+#szukaj .detailed_search .communicate{
+  background:#e8f1fa;
+  border:solid 1px #a5b7c8;
+  color:#314f6c;
+  margin:10px;
+  padding:50px 10px;
+  text-align:center;
+  font-size:11px;
+}
+
+#szukaj .detailed_search .search_user{
+  width:300px;
+  float:left;
+}
+#szukaj .detailed_search .search_user .cool_box_content {
+  margin-bottom:9px;
+  background: #f3f7fb;
+}
+#szukaj .detailed_search .search_user .cool_box_content div .gs_btn_szukaj {
+  width:56px;
+  height:23px;
+  margin:23px 0 0 12px;
+}
+#szukaj .detailed_search .result_bar{
+  border-bottom: 1px solid #D4E2E5;
+  padding:20px;
+  font-size:11px;
+}
+
+#szukaj .detailed_search input,
+#szukaj .detailed_search select {
+  font-size:11px;
+  padding: 2px;
+}
+
+#szukaj .detailed_search .result_bar p{
+  margin:0;
+  padding:0;
+}
+
+#szukaj .detailed_search .result_bar h3 {
+  margin: 3px 10px 0 0;
+  padding:0;
+  font-weight:bold;
+  font-size: 13px;
+  color:#175D90;
+  float:left;
+}
+
+#szukaj .detailed_search .result_bar form {
+  float:left;
+}
+
+#szukaj .detailed_search .result_bar form  select {
+  margin-right: 10px;
+}
+
+#szukaj .detailed_search .result_bar .right {
+  padding-top: 4px;
+}
+
+#szukaj .detailed_search #web_result_table{
+  width:100%;
+  margin-top:-3px;
+}
+
+#szukaj .detailed_search #web_result_wrapper{
+  float:none;
+  margin-top:-1px;
+}
+
+#szukaj .detailed_search ul.web_result{
+  padding: 0;
+  margin:0;
+  width: 710px;
+  overflow:hidden;
+}
+
+#szukaj .detailed_search ul.web_result li{
+  border-top: 1px solid #D4E2E5;
+  line-height:1.25em;
+  font-family:arial,verdana,sans-serif;
+  font-size:12px;
+  padding:10px;
+}
+#szukaj .detailed_search ul.web_result h3{
+  padding:5px 0; 
+  margin:0;
+}
+#szukaj .detailed_search ul.web_result a{
+  color:#175d90;
+  font-size:15px; 
+  font-weight:normal;
+}
+#szukaj .detailed_search ul.web_result h3 a {
+  color:#0855a4;
+}
+#szukaj .detailed_search ul.web_result div a{
+  font-size:12px; 
+}
+#szukaj .detailed_search ul.web_result div p{
+  margin:0 0 2px;
+  color:#232323;
+}
+
+#szukaj .detailed_search cite{
+  color:#96bc63;
+  font-style:normal;
+}
+
+#szukaj .detailed_search .google_ads div {
+  border: 1px solid #ccdbe6;
+  background-color: #fdfde8;
+  font-size: 11px;
+  padding: 4px 4px 4px 4px;
+}
+
+#szukaj .detailed_search .google_ads div.clear {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+#szukaj .detailed_search .google_ads_narrow {
+  width: 240px;
+  float: none;
+}
+
+#szukaj .detailed_search .google_ads_wide div,
+#szukaj .detailed_search .google_ads_image div {
+  margin: 16px 0;
+}
+
+#szukaj .detailed_search .google_ads h2 {
+  margin: 2px 0 10px 4px;
+  font-size: 11px;
+  font-weight:normal;
+  text-align:left;
+}
+#szukaj .detailed_search .google_ads h2 a {
+  color: #7892a6;
+}
+#szukaj .detailed_search .google_ads ul {
+  margin: 0 0 0 8px;
+  padding: 0 0 10px 0;
+}
+
+#szukaj .detailed_search .google_ads h3 {
+  font-size: 11px;
+  margin: 10px 0 1px;
+  padding: 0;
+}
+#szukaj .detailed_search .google_ads a{
+  display:inline;
+  margin:1px 0 0;
+}
+#szukaj .detailed_search .google_ads cite {
+}
+
+#szukaj .detailed_search .google_ads_image li {
+  width: 204px;
+  float: left;
+}
+
+#szukaj .detailed_search .paginator {
+  float:right;
+  margin:12px 0 15px 0;
+}
+#szukaj .detailed_search .graphic_paginator .clear {
+  width:190px;
+}
+#szukaj .graphics_search .paginator {
+  width:300px;
+  margin:0 auto;
+  float:none
+}
+#szukaj .search_user .row{
+  width:auto;
+  clear:both;
+  height:auto;
+  padding:0px 0 0 9px;
+  line-height:16px;
+  font-size: 11px;
+}
+
+#szukaj .search_user .row label{
+  display:block;
+  padding:9px 0 4px 0;
+  height:15px;
+}
+
+#szukaj .search_user .row.bold {
+  font-weight: bold;
+}
+
+#szukaj .search_user .gender label{
+  display:inline;
+  padding:0;
+}
+
+#szukaj .search_user .row_admin label{
+  display:block;
+  padding:9px 0 4px 0;
+}
+
+#szukaj .search_user form{
+  padding-right:0px;
+  padding-top:0;
+}
+
+#szukaj .search_user input{
+  padding:2px;
+  width:270px;
+  margin:0;
+}
+
+#szukaj .search_user select{
+  width:127px;
+  padding:0;
+  margin:0;
+}
+
+#szukaj .search_user .gender select{
+  width:127px;
+}
+
+
+#szukaj .detailed_search div.search_user .add_info{
+  margin:0;
+  padding:24px 7px 0 0;
+  width:200px;
+  font-size:10px;
+  text-align:center;
+}
+
+
+#szukaj table.image_result {
+  width: 100%;
+  border-top: 1px solid #ddd;
+}
+
+#szukaj table.image_result td {
+  text-align: center;
+  font-size: 12px;
+  font-family: Arial,Helvetica;
+  width: 25%;
+}
+
+#szukaj table.image_result td.desc {
+  padding-bottom: 24px;
+}
+
+#szukaj table.image_result img {
+  margin-top: 10px;
+  border: 1px solid #00F;
+}
+
+#szukaj #content_main table.znajomi{
+  margin-bottom: 7px;
+}
+
+#szukaj #content_main table.znajomi td{
+  width:135px;
+}

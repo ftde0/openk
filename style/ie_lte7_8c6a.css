@@ -1,0 +1,907 @@
+﻿@charset "UTF-8";
+
+/* ogólne */
+.box_content {
+  zoom: 1;
+}
+/* end ogólne */
+
+div.avatars {
+  zoom: 1;
+  position: relative;
+}
+div.avatar {
+  zoom: 1;
+}
+div.avatar_new_photo,
+div.outer {
+  position: relative;
+  text-align: center;
+}
+div.avatar_middle,
+div.middle {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+div.avatar_inner,
+div.inner {
+  position: relative;
+  top: -50%;
+}
+/* - - - - - - - - - - - - - - - - [ photo frame fix ] --- */
+div.avatar_photo a,
+.rating_box .rating_photo a {
+  display: inline;
+}
+div.avatar_bar {
+  z-index: -1;
+}
+div.avatar_user_info {
+  zoom: 1;
+  position: relative;
+}
+div.avatar_user_info_hover {
+  left: -6px;
+  position: absolute;
+  width: 100px;
+  top: -5px;
+  left: -5px;
+  zoom: 1;
+}
+ul.avatar_options_list {
+  zoom: 1;
+}
+.avatar_additional_bottom {
+  z-index: -2;
+}
+.avatar_user_city {
+  margin-top: 0;
+  zoom: 1;
+  word-wrap: break-word;
+}
+
+div.avatar_name_js, div.avatar_name_js.hover {
+  top: 124px;
+}
+
+div.avatar_name_js span.fade, div.avatar_name_js.hover span.fade {
+  behavior: url(/script/iepngfix.htc); /* Wykorzystuje HTMLComponents - Microsoft - png */
+  height: 500px; /* normalnie jest 100%, ale w ie6 nie zadziała */
+}
+
+
+
+#content_main div.desc {
+  margin-top: 0px;
+}
+div.inner {
+  padding-bottom: 1px;
+}
+
+/* lewy box google */
+
+.box .google_search_form .gs_text_input {
+  top:-1px;;
+}
+
+.box .google_search_form .gs_btn_szukaj {
+  position:relative;
+  top:-2px;
+}
+.box .google_search_form #powered_by_google {
+  position:relative;
+  top:-2px;
+}
+
+/* mega dlugi opis pinezki przykrywal headery komentarzy*/
+div#photo_comments div.photo_comment div.header, 
+  position: static !important;
+}
+
+#mail_recipient_search_listbox {
+  margin-top:5px;
+}
+
+#mail_view .mailbox_box .box_content .small {
+  color:#fff;
+}
+
+/* button 1 confirm deny link */
+.buttons .confirm_accept {
+  position: relative;
+  top: -1px;
+}
+
+/*
+ * Ratings, albums
+ */
+.add_comment #add_comment,
+#content_main .rating_arrow .arrow,
+.rating_arrow .arrow div {
+  position: relative;
+  zoom: 1;
+}
+div.album_tools {
+  width: 130px;
+}
+table.thumb_holder a.album_photo,
+div.album_photo_cont a.album_photo {
+  margin-left: 0;
+}
+div.album .pin {
+  display: inline;
+}
+#photo_comments .top {
+  z-index: -1;
+}
+.photo_comment .author,
+.new_comment {
+  position: relative;
+  z-index: -1;
+}
+.album .pin {
+  zoom: 1;
+  display: block;
+}
+.photo_info,
+.add_comment {
+  z-index: -1;
+}
+#photo_info .description {
+  position: relative;
+  z-index: -1;
+}
+#page_content div.options input {
+  border: none;
+}
+#add_comment a {
+  bottom: 8px;
+}
+#photo_description_edit .edit_buttons input {
+  position: relative;
+  top: 2px;
+}
+table.rating_box .rating_photo_holder {
+  margin: 0 auto;
+  float: none;
+}
+
+
+/* ratings end */
+
+/* sony */
+#sony, #sony_konkurs,
+#sony_register_nojs,
+#sony_intro,
+a#wypisz {
+  zoom:1;
+}
+#sony_konkurs div#wez_udzial_bottom {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/img/sony/konkurs_bottom_2.png,sizingMethod=crop);
+}
+div#nagrody .nagrody {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/img/sony/nagrody_head_bg.png,sizingMethod=crop);
+}
+
+
+/* end sony */
+
+/* skrzynka odbiorcza */
+#show_mail .show_mail #message_text form input {
+  width:27px; /* fix nadmiarowej dlugosci inputow */
+  overflow:visible;
+  padding:4px 4px 4px 30px;
+}
+
+#regular_mail_view .message_container .mailbox_navigation {
+  zoom:1;
+}
+#mail_view .mailbox_navigation .prev_next {
+  line-height:11px;
+}
+#regular_mail_view .avatar_container {
+  z-index:9999;
+}
+#mail_view .mail_buttons input.mailform_sender {
+  vertical-align:-2px;
+}
+/** ING **/
+#ing_president_profil #page_footer {
+  margin-top: -8px;  
+}
+/** ING END **/
+
+/** lista maili **/
+ul.mail {
+  zoom:1;
+}
+
+ul.mail li {
+  float:left;
+  width: 776px;
+}
+ul.mail li div.border {
+  padding:3px 0;
+  height:34px;
+  position:relative;
+  cursor:default;
+}
+ul.mail li div.border div {
+  position:absolute;
+  top:50%;
+}
+ul.mail li div.border div a,
+ul.mail li div.border div input,
+ul.mail li div.border div button {
+  top:-50%;
+  position:relative;
+  left:0;
+}
+ul.mail li div.checkbox {
+  left:0;
+}
+ul.mail li div.od {
+  left:53px;
+}
+ul.mail li div.msg {
+  left: 326px;
+}
+ul.mail li div.dust_bin {
+  left: 742px;
+}
+ul.mail li div.dust_bin img {
+  margin-top:3px;
+}
+
+/* payments */
+.payment_delay_info div.roundbox_blue div.bottom {
+  width: 454px !important;
+  margin-top: -1px;
+}
+
+div#school_page {
+  position: static;
+}
+
+/* NK-1440 */
+div.profil_card div.left_column {
+  margin-left: 3px;
+}
+
+/* NK-1395 */
+#page #content_main div.input_button, #page #content_main div.input_button_red {
+  position: relative;
+  display: inline;
+  padding-bottom: 5px;
+}
+#page #content_main div.input_button input, #page #content_main div.input_button_red input {
+  float: none;
+  display: inline;
+  padding-right: 2px;
+  overflow: visible;
+}
+#page #content_main div.input_button div.right_corner, #page #content_main div.input_button_red div.right_corner {
+  float: none;
+  display: block;
+  position: absolute;
+  left: 100%;
+}
+/* NK-1457 */
+div#pracownicy_conent div.clear {
+  margin-top: -5px;
+}
+
+/* allegro */
+
+div.owner {
+  width: 90%;
+  margin: 0;
+}
+
+div.owner span {
+  behavior: url(/script/iepngfix.htc);
+  right: -2px;
+}
+
+.allegro_bind  #allegro_log_pass #allegro_login,
+.allegro_bind  #allegro_log_pass #allegro_password{
+  height:15px;
+}
+
+div.auction div.name {
+  width: 95%;
+}
+
+/** Home - powiadomienia **/
+.watched_events .content .photo_thmb img {
+  margin-right:1px;
+  margin-bottom:1px;
+  position:static;
+}
+div.events_action a.more {
+  top: -1px;
+}
+
+/* narzedzia dzialu media */
+.media_tools .box_content li {
+  margin-left: 2px;
+  padding-left: 13px;
+  background-position: 3px 9px;
+}
+
+#postcard_send_form .prawo textarea#postcard_content {
+  margin:0 0 20px 24px;
+  display:block;
+}
+#postcard_send_form .prawo #postcard_send_form_recipient_uid_filter {
+  display:block;
+}
+#postcard_send_form .lewo .kartka fieldset label input {
+  top:-1px;
+}
+#page #content_main .dol div.input_button input {
+  letter-spacing:-9999em;
+  text-indent:0;
+}
+
+/** ibood - start **/
+.box_ibood .box_content  {
+  zoom:1;
+}
+#ibd_kupuje,
+#ibd_wyprzedane {
+  margin-bottom:3px;
+}
+#ibood_flash_sg,
+#ibood_flash_polec {
+  width:883px;
+  overflow:hidden;
+  position:relative;
+}
+#ibood_flash_sg object,
+#ibood_flash_polec  object{
+  position:relative;
+  left:-1px;
+}
+/** ibood - koniec **/
+/* ALBUMY */
+div.album_rating {
+  bottom: 62px;
+}
+div.pin_mark_blue {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/img/pins/pin_mark_blue.png,sizingMethod=crop);
+}
+div.pin_mark_green {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/img/pins/pin_mark_green.png,sizingMethod=crop);
+}
+
+#page_content .ratings a.super {
+  padding-top: 3px;
+  background-position: 8px 3px;
+  text-indent: -100px;
+}
+#page_content .ratings a.super:hover {
+  background-position: 8px 3px;
+}
+div.album_tools_narrow {
+  width: 100px;
+}
+#add_album h3{
+  font-size: 11px;
+}
+#albums_list_window .cell,
+#albums_list_window .album {
+  display: inline;
+}
+#album_view div.album {
+  display: inline;
+}
+.events_settings {
+  zoom: 1;
+}
+.navigation_bar {
+  zoom: 1;
+}
+div.album_nav ul.navigator li a {
+  height: 10px;
+}
+.album .desc p a.raquo {
+  right: 5px;
+}
+#photo_info div#photopage_gift {
+  background-position: 0 10px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ boxes on main page ] - - - - - */
+#last_guest_box,
+#allegro_box,
+#your_ratings_box,
+#school_mates_box,
+#might_know_box,
+#last_events_box {
+  position: relative;
+}
+#last_guest_box {
+  z-index: -1;
+}
+#allegro_box {
+  z-index: -2;
+}
+#your_ratings_box {
+  z-index: -3;
+}
+#school_class_mates_box {
+  z-index: -4;
+}
+#school_mates_box {
+  z-index: -5;
+}
+#might_know_box {
+  z-index: -6;
+}
+#last_events_box {
+  z-index: -7;
+}
+#your_ratings_box div.coolbox_bottom {
+  z-index: -1;
+} 
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ end boxes on main page ] - - - */
+
+#ing_president_profil .cool_box_21 .coolbox_bottom {
+  height:20px;
+}
+#ing_president_profil .coolbox_hint a {
+  background-position:5px 3px;
+  padding:1px 0 1px 15px;
+  margin-top:1px;
+  display:block;
+}
+#ing_president_profil .coolbox_hint a span {
+  line-height:16px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ btab ] - - - */
+.btab_content label {
+  z-index: -1;
+}
+#blinking_tab_box_content .avatar {
+  padding-top: 0;
+  margin-top: 5px;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ end btab ] - - - */
+
+.cool_box_inner {
+  zoom: 1;
+}
+#ing_president_profil .cool_box_21 .coolbox_bottom {
+  height:20px;
+}
+#ing_president_profil .coolbox_hint a {
+  background-position:5px 3px;
+  padding:1px 0 1px 15px;
+  margin-top:1px;
+  display:block;
+}
+#ing_president_profil .coolbox_hint a span {
+  line-height:16px;
+}
+
+span.roza_1 {
+  z-index: -1;
+}
+#inner_wrapper_bottom {
+  margin-top: -8px;
+}
+#kartki_list,
+.kartki_ul_wrapper,
+.kartki_ul_wrapper ul,
+.kartki_ul_wrapper li {
+  zoom: 1;
+  position: relative;
+}
+.postcards_preview_wrap {
+  zoom: 1;
+}
+
+#page_content {
+  zoom: 1;
+}
+div.friends_list_tools {
+  overflow: hidden;
+}
+#control_panel .transfer #form3 {
+  zoom: 1;
+}
+.low_index {
+  z-index: -1;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - Profile page --- */
+#profile_page .znajomi {
+  position: relative;
+  z-index: 1;
+}
+#profile_page .zdjecia {
+  position: relative;
+  z-index: -1;
+}
+#profile_page .znajomi .coolbox_bottom {
+  z-index: 0;
+}
+#profile_page .znajomi .avatars {
+  z-index: 1000;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - end Profile page --- */
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - Invitations --- */
+.invites_from_me {
+  position: relative;
+  z-index: 1;
+  zoom: 1;
+}
+.invites_to_me {
+  z-index: -1;
+  position: relative;
+  zoom: 1;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - end Invitations --- */
+
+/* dzien kobiet */
+.lewo .kartka fieldset label input {
+  margin-top:-2px;
+}
+
+/* NIKE */
+#nike_woman_profile dl#profile_info_box_custom_content dd,
+#nike_man_profile dl#profile_info_box_custom_content dd {
+  width:300px;
+}
+#nike_woman_profile #content_main .gora div.avatar a,
+#nike_man_profile #content_main .gora div.avatar a {
+  line-height:40px;
+  margin-top:8px;
+  position: relative;
+}
+#nike_woman_profile #profile_top table,
+#nike_man_profile #profile_top table {
+  margin:30px 0 10px 0;
+}
+
+#nike_woman_profile #profile_page .comments ul li,
+#nike_woman_profile #profile_page .comments ul,
+#nike_woman_profile #profile_page .cool_box_inner,
+#nike_man_profile #profile_page .comments ul li,
+#nike_man_profile #profile_page .comments ul,
+#nike_man_profile #profile_page .cool_box_inner {
+  zoom:1;
+}
+
+#nike_woman_profile #profile_top .profile_buttons .ikonki img,
+#nike_man_profile #profile_top .profile_buttons .ikonki img,
+#nike_woman_profile #profile_top .profile_buttons .ikonki .img,
+#nike_man_profile #profile_top .profile_buttons .ikonki .img {
+  margin:0 5px 0 3px;
+  padding:0;
+}
+#nike_woman_profile #content_main div.ikonki form button,
+#nike_man_profile #content_main div.ikonki form button {
+  margin:0 0 0 -1px;
+  height:25px;
+}
+#nike_woman_profile #profile_top .profile_buttons div.ikonki form .img,
+#nike_man_profile #profile_top .profile_buttons div.ikonki form .img {
+  margin:1px 5px 0 3px;
+}
+
+.gift_out .row label {
+  width:86px;
+}
+.gift_out input {
+  margin-top:-1px;
+}
+
+/* WALLET */
+.price_list thead th {
+  background-image:url(/img/wallet/price_list_header_bg);
+}
+.price_list thead .c0 {
+  background-position:0 0;
+}
+.price_list thead .c1 {
+  background-position:-52px 0;
+}
+.price_list thead .c2 {
+  background-position:-130px 0;
+}
+.price_lists,
+#photos_choose_payment .right .inner,
+#photos_choose_payment #info_text_3,
+#photos_ratings_choose_payment .right .inner,
+#photos_ratings_choose_payment #info_text_3,
+#last_guests_choose_payment .right .inner,
+#last_guests_choose_payment #info_text_3 {
+  zoom:1;
+}
+#wallet_box table {
+  margin:0;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ UIP ] -------- */
+#uip_main_view #box_recommended .movie {
+  margin-top: -9px;
+}
+#uip_contest_view .survey_open_question textarea {
+  height: 203px;
+}
+#uip_forum_view .post_frame {
+  zoom: 1;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ end UIP ] - */
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ The Sims 3 ] --- */
+#sims3_create_sim #create_features_box input {
+  margin: 0;
+}
+.sims_stretch_box {
+  zoom: 1;
+}
+#sims3_user_photo #photo_info .description {
+  z-index: 1;
+}
+#sims3_forum_thread .profile .avatar .avatar_new_photo,
+#sims3_forum_thread .profile .avatar_no_js .avatar_new_photo {
+  top: 2px;
+}
+#sims3_forum_thread .sims_forum .wysrodkowany,
+#sims3_forum_post_edit .sims_forum .wysrodkowany,
+#sims3_forum_post_add .sims_forum .wysrodkowany {
+  background: url(/img/sims3/form_textarea) no-repeat 0 0;
+  position: relative;
+}
+#sims3_ie_textarea_wrapper_fix {
+  width: 100%;
+  background: url(/img/sims3/form_textarea) no-repeat 0 9px;
+}
+.sims3_ie_input_fix {
+  background: url(/img/sims3/input_textarea) no-repeat scroll 80px 0;
+  zoom: 1;
+}
+#sims3_create_sim .sims3_ie_input_fix {
+  background: url(/img/sims3/button_textarea) no-repeat scroll 110px 0;
+}
+#sims3_forum_thread .sims_forum textarea,
+#sims3_forum_post_add .sims_forum textarea,
+#sims3_ie_textarea_wrapper_fix textarea,
+#sims3_forum_post_edit textarea,
+.sims3_ie_input_fix input {
+  background: transparent;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ heyah ] --- */
+#heyah_content {
+  zoom:1;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ sledzik ] --- */
+html.sledz_html  #page {
+  min-height: 770px;
+}
+#shout_collection .stars .dodaj {
+  height: 12px;
+  margin-bottom: -2px;
+  zoom: 1;
+}
+.sledz_html #login .row #login_remember {
+  margin-top: 3px;
+}
+html.sledz_html .logged_off .sledz_wrapper_wide {
+  background: none;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ widgets ] -------- */
+#przypominacz_summary li {
+  margin-bottom: -2px;
+}
+#widgets_list #widget_items_4 .offers {
+  position: relative;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ end widgets ] - */
+
+
+/* - - - - - - - - - - - -[ rejestracja ] - - - - - - - - - - - - - - - - - - - */
+.new_user_register div.row,
+#sledz_register div.row,
+.media_register div.row {
+  zoom: 1;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ blog ] - - - */
+#blog_div .blog_body .expand_collapse span {
+  display: inline-block;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ end blog ] - - - */
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ bzwbk ] */
+.bzwbk_box .winner_wrapper {
+  zoom: 1;
+}
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ link4 ] */
+#link4_bg_swf_container {
+  width: 1600px;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [ end link4 ] */
+
+
+/* - - - - - - - - - - - - - - - - - [ hbrp ] - - - - - - - - - */
+#hbrp_forum_body,
+#hbrp_zapisani,
+#album_view,
+#hbrp_sledzik_page {
+  padding-top: 15px 0;
+}
+.nk_popup_body .hbrp_regulations_msg a {
+  top: 0;
+}
+#hbrp_main .comment .content .right{
+  margin: 0;
+  padding: 0;
+  width: 88px;
+  height: 13px;
+  text-align: right;
+  overflow: hidden;
+}
+/* - - - - - - - - - - - - - - - - - [ end of hbrp ] - - - - - - - - - */
+
+/* - - - - - - - - - - - - - - [ easter 2010 ] - - - - - - - - - - */
+#wielkanoc2010 #easter_flowers {
+  top: 0;
+  zoom: 1;
+}
+#wielkanoc2010 #easter_compose {
+  margin-top: -35px;
+}
+#wielkanoc2010 #preview_container {
+  margin-top: 30px;
+}
+#wielkanoc2010 #compose_steps {
+  padding-top: 85px;
+}
+#wielkanoc2010 #easter_compose #card_rotate {
+  bottom: 55px;
+}
+#wielkanoc2010 #easter_compose .input_button {
+  bottom: 50px;
+}
+#wielkanoc2010 #eurogabki_header {
+  margin-top: 298px;
+}
+#wielkanoc2010 #easter_give_egb {
+  height: 700px;
+}
+#wielkanoc2010 #easter_banner {
+  margin: 23px auto 56px;
+}
+#wielkanoc2010 #animated_postcards_items {
+  padding-top: 27px;
+}
+#wielkanoc2010 #gifts_outer {
+  margin-top: 35px;
+  zoom: 1;
+  position: relative;
+}
+#wielkanoc2010 #gifts_outer  #gifts_items {
+  padding-left: 40px;
+  margin-left: 1px;
+}
+#wielkanoc2010 #gifts_outer  #gifts_items li {
+  position: relative;
+}
+#wielkanoc2010 #cards_wrapper {
+  margin-left: 37px;
+  margin-top: -33px;
+}
+#wielkanoc2010 #preview_container .tabs {
+  margin-left: 18px;
+}
+html.wielkanoc2010_html_send #easter_nav {
+  top: 14px;
+  left: 489px;
+}
+#wielkanoc2010 #easter_smileys {
+  position: static;
+  margin-left: 6px;
+  margin-top: -2px;
+}
+#wielkanoc2010 #easter_smileys .buy_smileys {
+  top: 1910px;
+  left: 817px;
+}
+#wielkanoc2010 #kartki {
+  position: relative;
+  top: 14px;
+  background: url(/img/special_actions/wielkanoc2010/header_wishes) no-repeat;
+}
+/* - - - - - - - - - - - - - - [ end of easter 2010 ] - - - - - - - - - - */
+
+
+
+/* - - - - - - - - [ sledzik mobile landing page ] - - - - - - - - -  */
+#available_apps ul,
+#app_details_bottom #app_instructions ol li  {
+  zoom: 1;
+}
+/* - - - - - - - - [ sledzik mobile landing page end ] - - - - - -  */
+/* - - - - - - - - - - - - - - - - [ page menu ] - - - - - - - - - - - - - - */
+#page_menu .bullet {
+  display: inline-block;
+}
+/* - - - - - - - - - - - - - - - - [ page menu end ] - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - [ quick menu ] - - - - - - - - - - - - - -*/
+.quick_window ul.mail {
+  zoom:1;
+  width: 931px;
+}
+.quick_window ul.mail li {
+  float: left;
+  width: 931px;
+}
+.quick_window ul.mail li div.border {
+  padding: 3px 0;
+  height: 34px;
+  position: relative;
+  cursor: default;
+}
+.quick_window ul.mail li div.border div {
+  position: absolute;
+  top: 50%;
+}
+.quick_window ul.mail li div.border div a,
+.quick_window ul.mail li div.border div input,
+.quick_window ul.mail li div.border div button {
+  top: -50%;
+  position: relative;
+  left: 0;
+}
+.quick_window ul.mail li div.checkbox {
+  left: 0;
+}
+.quick_window ul.mail li div.od {
+  left:53px;
+}
+.quick_window ul.mail li div.msg {
+  left: 326px;
+}
+.quick_window ul.mail li div.border div.dust_bin {
+  top: 40%;
+  left: 892px;
+}
+.quick_window ul.mail li div.dust_bin img {
+  margin-top:3px;
+}
+.quick_window .loading .regular_mail_view .message_date_time,
+.quick_window .loading .regular_mail_view .mailbox_navigation,
+.quick_window .loading .regular_mail_view  .avatar_container,
+.quick_window .loading .regular_mail_view .actions,
+.quick_window .loading .watched_events {
+  filter: alpha(opacity=50);
+}
+.quick_window #watched_events .cool_box_inner {
+  zoom:1;
+}
+/* - - - - - - - - - - - - - - - - [ quick menu end ] - - - - - - - - - - -*/

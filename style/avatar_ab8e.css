@@ -1,0 +1,453 @@
+.avatar,
+.avatar_no_js,
+.avatars .avatar,
+.avatars .avatar_no_js {
+  width: 110px;
+  text-align: center;
+  margin: 15px 0;
+  padding: 0 11px;
+  font-size: 11px;
+  float: left;
+  position: relative;
+}
+.avatar,
+.avatar_no_js {
+  display: none;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.avatar_no_js {
+  display: block;
+}
+.avatar_new_photo {
+  height: 110px;
+  display: table;
+  margin: auto;
+  width: 100px;
+}
+.avatar_single {
+  height: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.avatar_new_photo a {
+  display: block;
+  position: relative;
+}
+.avatar_new_photo a img {
+  border: 1px solid #404144;
+  display: block;
+  margin: auto;
+}
+.avatar_new_photo a span {
+  position: absolute;
+  left: -6px;
+  top: 3px; 
+  height: 11px;
+  width: 31px;
+  display: block;
+  background:transparent url(/img/online.gif) no-repeat scroll 50% 0;
+}
+.avatar_new_photo a span.official_tag,
+.avatar_new_photo a span.sponsored_tag {
+  top: auto;
+  left: -13px;
+  bottom: -5px;
+  width: 122px;
+  height: 22px;
+  background: url(/img/av_official_wide.png.gif) no-repeat;
+}
+.avatar_new_photo a span.sponsored_tag {
+  background: url(/img/av_sponsored_wide.png.gif) no-repeat;
+  left: -10px;
+}
+.avatar.avatar_official .av_kontopolecane {
+  display: none;
+}
+.avatar_middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+.avatar_bar { 
+  width: 108px;
+  height: 20px;
+  position: relative;
+  margin-top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2px;
+}
+a.avatar_mail {
+  display: block;
+  margin-right: 1px;
+  float: left;
+  width: 28px;
+}
+a.avatar_friends {
+  width: 57px;
+  height: 20px;
+  display: block;
+  float: left;
+  color: #466d88;
+  font-size: 10px;
+  background: transparent url(/img/avatar_friends.gif) no-repeat 0 0 !important;
+  margin-right: 1px;
+}
+a.avatar_friends img {
+  display: block;
+  float: left;
+  padding: 5px 1px 0 3px;
+}
+a.avatar_friends span {
+  display: block;
+  float: left;
+  margin-top: 4px;
+  padding: 2px;
+  font-weight: normal;
+}
+.avatar_arrow {
+  cursor: pointer;
+  width: 21px;
+  float: right;
+}
+.avatar_bar .avatar_arrow.disabled {
+  height: 20px;
+  background: transparent url(/img/avatar_arrow_disabled.gif) no-repeat 0 0;
+}
+.avatar_bar .avatar_arrow.disabled img {
+  display: none;
+}
+.avatar_options {
+  display: none;
+  width: 142px;
+  border: 1px solid #c8dbec;
+  background: #f4faff !important;
+  position: absolute;
+  left: -24px;
+  top: 16px;
+  color: #5e798c;
+  font-size: 11px;
+  z-index: 11098;
+}
+.avatar_options form {
+  padding: 0 !important;
+}
+span.avatar_close_arrow {
+  display: block;
+  width: 23px;
+  height: 17px;
+  background: url(/img/avatar_arrow_on.gif) no-repeat 0 0 !important;
+  position: absolute;
+  top: -17px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* - - [ name day ] - - - - - */
+.avatar .avatar_name_day {
+  clear: both;
+  background: transparent url(/img/avatar_additional_bottom.gif) no-repeat 0 0;
+}
+.avatar .avatar_name_day a {
+  display: block;  
+  height: 19px;
+  background: transparent url(/img/avatar_nameday_gift.gif) no-repeat scroll 5px 3px;
+}
+.avatar .avatar_name_day a span{
+  display: block;
+  padding: 3px 0 0 18px;
+  font-weight: bold;
+  font-size: 10px;
+  color: #255069;
+}
+/* - - [ name day END] - - - - - */
+
+.avatar_user_info {
+  height: 28px;
+  height: 4.6ex;
+  overflow: hidden;
+  position: relative;
+  padding: 5px 0px 0;
+  margin-top: -5px;
+  width: 100px;
+  line-height: normal;
+}
+.avatar_info {
+  position: relative;
+  width: 100px;
+  margin: 0 auto;
+}
+.avatar_user_info_hover,
+.avatar_user_info_hover_no_js {
+  border: 1px solid #e1e1e1;
+  background: #fff !important;
+  position: absolute;
+  z-index: 7654;
+  width: 100px;
+  padding: 4px;
+  top: 0;
+  left: -5px;
+  line-height: normal;
+}
+a.avatar_user_name:hover .avatar_user_info_hover_no_js {
+  display: block;
+}
+a.avatar_user_name,
+a.avatar_user_name:visited {
+  font-weight: bold;
+  color: #0d5d91;
+  margin: 0 auto;
+  font-size: 11px;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100px;
+}
+a.avatar_user_name:hover {
+  color: #0d5d91;
+  overflow: visible;
+}
+span.avatar_user_name_txt,
+span.avatar_user_city,
+.avatar_user_name_txt {
+  zoom: 1;
+  position: relative;
+}
+span.avatar_user_info_hover_no_js {
+  display: block;
+}
+.avatar_user_city {
+  color: #232323;
+  margin-bottom: 0;
+  font-weight: normal;
+  display: block;
+  margin-top: 0;
+}
+.avatar_user_info_hover_no_js {
+  display: none;
+  top: -5px;
+  left: -10px;
+  width: 105px;
+}
+#content_main ul.avatar_options_list,
+.mailbox_box ul.avatar_options_list,
+#blog_wrap ul.avatar_options_list,
+.quick_window ul.avatar_options_list {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+#content_main ul.avatar_options_list form {
+  display: block;
+  margin: 1px;
+  padding: 0;
+}
+#content_main ul.avatar_options_list form.hover {
+  background: #d8e5f0;
+}
+.avatar_options_list li {
+  clear: left;
+  position: relative;
+  z-index: 1000;
+}
+.avatar_options_list li img {
+  margin: 0 10px 0 7px;
+  padding-top: 5px;
+  float: left;
+}
+.btab_content ul.avatar_options_list a,
+.btab_content ul.avatar_options_list a:link,
+.btab_content ul.avatar_options_list a:visited,
+.btab_content ul.avatar_options_list button.add, 
+#content_main ul.avatar_options_list a,
+#content_main ul.avatar_options_list a:visited,
+#content_main ul.avatar_options_list button.add,
+#blog_wrap ul.avatar_options_list a,
+#blog_wrap ul.avatar_options_list button.add,
+.quick_window ul.avatar_options_list a  {
+  color: #5e798c;
+  display: block;
+  padding: 6px 4px 6px 28px;
+  margin: 1px;
+  font-weight: normal;
+  text-align: left;
+}
+#content_main ul.avatar_options_list button.add,
+#blog_wrap ul.avatar_options_list button.add {
+  font-size: 11px;
+  background: url(/img/avatar_list_add.gif) no-repeat 3px 7px !important;
+  padding-left: 23px;
+  margin: 0;
+  display: inline;
+  padding-top: 4px;
+}
+ul.avatar_options_list a.ignore {
+  padding: 0 !important;
+}
+.avatar_separator {
+  border: none;
+  background: #ccdbe6 !important;
+  height: 1px;
+  margin: 7px 1px;
+  display: block;
+}
+.avatar_off {
+  display: block;
+}
+.avatar_on {
+  display: none;
+}
+.avatar_arrow:hover .avatar_off {
+  display: none;
+}
+.avatar_arrow:hover .avatar_on {
+  display: block;
+  margin-left: -1px;
+  position: relative;
+  z-index: 66666667;
+}
+.avatar_arrow:hover .avatar_options {
+  display: block;
+}
+.avatar_new_photo a img.brak_zdjecia {
+  border: 1px solid #e1e1e1;
+}
+.avatar_new_photo a img.dodaj_avatara {
+  border: 2px solid #ccdce8;
+}
+.avatar_options_list a.gallery {
+  background: url(/img/avatar_list_gallery.gif) no-repeat 3px 5px !important;
+}
+.avatar_options_list a.talk {
+  background: url(/img/avatar_list_talk.gif) no-repeat 3px 5px !important;
+}
+.avatar_options_list a.gift {
+  background: url(/img/avatar_list_gift.gif) no-repeat 5px 5px !important;
+}
+.avatar_options_list a.archive {
+  background: url(/img/avatar_list_archive.gif) no-repeat 3px 5px !important;
+}
+.avatar_options_list a.auctions {
+  background: url(/img/avatar_list_auctions.gif) no-repeat 4px 5px !important;
+}
+.avatar_options_list a.card {
+  background: url(/img/avatar_list_card.gif) no-repeat 3px 5px !important;
+}
+.avatar_options_list a.remove {
+  background: url(/img/avatar_list_remove.gif) no-repeat 2px 6px !important;
+}
+.avatar_options_list a.common {
+  background: url(/img/avatar_list_common.gif) no-repeat 2px 6px !important;
+}
+.avatar_options_list a.profile {
+  background: url(/img/avatar_list_profile.gif) no-repeat 2px 6px !important;
+}
+.avatar_options_list a.send_message {
+  background: url(/img/avatar_list_send_message.gif) no-repeat 2px 6px !important;
+}
+.avatar_options_list a.eurogabki,
+.avatar_options_list a.eurogabki_prepaid {
+  background: url(/img/avatar_list_eurogabki_prepaid.gif) no-repeat 2px 6px !important;
+}
+.avatar_options_list a.eurogabki_give {
+  background: url(/img/avatar_list_eurogabki_give.gif) no-repeat 2px 6px !important;
+}
+.avatar_options_list a.roses {
+  background: url(/img/avatar_list_roses.gif) no-repeat 5px 7px !important;
+}
+.avatar_options_list a.water {
+  background: url(/img/avatar_list_water.gif) no-repeat 5px 7px !important;
+}
+.avatar_options .avatar_options_list a:hover {
+  background-color: #d8e5f0 !important;
+}
+.avatar_additional_bottom {
+  background: url(/img/avatar_additional_bottom.gif) no-repeat 0 0 !important;
+  width: 108px;
+  height: 19px;
+  text-align: center;
+  color: #466d88;
+  position: relative;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+.avatar_additional_bottom span {
+  white-space: nowrap;
+  font-size: 10px;
+  display: block;
+  padding-top: 3px;
+}
+.avatar_additional_invitations {
+  background: url(/img/avatar_additional_invitations.gif) no-repeat 0 0 !important;
+  display: inline-block;
+  width: 108px;
+  height: 19px;
+}
+.profil_avatar {
+  background: #4c94c8 url(/img/profil_bg_avatar.gif) no-repeat;
+  width: 177px;
+  height: 143px;
+}
+.profil_avatar .avatar,
+.profil_avatar .avatar_no_js {
+  margin: 0 auto;
+  padding: 2px 0;
+}
+.avatar_round {
+  width: 178px;
+  padding: 0;
+  float: left;
+  background: transparent url(/img/avatar_round_bg.gif) no-repeat 0 0 !important;
+  height: 176px;
+  margin: 0;
+}
+.avatar_round .avatar_new_photo {
+  margin-top: 5px;
+}
+.avatar img.av_kontopolecane,
+.avatar img.av_kontofikcyjne,
+.avatar_no_js img.av_kontopolecane,
+.avatar_no_js img.av_kontofikcyjne {
+  position: absolute;
+  top: -7px;
+  right: 0;
+  border: none;
+}
+.avatar_additional_invitations form {
+  display: inline;
+  margin: 0;
+}
+.avatar_additional_invitations input,
+.avatar_additional_invitations a {
+  margin: 1px 0 0 0;
+  padding: 0 20px;
+}
+#album_view .avatar_additional_invitations input,
+#user_gallery .avatar_additional_invitations input,
+#body_id  .avatar_additional_invitations input {
+  border: none;
+}
+.avatar_no_js .avatar_user_name {
+  height: 4.6ex;
+}
+.avatar_no_js .avatar_user_name:hover .avatar_user_name_txt,
+.avatar_no_js .avatar_user_name:hover .avatar_user_city{
+  display: none;
+}
+.avatar_no_js .avatar_user_name:hover .avatar_user_info_hover_no_js .avatar_user_city {
+  display: block;
+}
+.friends_and_gallery_no_js {
+  background: transparent url(/img/avatar_friends_gallery.png) no-repeat right top !important;
+  height: 22px;
+  float: left;
+  width: 77px;
+}
+.friends_and_gallery_no_js a.avatar_gallery {
+  display: block;
+  padding-top: 2px;
+  float: left;
+  width: 16px;
+}

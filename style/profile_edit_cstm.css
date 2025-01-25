@@ -1,0 +1,105 @@
+.tabs {
+  padding:10px 9px 6px 10px;
+  margin:0;
+  overflow:auto;
+  background:url(/img/top_menu.gif) repeat-x 0 100%;
+  zoom:1;
+}
+
+.tabs li {
+  float:left;
+  padding-right:1px;
+}
+.tabs li a{
+  display:block;
+  width:116px;
+  height:17px;
+  padding:5px 0 0;
+  text-align:center;
+  color:#125881;
+  font-weight:normal;
+  font-size:11px;
+  background:transparent url(/img/menu_bg.gif) repeat-x 0 -22px;
+}
+.tabs li a:hover,
+.tabs li.active a{
+  font-weight:bold;
+  color:#fff !important;
+  background:transparent url(/img/menu_bg.gif) repeat-x 0 0;
+}
+#nice_wrapper {
+    font-size: 11px;
+    padding: 12px 5px 13px;
+    overflow: hidden
+}
+
+#nice_wrapper form {
+    padding: 15px;
+    text-align: right
+}
+
+#nice_wrapper form label {
+    font-weight: bold
+}
+
+#nice_wrapper form button {
+    margin-bottom: 0
+}
+
+#nice_wrapper input,
+#recover input {
+    width: 264px;
+    margin: 0;
+    font-size: 11px;
+    border: 1px solid #96a8b2;
+    color: #5a7a9b
+}
+
+div.column_left {
+    text-align: right;
+    width: 150px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #2e3136;
+    padding: 1px;
+    margin-top: 4px
+}
+
+div.row {
+    position: relative;
+    padding: 9px 0 0 0
+}
+
+div.column_right {
+    width: 350px;
+    padding: 0;
+    margin-top: 1px;
+    float: left;
+    clear: right;
+    text-align: left
+}
+
+div.notify {
+    width: 0;
+    height: 0;
+    float: right;
+    position: relative;
+    left: -400px
+}
+
+#recover select {
+    margin-right: 10px;
+    border: 1px solid #b8c5ce
+}
+
+#nice_wrapper select {
+    margin-right: 10px;
+    border: 1px solid #96a8b2;
+    font-size: 11px;
+    color: #5a7a9b
+}
+
+#nice_wrapper textarea {
+    width: 400px;
+    height: 150px;
+}

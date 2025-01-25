@@ -1,0 +1,1391 @@
+#applications_betatests {
+    display: inline-block;
+    width: 67px;
+    margin-left: 13px;
+    text-indent: -9999px;
+    background: url(/img/applications_sprite_ce39.png) repeat-x 0 -464px
+}
+
+.wallet_info {
+    text-align: right
+}
+
+#page_title+.wallet_info {
+    margin: -43px 10px 0 0;
+    float: right
+}
+
+.wallet_info dl,
+.wallet_info dt,
+.wallet_info dd {
+    display: inline-block;
+    margin: 0
+}
+
+.wallet_info dl {
+    margin-top: 3px;
+    padding: 0 10px 0 28px;
+    font-size: 11px;
+    line-height: 22px;
+    background: url(/img/applications_sprite_ce39.png) repeat-x 0 -428px
+}
+
+.wallet_info dt {
+    font-weight: bold;
+    color: #99c8e8
+}
+
+.wallet_info dd {
+    color: #fcd612
+}
+
+.wallet_info .egb_count {
+    font-weight: bold
+}
+
+#applications_page .notifications_box {
+    width: 96%;
+    margin: 0 auto;
+    border: 1px solid #f0ae96;
+    background: #feeadf;
+    text-align: center
+}
+
+#applications_page .notifications_box .notification {
+    margin: .5em 0;
+    background: none;
+    color: #2f3625 !important
+}
+
+#applications_page .notifications_box .notification_wrong {
+    color: #401e1e !important
+}
+
+#applications_page .applications_page {
+    font-family: Tahoma, Helvetica, arial, sans-serif
+}
+
+#applications_page .applications_page a {
+    color: #2d5e8b
+}
+
+#applications_page .applications_page a:hover {
+    color: #6194b7
+}
+
+#applications_page .applications_page .content_red a {
+    color: #ffaeae
+}
+
+#applications_page .applications_page .content_red a:hover {
+    color: #ddc3c3
+}
+
+#applications_page .applications_page .info,
+.applications .info {
+    font-size: 13px;
+    background: #bde5f8 url(/img/info_f5a2.gif) no-repeat -19px -33px;
+    color: #3279b4;
+    border: 1px solid #3279b4;
+    padding: 12px 50px;
+    margin: 15px
+}
+
+#applications_page .applications_page .info a,
+.applications .info a {
+    text-decoration: underline
+}
+
+#applications_page .applications_page #content_main {
+    width: 100%;
+    font-size: 11px
+}
+
+#applications_page .applications_page {
+    padding: 0
+}
+
+.applications_title,
+#applications_page .applications_page h2 {
+    padding: 5px 4px;
+    border-bottom: 1px solid #d4e0e9;
+    margin: 0 0 10px 0;
+    font: bold 16px Helvetica, Arial, Tahoma, Sans-Serif;
+    color: #444
+}
+
+#applications_page .applications_page .applications_breadcrumbs {
+    overflow: hidden;
+    margin-bottom: 9px;
+    background: #fff;
+    border-bottom: 1px solid #e2eef9
+}
+
+#applications_page .applications_page .applications_breadcrumbs ul {
+    overflow: hidden;
+    margin: 0 0 10px;
+    padding: 0;
+    background: #e1e8f0
+}
+
+#applications_page .applications_page .applications_breadcrumbs li {
+    float: left;
+    margin: 0;
+    padding: 0 10px 0 16px;
+    font-size: 11px;
+    line-height: 13px;
+    background: #fff url(/img/applications_sprite_ce39.png) no-repeat -32px -62px
+}
+
+#applications_page .applications_page .applications_breadcrumbs .first {
+    background-image: none;
+}
+
+#applications_page .applications_page input {
+    border-color: #cddde9;
+    color: #919a9f;
+    padding: 5px 9px
+}
+
+#applications_page .applications_page .ad_content {
+    margin: 0 8px
+}
+
+#applications_page .applications_page .box_content {
+    border: 1px solid #e1e8f0;
+    margin: 0;
+    padding: 6px 10px;
+    font-size: 11px
+}
+
+#applications_page .applications_page #preroll_container {
+    position: relative;
+    margin: 30px 60px;
+    padding: 10px;
+    background: #f1f6fb;
+    border: 1px solid #e0e9f5
+}
+
+#applications_page .applications_page .ad_center {
+    width: 100%;
+    text-align: center;
+    overflow: hidden
+}
+
+#applications_page .applications_page .ad_countdown {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font: normal 13px Helvetica, Arial, sans-serif
+}
+
+#applications_page .applications_page .all_games {
+    position: relative;
+    background: #fff;
+    border: 1px #e1e8f0 solid;
+    padding: 15px 15px;
+}
+
+#applications_page .applications_page .all_games .view_your_apps {
+    position: absolute;
+    right: 10px;
+    top: 12px
+}
+
+#user_applications .applications_list {
+    padding: 0 0 10px 15px
+}
+
+.applications_page p {
+    margin: 0;
+    color: #2a2d31
+}
+
+#applications_page .applications_page .box_content p.empty {
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+#applications_page .applications_page .box {
+    margin-bottom: 8px;
+    background: #f3f6f9;
+    padding: 3px;
+    width: auto
+}
+
+#applications_page .applications_page #application_menu.left {
+    margin-left: 8px;
+    width: 180px;
+    display: inline
+}
+
+#applications_page .left .ad_placement {
+    margin-bottom: 8px
+}
+
+#applications_page .left .ad_placement img {
+    display: block
+}
+
+#applications_page .left .box_content {
+    padding: 6px 0 0
+}
+
+#applications_page .left .box_content h2 {
+    margin: 0;
+    border-color: #dce7f0;
+    padding: 5px 10px
+}
+
+#applications_page .left .friends {
+    padding: 0
+}
+
+#applications_page .applications_page div.right,
+#applications_page .applications_page div.center {
+    margin: 0 8px 0 10px;
+    display: inline;
+    overflow: hidden;
+    width: 790px
+}
+
+#applications_page .applications_page .paginator.right {
+    width: auto
+}
+
+#applications_page .applications_page div.center {
+    width: 978px;
+    float: right
+}
+
+#applications_page .applications_page .single_application .flash {
+    text-align: center
+}
+
+#applications_page .applications_page .game_content {
+    padding: 1px;
+    overflow: hidden;
+    background: #fff
+}
+
+#applications_page .applications_page .application_gadget,
+#applications_page .applications_page .flash_app_container {
+    text-align: center
+}
+
+#applications_page .applications_page .search form {
+    border-bottom: 1px solid #e0e9f1;
+    padding-bottom: 16px;
+    margin-bottom: 7px
+}
+
+#applications_page .applications_page .search a {
+    color: #206596;
+    background: url(/img/applications_sprite_ce39.png) no-repeat 0 -60px;
+    padding-left: 12px;
+    margin: auto auto 5px 20px;
+    display: block;
+    font-size: 11px
+}
+
+#applications_page .applications_page input.search {
+    background: url(/img/applications_sprite_ce39.png) no-repeat;
+    width: 69px;
+    height: 23px;
+    text-indent: -999em;
+    border: 0;
+    margin-top: 6px;
+    float: right;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    line-height: 0
+}
+
+#applications_page .applications_page #apps_thumbs li {
+    width: 112px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    color: #828b95;
+    font-size: 10px;
+    text-align: center;
+    margin: 12px 12px 5px 12px;
+    line-height: 15px
+}
+
+#applications_page .applications_page #apps_thumbs img {
+    padding: 5px;
+    border: 1px solid #e5edf3;
+    display: block;
+    margin-bottom: 9px
+}
+
+#applications_page .applications_page #apps_thumbs strong {
+    color: #313d4a;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 11px
+}
+
+#applications_page .applications_page #apps_wrapper {
+    position: relative;
+    width: 100%
+}
+
+#applications_page .applications_page #apps_content {
+    overflow: hidden;
+    margin-left: 30px
+}
+
+#applications_page .applications_page .apps_forward,
+#applications_page .applications_page .apps_back {
+    width: 30px;
+    height: 180px;
+    background: url(/img/applications_sprite_ce39.png) -39px -81px;
+    position: absolute;
+    top: 3px;
+    cursor: pointer
+}
+
+#applications_page .applications_page .apps_forward {
+    right: -8px
+}
+
+#applications_page .applications_page .apps_back {
+    background-position: 0 -81px;
+    left: -7px
+}
+
+li.app_list_item {
+    display: inline-block;
+    width: 130px;
+    margin: 10px 28px;
+    overflow: hidden;
+    vertical-align: top
+}
+
+.app_list_item .installed,
+.game_thumb .installed {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: -8px;
+    top: -8px;
+    background: url(/img/applications_sprite_ce39.png) -107px -150px
+}
+
+.app_list_name {
+    height: 28px;
+    margin: 0 0 9px;
+    position: relative;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    word-wrap: break-word
+}
+
+.app_list_name a {
+    max-height: 28px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #313d4a !important
+}
+
+.app_list_users_count {
+    padding-left: 16px;
+    font-size: 10px;
+    word-spacing: -2px;
+    color: #5a7490;
+    background: url(/img/applications_sprite_ce39.png) no-repeat -89px -47px
+}
+
+.recommend .app_list_users_count {
+    word-spacing: 0
+}
+
+.app_list_thumb_wrapper {
+    padding: 5px 0 7px;
+    margin: 0 10px 5px;
+    position: relative;
+    border: 1px solid #e5edf3
+}
+
+.app_list_thumb_wrapper a:first-child {
+    display: block;
+    margin-bottom: 5px;
+    position: relative;
+    text-align: center
+}
+
+.app_list_btn {
+    padding: 1px 3px 2px;
+    position: absolute;
+    right: 4px;
+    bottom: 5px;
+    border: 1px solid #bcd2e0;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #5a7490 !important;
+    background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#ecf5fd), to(#ddecf9));
+    background-image: -webkit-linear-gradient(top, #ecf5fd, #ddecf9);
+    background-image: -moz-linear-gradient(top, #ecf5fd, #ddecf9);
+    background-image: -o-linear-gradient(top, #ecf5fd, #ddecf9);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ecf5fd', endColorstr='#ddecf9', GradientType=0)
+}
+
+.app_list_btn:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-top: 1px solid #f5fafe;
+    border-left: 1px solid #f5fafe
+}
+
+p.app_list_desc {
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    font-size: 10px;
+    line-height: 15px;
+    color: #828b95 !important
+}
+
+a.app_list_more {
+    width: 55px;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+    text-decoration: underline;
+    color: #0d5d91 !important;
+    background: url(/img/more_fade_54ea.png) no-repeat
+}
+
+.applications_similar {
+    margin: 9px 7px
+}
+
+.applications_similar .applications_list {
+    padding: 20px 0 0 15px
+}
+
+.applications_similar>h2 {
+    margin: 14px 0 12px;
+    font-size: 16px
+}
+
+#categorized_applications_view {
+    overflow: hidden
+}
+
+#categorized_applications_wrap {
+    overflow: hidden;
+    padding-bottom: 1px;
+    /*background: url(/img/applications_view_cd1a.png) no-repeat 179px 100%*/
+}
+
+#applications_categories_list {
+    position: relative;
+    float: left;
+    width: 180px;
+    text-align: right;
+    z-index: 20
+}
+
+#applications_categories_list #preloader {
+    position: absolute;
+    left: 0;
+    top: 7px
+}
+
+#applications_categories_list>li {
+    margin: 15px 0
+}
+
+#applications_categories_list ul li {
+    position: relative;
+    padding: 0 15px;
+    line-height: 23px;
+    background: url(/img/applications_sprite_ce39.png) no-repeat -999px -999px;
+    color: #2d5e8b;
+    cursor: pointer
+}
+
+#applications_categories_list ul li:hover {
+    color: #6194b7
+}
+
+#applications_categories_list .active {
+    font-weight: bold;
+    background-position: -168px -16px
+}
+
+#applications_categories_list .featured a:hover,
+#applications_categories_list .featured a {
+    color: #da4e48
+}
+
+#applications_list_container {
+    position: relative;
+    float: left;
+    margin-left: -1px;
+    width: 95%;
+    left: 1%;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #a7c2d1;
+    z-index: 10
+}
+
+#promoted_applications_ad {
+    position: relative;
+    overflow: hidden;
+    width: 763px;
+    height: 200px;
+    text-align: center
+}
+
+.all_games .applications_list {
+    padding: 0 15px 0 50px
+}
+
+.applications_list>.nk_list_item {
+    margin: 1.5em 0
+}
+
+.applications_list .installed {
+    position: absolute;
+    top: -8px;
+    left: 12px;
+    width: 22px;
+    height: 22px;
+    background: url(/img/applications_sprite_ce39.png) -107px -150px
+}
+
+.applications_list .full .installed {
+    left: -8px
+}
+
+.applications_list .label {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 106px;
+    height: 50px;
+    background: url(/img/apps_labels_cc8c.png)
+}
+
+.applications_list .label.update {
+    background-position: 0 0
+}
+
+.applications_list .label.news {
+    background-position: -106px 0
+}
+
+.applications_list .label.promotion {
+    background-position: -212px 0
+}
+
+.applications_list .app_img_link {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #e5edf3
+}
+
+.applications_list .app_img_link>img {
+    display: block
+}
+
+.applications_list .app_name {
+    margin: 15px 0 0;
+    word-wrap: break-word
+}
+
+.applications_list .full {
+    text-align: center;
+    float: left;
+    margin: 0px 30px
+}
+
+.applications_list .full .app_img_link {
+    float: left;
+    margin-right: 9px
+}
+
+.applications_list .full .app_name {
+    margin: 6px 0;
+    text-align: center
+}
+
+.applications_list .full .app_name a {
+    display: block;
+    width: 113px;
+    height: 26px;
+    line-height: 13px;
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+    font-size: 11px
+}
+
+.applications_list .full .app_desc {
+    position: relative;
+    width: 113px;
+    height: 45px;
+    margin: 0;
+    overflow: hidden;
+    color: #828b95;
+    font-size: 10px;
+    line-height: 14px
+}
+
+#applications_page .applications_list .full .app_desc a {
+    color: #828b95
+}
+
+#applications_page .applications_list .full .app_desc a:hover {
+    color: #6194b7
+}
+
+.applications_list .full .app_desc_more {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 55px;
+    text-align: right;
+    background: url(/img/more_fade_54ea.png) no-repeat
+}
+
+.applications_list .full .app_users_count {
+    display: block;
+    overflow: hidden;
+    margin: 4px 0 6px;
+    padding-left: 12px;
+    background: url(/img/applications_sprite_ce39.png) no-repeat -93px -47px;
+    color: #828b95;
+    font-size: 10px;
+    word-spacing: -2px
+}
+
+.applications_list .more_apps .thumbs_list {
+    width: 104px;
+    height: 104px;
+    margin: 0 auto;
+    padding: 3px;
+    overflow: hidden;
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #e5edf3
+}
+
+.applications_list .more_apps .thumbs_list .thumb_item {
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin: 2px;
+    background: #e1e8f0;
+    color: #2d5e8b;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 48px
+}
+
+.applications_list .more_apps .thumbs_list img {
+    width: 48px;
+    height: 48px
+}
+
+.applications_list .more_apps .more_user_apps {
+    display: block;
+    color: #2d5e8b;
+    cursor: pointer
+}
+
+.applications_list .more_apps .more_user_apps:hover {
+    color: #6194b7
+}
+
+.applications_list .more_apps>.more_user_apps {
+    margin-top: 15px;
+    font-weight: bold
+}
+
+#applications_list_container #more_apps_offer {
+    margin: 44px 0 0 68px
+}
+
+#applications_page .applications_page .game_desc .game_thumb_large {
+    padding: 1px;
+    float: left;
+    border: 1px solid #e2ecf4
+}
+
+#applications_page .applications_page .game_desc {
+    margin: 9px 7px;
+    overflow: hidden
+}
+
+#applications_page .applications_page .game_more_info {
+    margin: 9px 7px
+}
+
+#applications_page .applications_page .game_info {
+    margin: 0 0 0 415px
+}
+
+#applications_page .applications_page .game_info h2 {
+    border-top: 5px solid #e2ecf4
+}
+
+#applications_page .applications_page .single_application p {
+    line-height: 20px
+}
+
+#applications_page .applications_page .game_info table {
+    margin-bottom: 15px;
+    border-collapse: separate
+}
+
+#applications_page .applications_page .game_info table a {
+    font-weight: bold;
+    color: #0a69ac
+}
+
+#applications_page .applications_page .game_info table .g_info {
+    color: #5d6f83;
+    text-align: right;
+    padding-right: 22px
+}
+
+#applications_page .applications_page p.game_desc_txt {
+    margin: 0 0 20px;
+    color: #858b91
+}
+
+#applications_page .applications_page .friends_playing {
+    color: #4e6579;
+    padding-left: 32px;
+    background: url(/img/applications_sprite_ce39.png) no-repeat -88px -25px;
+    width: 222px
+}
+
+#applications_page .applications_page .friends_playing strong {
+    color: #333e48
+}
+
+#applications_page .friends_playing_avatars {
+    margin: 5px 0
+}
+
+#applications_page .friends_playing_avatars li {
+    display: inline
+}
+
+#applications_page .friends_playing_avatars img {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle
+}
+
+#applications_page .see_all_friends_playing {
+    margin-left: 3px;
+    font-size: 10px;
+    vertical-align: bottom
+}
+
+#applications_page .applications_page .users_playing {
+    padding-left: 32px;
+    margin-bottom: 20px;
+    background: url(/img/applications_sprite_ce39.png) no-repeat -87px -43px
+}
+
+a.install_game {
+    display: inline-block;
+    width: 138px;
+    height: 34px;
+    position: relative;
+    border: 1px solid #3d7fae;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #195783;
+    background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#488ebe), to(#195783));
+    background-image: -webkit-linear-gradient(top, #488ebe, #195783);
+    background-image: -moz-linear-gradient(top, #488ebe, #195783);
+    background-image: -o-linear-gradient(top, #488ebe, #195783);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#488ebe', endColorstr='#195783', GradientType=0)
+}
+
+a.install_game:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 1px;
+    bottom: 1px;
+    border-left: 1px solid #5990b7;
+    border-top: 1px solid #5990b7
+}
+
+a.install_game:hover {
+    opacity: .8
+}
+
+a.install_game strong {
+    display: inline-block;
+    padding-left: 35px;
+    vertical-align: middle;
+    color: #fff;
+    background: url(/img/btn_play_69a4.png) no-repeat 0 50%
+}
+
+a.install_game.large {
+    width: 100%;
+    height: 75px;
+    line-height: 70px
+}
+
+a.uninstall_game {
+    margin-left: 20px;
+    font-size: 10px
+}
+
+.game_content>a.uninstall_button {
+    margin: 5px;
+    float: right;
+    clear: both;
+    font-size: 10px
+}
+
+#applications_page .applications_page .temp_zrzuty {
+    overflow: hidden
+}
+
+#applications_page .applications_page .temp_zrzuty li {
+    float: left;
+    display: inline;
+    margin: 0 3px 0 4px
+}
+
+#applications_page .applications_page .temp_zrzuty .first {
+    margin-left: 0
+}
+
+#applications_page .applications_page .center .temp_zrzuty {
+    padding: 0 5px
+}
+
+#applications_page .applications_page .center .temp_zrzuty li {
+    margin: 0 15px
+}
+
+#applications_page .applications_page .game_more_info h2 {
+    margin: 14px 0 12px 0;
+    font-family: arial, sans-serif;
+    font-size: 16px
+}
+
+#applications_page .applications_page .friends {
+    padding: 5px 0 0
+}
+
+#applications_page .applications_page .friends p {
+    margin: 0 10px
+}
+
+#applications_page .applications_page .additional_game_options li {
+    margin: 2px 0
+}
+
+#applications_page .applications_page .friends h2 {
+    margin: 6px 11px 10px
+}
+
+#applications_page .applications_page .friends li {
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+    border-top: 1px solid #e0e9f1;
+    overflow: hidden;
+    background: #fff
+}
+
+#applications_page .applications_page .friends li.odd {
+    background: #fff
+}
+
+#applications_page .applications_page .friends li.even {
+    background: #f3f6f9
+}
+
+#applications_page .applications_page .friends li .avatar {
+    margin: 0;
+    padding: 0
+}
+
+#applications_page .applications_page .friends li a {
+    display: block;
+    white-space: nowrap;
+    width: 163px;
+    overflow: hidden;
+    text-align: left
+}
+
+#applications_page .applications_page .friends li a.friends_more {
+    text-align: right;
+    color: #7190ae;
+    padding: 10px 5px;
+    width: auto
+}
+
+#applications_page .applications_page .friends li span {
+    display: block;
+    padding: 10px 5px
+}
+
+#applications_page .applications_page .all_games .ad {
+    float: right;
+    margin: 0
+}
+
+#applications_page .applications_page .all_games h2,
+#applications_page .applications_page .all_games h3 {
+    font-family: Helvetica, arial, sans-serif;
+    border-bottom: 1px solid #e1e8f0;
+    padding: 0 2px 3px
+}
+
+#applications_page .applications_page .all_games h3 {
+    font-size: 16px;
+    margin-bottom: 10px
+}
+
+#applications_page .single_application_category {
+    margin: 1em 0;
+    line-height: 18px;
+    white-space: nowrap
+}
+
+#applications_page .single_application_category dt {
+    text-align: right;
+    padding-right: 22px;
+    float: left;
+    color: #5d6f83
+}
+
+#applications_page .single_application_category dd {
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 0 5px;
+    background: #e2eef6;
+    line-height: 16px;
+    border: 1px solid #cddde9
+}
+
+#applications_page .applications_page .wide_game_info {
+    font-size: 11px;
+    margin: 9px 5px 2px
+}
+
+#applications_page .applications_page .wide_game_info p {
+    color: #2a2d31
+}
+
+#applications_page .applications_page .wide_game_info .left {
+    width: auto;
+    margin: 0
+}
+
+#applications_page .applications_page .wide_game_info .right {
+    width: auto;
+    margin: 0;
+    color: #a2a3a4
+}
+
+table#dev_applications_list {
+    width: 98%;
+    border-collapse: collapse
+}
+
+table#dev_applications_list th {
+    font-weight: bold;
+    color: #206596;
+    padding: 5px
+}
+
+table#dev_applications_list tr.odd {
+    border: 1px solid #dce0d1
+}
+
+table#dev_applications_list tr.add {
+    border: 1px solid #dce0d1;
+    background-color: #EEE
+}
+
+table#dev_applications_list td {
+    padding: 3px
+}
+
+#applications_page img[width="1"] {
+    display: block;
+    height: 0
+}
+
+.window_header {
+    height: 24px;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 23px;
+    background: url(/img/top_bar_center_9750.gif) repeat-x
+}
+
+.window_header_right {
+    width: 4px;
+    height: 24px;
+    float: right;
+    background: url(/img/top_bar_right_a56d.gif) no-repeat 100% 0
+}
+
+.window_header_left {
+    width: 4px;
+    height: 24px;
+    float: left;
+    background: url(/img/top_bar_left_d3ff.gif) no-repeat
+}
+
+.window_header .title {
+    float: left;
+    padding-left: 6px;
+    color: #eaffb3
+}
+
+.window_header #close_popup {
+    padding-right: 8px;
+    float: right;
+    color: #c5e7ff;
+    cursor: pointer
+}
+
+.window_header #close_popup a {
+    color: #c5e7ff
+}
+
+.text_indent {
+    text-indent: -99999px;
+    overflow: hidden
+}
+
+.applications_popup_install .is_hidden_container label {
+    width: 200px;
+    padding-left: 16px;
+    background: url(/img/applications_sprite_ce39.png) no-repeat -335px -581px
+}
+
+#applications_page .applications_page .right .application_friends {
+    background: #fff
+}
+
+#applications_page .applications_page .right .application_friends h2 {
+    margin: 0 0 2px;
+    border-bottom: 1px solid #e1e8f0;
+    color: #313d4a;
+    font: bold 16px Helvetica, Arial, Tahoma, Sans-Serif;
+    line-height: 30px
+}
+
+#applications_page div.friends_list_tools {
+    top: 0;
+    margin: 0
+}
+
+#applications_page div.friends_list_tools input {
+    padding: 0
+}
+
+#applications_page .application_friends hr {
+    background-color: #edeff1;
+    border: 0;
+    color: #edeff1;
+    height: 1px
+}
+
+#lbCenter {
+    border: 1px solid #215b86;
+    background: url(/img/nk_bars_5294.png) repeat-x
+}
+
+#lbCenter #lbImage {
+    top: 23px;
+    background: #2d6e94;
+    border: 10px solid #2d6e94
+}
+
+#lbCenter #lbImage div {
+    border: 1px solid #8ebcdd
+}
+
+#lbCenter #lbPrevLink {
+    left: -1px
+}
+
+#lbCenter #lbPrevLink:hover {
+    background: url(/img/prevlabel_9308.png) no-repeat 0 15%
+}
+
+#lbCenter #lbNextLink:hover {
+    background: url(/img/nextlabel_eda7.png) no-repeat 100% 15%
+}
+
+#lbCenter #lbCloseLink {
+    right: 0;
+    top: 0;
+    width: 23px;
+    background: url(/img/nk_graphic_buttons_e767.png)
+}
+
+#lbBottomContainer {
+    border: 1px solid #215b86;
+    border-top: 0;
+    background: #2d6e94 !important
+}
+
+#lbBottomContainer #lbBottom {
+    border: 10px solid #2d6e94
+}
+
+#lbBottomContainer #lbNumber {
+    font: bold 11px Verdana, Geneva, Tahoma, Sans-Serif;
+    color: #ccecff
+}
+
+#applications_page #not_betatester {
+    overflow: hidden;
+    background: url(/img/not_betatester_bg_45b4.png) no-repeat
+}
+
+#applications_page #not_betatester .navi_help {
+    margin: 387px auto 35px;
+    width: 980px;
+    border-top: 1px solid #e0eefa
+}
+
+#applications_page #not_betatester .navi_help h4 {
+    margin: 30px 0 10px 51px;
+    font-size: 11px
+}
+
+#applications_page #not_betatester .navi_help ul {
+    margin-left: 40px;
+    padding-left: 20px
+}
+
+#applications_page #not_betatester a {
+    color: #2971a5;
+    font-size: 11px;
+    line-height: 1.8em
+}
+
+#applications_page #not_betatester .raquo {
+    margin-right: 4px;
+    color: #98ccf1
+}
+
+.generic_popup #purgatory,
+.generic_popup #purgatory .purgatory_msg,
+.generic_popup #purgatory strong {
+    border: 0;
+    background: none;
+    padding: 0;
+    color: #6e7d8b;
+    font-size: 11px
+}
+
+.generic_popup #purgatory {
+    padding: 10px;
+    border: 1px solid #cbdde8;
+    background: #fff
+}
+
+#agreement_box {
+    display: none
+}
+
+.applications_popup_photo_rank #badges {
+    text-align: right
+}
+
+.applications_popup_photo_rank #badges span.badge {
+    background: url(/img/bg_badge_7571.png) no-repeat;
+    color: #4c6175;
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+    height: 29px;
+    margin: 0 2px 5px;
+    padding: 5px 0 0;
+    width: 34px;
+    text-align: center;
+    cursor: pointer
+}
+
+.applications_popup_photo_rank #badges span.badge:hover,
+.applications_popup_photo_rank #badges span.selected {
+    background: url(/img/bg_badge_hover_7593.png) no-repeat
+}
+
+.applications_popup_photo_rank #badges span.super {
+    background: url(/img/bg_badge_super_e224.png) no-repeat;
+    float: right;
+    font-size: 0;
+    height: 33px;
+    margin-left: 8px;
+    margin-top: -3px;
+    width: 42px
+}
+
+.applications_popup_photo_rank #badges span.super:hover,
+.applications_popup_photo_rank #badges span.super.selected {
+    background: url(/img/bg_badge_super_hover_5bf0.png) no-repeat
+}
+
+#applications_page .application_photo_editor .content {
+    margin: 0
+}
+
+#applications_page .application_photo_editor .content .box {
+    padding: 0
+}
+
+#applications_page .application_photo_editor .box_content {
+    padding: 0;
+    border: 0
+}
+
+#applications_page .application_photo_editor #application_iframe {
+    width: 996px !important;
+    height: 600px !important;
+    overflow: hidden
+}
+
+#applications_page .application_photo_editor .photo_editor_licence_info {
+    margin-left: 240px;
+    color: #a2a3a4
+}
+
+#photoeditor_license {
+    overflow-y: auto;
+    height: 360px
+}
+
+.overflow_hidden {
+    overflow: hidden
+}
+
+#applications_page .applications_page .paypal_info_box {
+    position: relative;
+    margin: 8px;
+    padding: 10px 40px 15px 20px;
+    background: #f3f6f9
+}
+
+#applications_page .applications_page .paypal_info_box h2 {
+    border-bottom: 0;
+    margin: 14px 0;
+    padding: 0
+}
+
+#applications_page .applications_page .paypal_info_box p {
+    margin: 12px 0
+}
+
+#applications_page .applications_page .paypal_info_box_hide {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    background: url(/img/sprite_a9bd.png) no-repeat -81px -64px
+}
+
+#suggested_apps .applications_list {
+    max-width: 764px;
+    margin: 0 auto;
+    overflow: visible
+}
+
+#suggested_apps .applications_title {
+    margin-bottom: 25px
+}
+
+.applications_title_banned {
+    padding-left: 50px
+}
+
+#recommended_applications_box .content {
+    padding: 3px
+}
+
+#recommended_applications_box .content li {
+    overflow: hidden;
+    margin-top: 6px;
+    white-space: nowrap
+}
+
+#recommended_applications_box .content li:first-child {
+    margin-top: 0
+}
+
+#recommended_applications_box .content li img {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    overflow: hidden;
+    margin-right: 7px
+}
+
+#recommended_applications_box .content li a {
+    font-weight: bold;
+    color: #324c5b
+}
+
+#recommended_applications_box .content li a:hover {
+    color: #324c5b
+}
+
+#error_404 .applications_page {
+    background-image: none
+}
+
+#error_404 .applications_page #page_content {
+    background-color: #fff
+}
+
+#page_title {
+    height: 44px;
+    padding: 0 13px;
+    margin: 0 0 7px;
+    font: bold 16px/43px Arial,Helvetica,Tahoma,Sans-serif;
+    color: #fff;
+    background: #295783 url(/img/nk_top_ground.png) repeat-x;
+}
+
+p {
+    padding-left: 0px !important;
+    margin-top: 10px !important
+}

@@ -1,0 +1,3257 @@
+/*--------------------------------------------------  SLEDZIK --------------------------------------------------*/
+
+/*--------------------------------------------------  geral rules -----*/
+.hidden {
+  display: none;
+}
+.sledzik_bg_wrapper .notification {
+  width: 300px;
+  padding-right: 8px;
+  margin: 0 auto 6px;
+  background: #fff url(/img/ico_powiadom_sledzi.gif) no-repeat 5px 4px;
+  color: #07508e !important; /* only to overwrite other important :-/ */
+  border: 1px solid #003f75;
+}
+#mail_view .sledzik_bg_wrapper .notification {
+  margin-left: 0;
+}
+#login_page .sledzik_bg_wrapper .notification {
+  position: absolute;
+  top: -154px;
+  left: 15px;
+  width: 838px;
+}
+.sledzik_bg_wrapper .notification img {
+  display: none;
+}
+.nk_popup_body .yes_no_box {
+  background: #125c87;
+  border: 0;
+  color: #fff;
+}
+.link_popup .content .buttons button {
+  margin: 11px 4px 2px;
+}
+html.sledz_html .yes_no_box textarea {
+  width: 250px;
+  margin: 8px 11px 8px 0;
+}
+.sledz_html .http_error {
+  margin: 50px auto;
+  text-align: center;
+}
+.sledz_html #content_main {
+  width: 996px;
+}
+
+/*--------------------------------------------------  layout -----*/
+html.sledz_html {
+  background: #012359 url(/img/bg_bottom_gradient.gif) repeat-x 0 100%;
+}
+body.sledz_body {
+  background: transparent url(/img/sledzik_bg.jpg) no-repeat 50% 0;
+  padding: 0;
+}
+#monster_sledz {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  clear: both;
+  margin: 0 0 0 -510px;
+  width: 180px;
+  height: 150px;
+  background: transparent url(/img/monster_sledz.jpg) no-repeat -200px 100%;
+}
+#monster_sledz:hover {
+  background-position: 0 100%;
+}
+html.sledz_html #rybki {
+  position: absolute;
+  bottom: 44%;
+  right: -107px;
+  display: block;
+  width: 89px;
+  height: 128px;  
+  background: transparent url(/img/rybki.png) no-repeat;
+}
+
+/* layout with left column */
+.sledzik_leftcol {
+  float: left;
+  width: 200px;
+  position: relative;
+  top: -6px;
+  left: -2px;
+  background: transparent url(/img/bg_content_boxes_translucent.png) repeat-y -213px 0;
+}
+.sledzik_leftcol  #content_boxes {
+  width: 192px;
+  padding: 12px 0 4px 10px;
+  margin: -10px 0 -6px;
+  background: transparent url(/img/bg_content_boxes_translucent.png) no-repeat 0 0;
+}
+.sledzik_leftcol  .column_bottom {
+  display: block;
+  clear: both;
+  width: 204px;
+  height: 6px;
+  margin-bottom: -6px;
+  background: transparent url(/img/bg_content_boxes_translucent.png) no-repeat -426px 100%;
+}
+#body_id.sledz_wrapper_narrow, .sledz_wrapper_narrow,
+#body_id.sledz_wrapper_wide, .sledz_wrapper_wide {
+  height: 100%;
+  background: transparent url(/img/sledzik_bg_btm.jpg) no-repeat 50% 100%;
+}
+.sledz_body  #page {
+  width: 1019px;
+  padding: 0 0 132px;
+  margin: 0 auto;
+  position: relative;
+  right: -12px;
+}
+.sledz_wrapper_narrow  #page_content,
+.sledz_wrapper_wide  #page_content {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.sledzik_star {
+  padding-left: 16px;
+  background: transparent url(/img/icons.gif) no-repeat -16px -184px;
+  font-size: 14px;
+  zoom: 1;
+}
+.sledz_body .sledz_wrapper_narrow #content_main {
+  float: right;
+  width: 790px;
+  display: inline;
+  padding: 0 11px;
+  overflow: hidden;
+  margin: -2px 0 0 7px;
+  background: transparent url(/img/sledzik_bg_content_translucent.png) repeat-y -836px 0;
+  zoom: 1;
+}
+.sledz_body #album_view #content_main {
+  overflow: visible;
+  margin-bottom: 0;
+}
+.sledz_body  .navy_box_text #report_abuse_form  button{
+  margin-left: 108px;
+  float: left;
+  display: inline;
+}
+.sledz_body .sledzik_contentmain_btm {
+  float: right;
+  width: 790px;
+  height: 6px;  
+  padding: 0 11px;
+  margin: 0 0 0 7px;
+  background: transparent url(/img/sledzik_bg_content_translucent.png) no-repeat -1670px 100%;
+}
+.sledz_body #page_footer {
+  padding: 20px 22px 0 254px;
+  background: transparent;
+}
+.sledz_body #copyright {
+  color: #75a9d2;
+  font-size: 10px;
+}
+.sledz_body #copyright a:link, .sledz_body #copyright a:visited {
+  color: #9abfdd;
+}
+.sledzik_single_shout #shout_collection {
+  padding-bottom: 30px;
+}
+.sledzik_single_shout .coolbox_hint a {
+  display: block;
+  height: 13px;
+}
+/* layout wide */
+.sledz_body .sledz_wrapper_wide #page {
+  width: 1003px;
+  right: 0;
+  top: -1px;
+}
+.sledz_body .sledzik_bg_wrapper{
+  margin: 0;
+  padding: 0;
+}
+.sledz_wrapper_wide .sledzik_bg_wrapper {
+  padding: 0 4px 0;
+  margin: 0;
+  background: transparent url(/img/sledzik_wide_mid-btm_translucent.png) repeat-y -1021px 0;
+  zoom: 1;
+  position: relative;
+  right: 1px;
+  width: 997px;
+  overflow: hidden;
+}
+.logged_off .sledz_wrapper_wide .sledzik_bg_wrapper {
+  overflow: visible;
+  width: 997px;
+}
+.sledz_wrapper_wide  #page_content {
+  width: 996px;
+  padding:7px 0 0 0;
+}
+.sledz_wrapper_wide #page_footer {
+  padding: 9px 22px 0;
+}
+.sledz_body .sledz_wrapper_wide  #page_content .sledzik_contentmain_btm {
+  float: left;
+  clear: both;
+  width: 1006px;
+  height: 8px;
+  padding: 0;
+  margin: 0 0 0 -4px;
+  background: transparent url(/img/sledzik_wide_mid-btm_translucent.png) repeat-y 0 -3px;
+  overflow: hidden;
+}
+html.sledz_html .logged_off #sledzik_header {
+  height: 157px;
+}
+html.sledz_html .logged_off #monster_sledz {
+  display: none;
+}
+
+/*  - - - - - - - - - - - - - - - - [ Pages with ONE column ( Polityka pryw., Kontakt, Gadżety, Regulamin ) when logged off ] - - - - - - - */
+html.sledz_html .logged_off .sledz_wrapper_wide #page {
+  padding: 0 0 160px;
+}
+html.sledz_html .logged_off .sledz_wrapper_wide #page_content {
+  width: 1005px;
+  min-height: 130px;
+  margin: 0 -4px 0;
+  background: transparent url(/img/bg_translucent.gif) no-repeat -4px 0;
+}
+html.sledz_html .logged_off .sledz_wrapper_wide #page_content #content_main {
+  padding: 0 4px;
+  width: 997px;
+}
+
+
+/*  - - - - - - - - - - - - - - - - [ Pages with one column AND BLUE background before and after login ( widgets, regulations, Register )  ] - - - - - - - */
+html.sledz_html #regulations_page #page_content,
+html.sledz_html #sledz_register #page_content,
+html.sledz_html #sledzik_widgets #page_content { 
+  width: 1005px;
+  margin: 0 -4px;
+}
+html.sledz_html #regulations_page #content_main,
+html.sledz_html #sledz_register #content_main,
+html.sledz_html #sledzik_widgets #content_main {
+  width: 997px;
+  padding: 0 4px;
+}
+
+
+/*  - - - - - - - - - - - - - - - - [ Pages with ONE column AND WHITE background ( Kariera, Oferty pracy, Partnerzy, 404 ), when logged off ] - - - - - - - */
+html.sledz_html .logged_off .sledz_wrapper_wide#partnerzy_wrapper .sledzik_bg_wrapper,
+html.sledz_html .logged_off .sledz_wrapper_wide#faq_page .sledzik_bg_wrapper,
+html.sledz_html .logged_off .sledz_wrapper_wide#career .sledzik_bg_wrapper,
+html.sledz_html .logged_off .sledz_wrapper_wide#career_page .sledzik_bg_wrapper {
+  background: transparent url(/img/bg_translucent.gif) repeat-y -1020px 0;
+}
+html.sledz_html .logged_off .sledz_wrapper_wide#partnerzy_wrapper #page_content,
+html.sledz_html .logged_off .sledz_wrapper_wide#faq_page #page_content,
+html.sledz_html .logged_off .sledz_wrapper_wide#error_404 #page_content,
+html.sledz_html .logged_off .sledz_wrapper_wide#career #page_content,
+html.sledz_html .logged_off .sledz_wrapper_wide#career_page #page_content {
+  padding: 31px 4px 0 4px;
+  background: transparent url(/img/bg_translucent.gif) no-repeat -4px 0;
+}
+html.sledz_html .logged_off .sledz_wrapper_wide#partnerzy_wrapper #content_main,
+html.sledz_html .logged_off .sledz_wrapper_wide#faq_page #content_main,
+html.sledz_html .logged_off .sledz_wrapper_wide#career #content_main,
+html.sledz_html .logged_off .sledz_wrapper_wide#career_page #content_main {
+  width: 988px;
+  background: #fff;
+}
+
+
+/*  - - - - - - - - - - - - - - - - [ Pages with LEFT column (O nas, Media,Bezpieczenstwo) when logged off ] - - - - - - - */
+.logged_off .sledz_wrapper_narrow .sledzik_leftcol {
+  top: 31px;
+}
+.logged_off .sledz_wrapper_narrow .sledzik_bg_wrapper #content_main {
+  margin-top: 33px;
+  overflow: hidden;
+}
+html.sledz_html .logged_off .sledz_wrapper_narrow #page_content {
+  background: transparent url(/img/sledzik_bg_content_translucent.png) no-repeat 207px 0;
+  float: left;
+  margin: -3px 0 0;
+}
+
+
+
+
+/*--------------------------------------------------  header -----*/
+
+/* top menu */
+#top_menu_sledzik {
+  float: right;
+  height: 27px;
+  width: 572px;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  line-height: 28px;
+  background: transparent url(/img/top_menu_translucent.png) no-repeat -20px 0;
+}
+.sledz_wrapper_narrow #top_menu_sledzik {
+  width: 607px;
+  margin-right: -2px;
+  position: relative;
+  background-position: 13px 0;
+}
+#top_menu_sledzik ul {
+  float: right;
+  padding: 0 8px 0 0;
+  margin: 0;
+  font-weight: normal;
+  font-size: 11px;
+}
+#top_menu_sledzik ul li {
+  float: right;
+  display: inline;
+  background: transparent url(/img/buttons.gif) no-repeat 100% -511px;
+}
+#top_menu_sledzik ul li.first {
+  background: 0;
+}
+#top_menu_sledzik ul li a,
+#top_menu_sledzik ul li a:link,
+#top_menu_sledzik ul li a:visited {
+  display: block;
+  padding: 0 10px;
+  color: #d4e2e8;
+}
+#top_menu_sledzik ul li a:hover {
+  background: transparent url(/img/buttons.gif) no-repeat 100% -473px;
+  color: #fff;
+}
+#logged_info {
+  color: #cae5ff;
+  font-size: 11px;
+}
+#sledzik_header {
+  height: 190px;
+  padding: 0;
+  position:relative;
+}
+.sledz_wrapper_wide #sledzik_header {
+  height: 189px;
+  padding: 0;
+  position:relative;
+}
+.sledz_wrapper_wide #sledzik_header {
+  height: 189px;
+}
+#main_logo {
+  float: left;
+  width: 237px;
+  height: 67px;
+  margin: 44px 0 0 59px;
+  background: url(/img/sledzik_logo.gif) no-repeat 8px 0;
+  outline: 0;
+}
+
+/* main menu */
+#sledzik_header #mid_menu {
+  position: absolute;
+  height: 35px;
+  width: 805px;
+  padding: 0 7px 0 0;
+  margin: 0;
+  top: auto;
+  bottom: 2px;
+  left: auto;
+  right: 0;
+  background: transparent url(/img/sledzik_bg_content_translucent.png) no-repeat 0 0;
+  overflow: hidden;
+}
+.sledz_wrapper_wide  #sledzik_header #mid_menu {
+  width: 998px;
+  height: 30px;
+  right: -1px;
+  bottom: 0;
+  background: transparent url(/img/wide_top_translucent.png) no-repeat 0 0;
+}
+#mid_menu li.tabs {
+  float: right;
+  height: 31px;
+  padding: 0;
+  position: relative;
+  list-style: none;
+}
+
+#sledzik_header #mid_menu li.tabs.active  span {
+  position: absolute;
+  top: 0;
+  right: -3px;
+  width: 4px;
+  height: 31px;
+  background: #fff url(/img/buttons.gif) no-repeat 100% -437px;
+}
+#sledzik_header #mid_menu li.tabs a {
+  float: left;
+  height: 23px;
+  margin: 0;
+  padding: 8px 17px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 11px;
+  line-height: 14px;
+  background: transparent url(/img/buttons.gif) no-repeat 100% -511px;
+}
+#sledzik_header #mid_menu li.tabs.last a {
+  background: 0;
+}
+#sledzik_header #mid_menu li.tabs a:hover {
+  background: #fff url(/img/buttons.gif) no-repeat 100% -473px;
+}
+#page #sledzik_header #mid_menu li.active a {
+  background: #fff url(/img/buttons.gif) no-repeat 0 -340px;
+  color: #04457b;
+}
+#home #sledzik_box .coolbox_bottom {
+  margin: 0 0 3px;
+}
+#sledzik_box .coolbox_bottom .coolbox_hint span {
+  padding: 0 0 0 3px;
+}
+
+
+/*--------------------------------------------------  mian sledzik box -----*/
+.sledzik  {
+  width: 790px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  position: relative;
+}
+.sledzik.cool_box  .coolbox_bottom {
+  margin: -3px 0 3px;
+}
+.sledzik_narrow {  
+  padding: 0;
+}
+#sledzik_box.sledzik .cool_box_header_right {
+  overflow: hidden;
+}
+#sledzik_box.sledzik .cool_box_header_right .box_style {
+  float: right;
+  width: 51px;
+  height:15px;
+  overflow: hidden;
+  background: transparent url(/img/buttons.gif) no-repeat 0 -613px;
+  text-indent: 999em;
+  cursor: pointer;
+}
+#sledzik_box.sledzik.close .cool_box_header_right .box_style {
+  background-position: -55px -613px;
+}
+#sledzik_box.sledzik .coolbox_bottom .coolbox_hint {
+  width: 184px;
+}
+.sledzik .coolbox_bottom .own {
+  margin: 0 18px 0 0;
+}
+
+/* co teraz zrobisz */
+.sledzik  .coolbox_hint {
+  width: 205px;
+}
+.sledzik .cool_box_inner {
+  padding: 1px;
+  border: 0;
+}
+.sledzik #ajax_loading_image {
+  position: absolute;
+  top: 47px;
+  right: 20px;
+  display: none;
+}
+.sledzik #sledzik_form  #char_count {
+  position: absolute;
+  right: 89px;
+  top: -28px;
+  font-weight: normal;
+  font-size: 10px;
+  color: #7c8c9a;
+}
+.sledzik #sledzik_form {
+  padding: 0 0 19px;
+  margin: 0 0 1px;
+  background: #e2ecf4;
+  overflow: auto;
+}
+.sledzik.close #sledzik_form {
+  display: none;
+}
+#sledzik_form_content {
+  float: left;
+  width: 635px;
+  height: 15px;
+  overflow: hidden;
+  padding: 5px 40px 3px 8px;
+  margin: 19px 18px 0 19px;
+  border: 1px solid #b0c4d5;
+  color: #90979c;
+  font: 11px Tahoma,sans-serif,arial,helvetica;
+}
+.sledzik_narrow #sledzik_form_content{
+  width: 445px;
+  resize: none;
+}
+#sledzik_form_content.open{
+  color: #000;
+}
+#profile_content #sledzik_form_content,
+#profile_content #sledzik_form_content.open {
+  width: 444px;
+}
+.sledzik .send_button {
+  width: 45px;
+  height: 21px;
+  margin: 21px 0 0;
+  background: transparent url(/img/buttons.gif) no-repeat 0px -179px;
+}
+.sledzik .send_button.disabled {
+  background: transparent url(/img/buttons.gif) no-repeat -71px -179px;
+}
+#sledzik_form .controll_box {
+  display: none;
+}
+#sledzik_form div.controll_box.open {
+  display: block;
+  height: 19px;
+  padding: 1px 0 0 15px;
+  clear: both;
+  position: relative;
+  top: 10px;
+}
+#sledzik_form label{
+  color: #36434e;
+  font-size: 11px;
+}
+#sledzik_box .bottom {
+  padding: 0 3px 0 0;
+  text-align: right;
+}
+#sledzik_box .bottom a {
+  color: #175D90;
+  font-size: 11px;
+}
+#sledzik_box .bottom a .raquo {
+  padding: 0 6px 0 0;
+  color: #407da9;
+}
+
+/* new shouts */
+#sledzik_info_box {
+  background: transparent;
+}
+#sledzik_info_box span {
+  display: block;
+  margin: 7px 0px;
+  font-weight: bold;
+  text-align: center;
+  color: #185580;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+/* shouts */
+#shout_collection {
+  margin: 0 0 1px;
+}
+#shout_collection #no_entries {
+  width: 200px;
+  padding: 15px 0;
+  margin: 36px auto 32px;
+  background: transparent url(/img/bg_gradient.gif) repeat-x 0 0;
+  text-align: center;
+  color: #175b95;
+  font-weight: bold;
+  border: 1px solid #b0c4d5;
+  background:#e2ecf4;
+}
+#shout_collection #no_entries span {
+  padding: 0 0 0 26px;
+  background: transparent url(/img/icons.gif) no-repeat 0 -443px;
+}
+.sledzik_shout {
+  margin: 1px 0 0;
+  padding: 6px 2px 10px;
+  background: transparent url(/img/bg_gradient.gif) repeat-x 0 0;
+  font-size: 11px;
+  position: relative;
+  zoom: 1;
+}
+.sledzik.sledzik_narrow .sledzik_shout {
+  zoom: 1;
+}
+.profile_content_left .sledzik.sledzik_narrow .sledzik_shout {
+  background: transparent url(/img/bg_gradient.gif) repeat-x 0 0;
+}
+.sledzik_shout .shout_content {
+  float: right;
+  width: 719px;
+  text-align: left;
+}
+.sledzik_narrow .sledzik_shout .shout_content {
+  float: right;
+  width: 528px;
+}
+.sledzik_shout .header {
+  padding: 2px 2px 2px 0;
+  overflow: hidden;
+}
+.sledzik_shout .username {
+  margin: 0 5px 0 0;
+  color: #0a69ac;
+  font-size: 11px;
+}
+.sledzik_shout .header .shout_time,
+.sledzik_shout .header .shout_source {
+  color: #7c8c9a;
+}
+.sledzik_shout .header .shout_source {
+  padding: 0 5px 0 5px;
+}
+.sledzik_shout .header .private {
+  padding-right: 4px;
+  margin-left: 7px;
+  background: transparent url(/img/icons_0001.gif) no-repeat 0 -707px;
+}
+.sledzik_shout .header .shout_source.source_mobile {
+  padding-left: 18px;
+  background: transparent url(/img/icons.gif) no-repeat 7px -686px;
+}
+.sledzik_shout .header .more_info {
+  display: none;
+}
+.hover .more_info {
+  display: inline;
+}
+.sledzik_shout .delete_entry {
+  width: 15px;
+  height: 15px;
+  position: relative;
+}
+.sledzik_shout .delete_entry input {
+  padding: 5px 6px 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sledzik_shout .more_options {
+  width: 13px;
+  height: 13px;
+  background: #f2f9ff url(/img/icons.gif) no-repeat -17px -39px;
+  cursor: pointer;
+}
+.sledzik_shout .more_options.hover {
+  background-position: -1px -348px;
+}
+.sledzik_shout a.entry_abuse {
+  float: right;
+  width: 13px;
+  height: 11px;
+  background: #f2f9ff url(/img/icons.gif) no-repeat 0 -42px;
+}
+#shout_collection .sledzik_shout p {
+  overflow: hidden;
+  padding: 3px 30px 8px 12px;
+  margin: 0;
+  clear: both;
+  line-height: 15px;
+}
+#shout_collection .sledzik_shout p.content {
+  font-family: Tahoma,sans-serif,arial,helvetica;
+}
+.sledzik_shout .footer {
+  clear: both;
+  padding: 4px 8px 4px 0;
+  color: #7c8c9a;
+  font-size: 10px;
+}
+
+/* comments */
+.sledzik_shout .comments {
+  margin: 0 2px 0 0;
+}
+.sledzik_shout .add_comment {
+ width: 77px;
+  height: 16px;
+  padding-top: 3px;
+  clear: both;
+  /*  position: relative;*/
+  cursor: pointer;
+  background: #eaeff4; 
+}
+.sledzik_shout .add_comment a {
+  color: #0a68ab;
+  display: block;
+  position: relative;
+  outline: none;
+}
+.sledzik_shout .add_comment .icon {
+  float: left;
+  height: 16px;
+  padding-left: 22px;
+  background: #eaeff4 url(/img/icons.gif) no-repeat 5px -225px;
+}
+.sledzik_shout .form_open .icon {
+  background: #eaeff4 url(/img/icons.gif) no-repeat -13px -225px;
+  
+}
+/* comment greyed out */
+.sledzik_shout .add_comment.dont_show {
+  background: #eff4f7;
+}
+.sledzik_shout .add_comment.dont_show a {
+  color: #b0c6d6;
+}
+.sledzik_shout .add_comment.dont_show  .icon {
+  background: #eff4f7 url(/img/icons.gif) no-repeat -13px -247px;
+}
+.sledzik_shout .add_comment_form {
+  display: none;
+  overflow: hidden;
+  position: relative;
+  background: #eaeff4;
+}
+#sledzik_box.comment_open .sledzik_shout .add_comment_form {
+  display: block;
+  padding-bottom: 4px;
+  padding-left: 6px;
+}
+#sledzik_box.comment_open .sledzik_shout .add_comment_form  {
+  width: 705px;
+}
+#sledzik_box.comment_open .sledzik_shout .add_comment_form div.hidden {
+  display: block;
+}
+.sledzik_shout .add_comment_form.open {
+  display: block;
+  width: 705px;
+  padding-left: 6px;
+  padding-bottom: 4px;
+}
+.sledzik_narrow .sledzik_shout .add_comment_form.open {
+  width: 514px;
+}
+.sledzik_shout .add_comment_form span.comment_char_count {
+  position: absolute;
+  top: 13px;
+  right: 68px;
+  visibility: hidden; /* zgodnosc z NoJS*/
+}
+.sledzik_shout textarea.comment_text_input {
+  float: left;
+  height: 14px;
+  width: 599px;
+  padding: 4px 40px 3px 3px;
+  margin: 8px 0 0;
+  overflow: hidden;
+  border: 1px solid #B0C4D5;
+  font: 10px/14px Tahoma,sans-serif,arial,helvetica;
+}
+.sledzik_narrow .sledzik_shout textarea.comment_text_input {
+  width: 407px;
+  color: #08202E;
+  border: 1px solid #b0c4d5;
+}
+.sledzik_shout .send_button {
+  float: right;
+  padding: 4px 0 0 5px;
+  margin: 9px 4px 0 6px;
+  outline: none;
+}
+/* stars */
+.stars {
+  height: 14px;
+  padding: 0 0 0 11px;
+  margin: 0 2px;
+}
+.stars a{
+  float: left;
+  font-size: 10px;
+  color: #0A69AC;
+}
+.stars a.stars_count.hover {
+  display: none;
+}
+.stars a .number_stars {
+  font-size: 10px;
+}
+.stars  span.cool {
+  padding-right: 4px;
+}
+.sledzik_shout .stars .dodaj {
+  height: 14px;
+  padding: 0 14px 0 0;
+  margin: 0 3px;
+  background: transparent url(/img/icons.gif) no-repeat 2px -70px;
+  color: #000;
+}
+.sledzik_shout .stars a.dodaj:hover {
+  background-position: 17px -187px;
+}
+.sledzik_shout .stars .dodaj:hover span {
+  display: inline;
+}
+.sledzik_shout .stars .dodana,
+.nk_popup_body  .info_star {
+  display: inline-block;
+  background: transparent url(/img/icons.gif) no-repeat 100% -187px;
+}
+
+/* avatar */
+.nk_popup_body  .info_star {
+  display: block;
+  height: 12px;
+  width: 14px;
+  margin: 0 auto 8px auto;
+  background: transparent url(/img/icons.gif) no-repeat -15px -70px;
+}
+.sledzik_shout .shout_avatar {
+  float: left;
+  width: 50px;
+  min-height: 60px;
+  text-align: center;
+  padding: 3px 0 0 4px;
+}
+.sledzik_shout .shout_avatar a {
+  display: block;
+  width: 50px;
+  text-align: center;
+}
+.sledzik_shout .shout_avatar img {
+  max-width: 45px;
+  max-height: 60px;
+  border: 1px solid #bdc5cc;
+}
+.microavatar_official{
+  position: relative;
+}
+.microavatar_official span.top {
+  display: block;
+  width: 25px;
+  height: 23px;  
+  position: absolute;
+  top: -8px;
+  left: -7px;
+  background: transparent url(/img/av_official_star.png.gif) no-repeat 0 0;
+}
+.microavatar_official span.inner_marker {
+  display: block;
+  width: 45px;
+  height: 16px;
+  padding: 0;
+  margin: 3px auto 0;
+  background: transparent url(/img/av_official.gif) no-repeat 0 -34px;
+}
+#sledzik_box .microavatar .bottom {
+  padding: 0;
+}
+.box ul.sledzik_followers {
+  margin-left: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+}
+.box ul.sledzik_followers li {
+  color: #082B3F;
+  list-style: none;
+  margin-left: 0;
+  border-bottom: 1px dotted #d2e2eb;
+  padding: 6px 4px 6px 0;
+  font-weight: bold;
+  color: #175d90;
+}
+.box ul.sledzik_followers li.followers {
+  border: 0;
+}
+.box ul.sledzik_followers li a span {
+  color: #7c8c9a;
+  font-weight: normal;
+}
+.box ul.sledzik_followers li .icon {
+  height: 16px;
+  padding: 0 0 0 35px;
+  font-weight: normal;
+  color: #a3bcd1;
+  background: transparent url(/img/icons.gif) no-repeat scroll 0 -373px;
+}
+.box ul.sledzik_followers li.friends .icon {
+  background: transparent url(/img/ico_friends.gif) no-repeat scroll 7px 0;
+}
+.box ul.sledzik_followers li.follow .icon {
+  background-position: 0 -398px;
+}
+.box ul.sledzik_followers li.followers .icon {
+  background-position: 0 -372px;
+}
+
+
+/* comment block */
+.sledzik  .comments_block {
+  width: 711px; 
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+.sledzik.sledzik_narrow  .comments_block {
+  width: 520px;
+}
+.sledzik_shout .comment_open .comments_block {
+  display: block;
+}
+.sledzik_shout .comments_block.full {
+  border-top: 2px solid #eaeff4;
+}
+#shout_collection .comments_block .no_comments {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.sledzik_shout .comments_block  .comment_char_count {
+  float: right;
+  padding: 0 266px 0 0;
+}
+.sledzik_narrow .comments_block  .comment_char_count {
+  padding: 0 78px 0 0;
+}
+.sledzik .comments_block .comments_ajax {
+  overflow: auto;
+}
+.sledzik .comments_block #sledzik_comment_form {
+  margin: 0 0 17px;
+}
+.sledzik .comments_block #sledzik_comment_form_content {
+  margin:0 5px 0 0;
+  border: 1px solid #a1bcd2;
+}
+.sledzik .comment {
+  clear: both;
+  overflow: hidden;
+  padding: 0;
+  border-bottom: 1px solid #eaeff4;
+}
+.sledzik .single .comment {
+  border-bottom: 0;
+}
+.sledzik .comments_block .icon {
+  float: left;
+  height:16px;
+  padding-left:22px;
+  background:transparent url(/img/icons.gif) no-repeat 5px -245px;
+}
+.sledzik .comments_block .my .icon {
+  background-position: 5px -265px;
+}
+.sledzik .comment .content {
+  width: 688px;
+  margin: 0 0 1px;
+  float: left;
+}
+.sledzik_narrow .comment .content {
+  float: left;
+  width: 497px;
+  padding: 0 0 2px;
+}
+.sledzik .comment .content .right {
+  width: 99px;
+  height: 16px;
+  margin: 0;
+  padding: 4px 0 0;
+  text-align: right;
+}
+.sledzik .comment .datetime {
+  float: right;
+  font-size: 10px;
+  color: #99A;
+}
+.sledzik .comment .delete_comment_entry {
+  float: right;
+  padding: 0 5px 0 6px;
+  line-height: 10px;
+}
+#content_main .sledzik .comment p {
+  clear: none;
+  padding: 2px 6px 0 0;
+  color: #4e6579;
+  font-size: 11px;
+  line-height:15px;
+}
+.sledzik .comment .remove {
+  display: none;
+}
+.sledzik .comment .hover .remove {
+  display: block;
+}
+.sledzik .comment .comment_bottom {
+  display: block;
+  clear: both;
+  padding: 0 0 12px;
+  margin: 0;
+  position: relative;
+  top: 8px;
+  background: transparent url(/img/comment_bottom.gif) no-repeat 0 100%;
+  font-size: 0px;
+}
+.sledzik_narrow .comment .comment_bottom {
+  background: transparent url(/img/comment_bottom_narrow.gif) no-repeat 0 100%;
+  zoom: 1;
+}
+.sledzik .comment .profile_link {
+  float: left;
+  padding: 0 0 0 26px;
+  font-size: 11px;
+  color: #566b80;
+}
+.sledzik.comment .profile_link a {
+  font-size: 10px;
+  color: #566b80;
+}
+.sledzik .comments_block .paginator {
+  float: right;
+  text-align: left;
+}
+.comments_block .paginator span {
+  color: #175D90;
+}
+.comments_block .paginator a {
+  padding: 0;
+}
+.sledzik_shout .toggle {
+  width: 713px;
+  padding: 6px 0 0;
+  overflow: hidden;
+}
+.sledzik_narrow .sledzik_shout .toggle {
+  width: 522px;
+}
+.sledzik_shout .toggle .paginator{
+  text-align: left;
+}
+.comment_open .sledzik_shout .toggle .paginator{
+  float: right;
+  margin: 0 22px 0 0;
+}
+.sledzik_shout .toggle .paginator a{
+  padding: 0;
+  text-align: left;
+}
+.sledzik_shout .toggle .paginator a span{
+  font-size: 10px;
+}
+.sledzik .show_more_comments {
+  float: left;
+  padding: 0 0 0 17px;
+  margin: 0 0 7px 3px;
+  background: transparent url(/img/icons.gif) no-repeat scroll 0 0;
+  cursor: pointer;
+}
+.sledzik.comment_open .show_more_comments {
+  display: none;
+}
+.sledzik .show_more_comments:focus,
+.sledzik .show_more_comments:hover {
+  outline: 0;
+}
+.sledzik .show_more_comments.open {
+  background-position: 0 -54px;
+}
+.sledzik .show_more_comments .show_comment{
+  display: block;
+}
+.sledzik .show_more_comments .hidden_comment{
+  display: none;
+}
+.sledzik .show_more_comments.open .show_comment{
+  display: none;
+}
+.sledzik .show_more_comments.open .hidden_comment{
+  display: block;
+}
+.sledzik .comments_area {
+  float: right;
+  width: 598px;
+}
+.sledzik.sledzik_sledzik_narrow .comments_area {
+  width: 398px;
+}
+.sledzik .footer .delete {
+  float: right;
+  width: 12px;
+  height: 14px;
+  background: transparent;
+}
+.sledzik .delete .permanent_delete {
+  display: block;
+  height: 14px;
+  background: transparent url(/img/icons.gif) no-repeat 0 -132px;
+}
+
+
+/*-------------------------------------------------- profile -----*/
+.sledzik_bg_wrapper div#profile_page {
+  width: 996px;
+  padding-top: 2px;
+  margin: 0;
+  background: #175b95 url(/img/bg_profile_content.gif) no-repeat -4px 0;
+}
+.sledzik_bg_wrapper #profile_page #profile_top {
+  padding-bottom: 11px;
+  background: transparent;
+  border: 0;
+}
+.sledzik_bg_wrapper #profile_page #user_description {
+  display: none;
+}
+.sledzik_bg_wrapper #profile_page #profile_content {
+  padding: 0 0 6px;
+  background: #fff url(/img/bg_profile_content.gif) no-repeat -1033px -177px;
+  border-top: 0;
+}
+#content_main .profile_buttons .ikonki form.remove_followee,
+#content_main .profile_buttons .ikonki form.add_followee{
+  position: static;
+}
+#content_main .profile_buttons .ikonki button.followee,
+#content_main .profile_buttons .ikonki button.dont_followee {
+  height: 19px;
+  padding-bottom: 1px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background: transparent url(/img/icons.gif) no-repeat scroll 0 -537px;
+  overflow: hidden;
+  -moz-margin-start: 0;
+}
+#content_main .profile_buttons .ikonki button.dont_followee {
+  background-position: 0 -562px;
+}
+.profile_buttons .ikonki .follow_inactive {
+  height: 19px;
+  margin: -3px 0 0 -35px;
+  padding: 3px 0 0 35px;
+  background: transparent url(/img/icons.gif) no-repeat scroll 0 -587px;
+  overflow: hidden;
+  color: #4c94c8;
+  font-size: 11px;
+  font-weight: bold;
+}
+.profile_buttons .ikonki button.followee span,
+.profile_buttons .ikonki button.dont_followee span{
+  display: block;
+  padding: 2px 0 0 35px;
+}
+.sledzik_bg_wrapper #profile_page #profile_top table.profile_info_box td #profile_info_name span {
+  background: transparent url(/img/profile_name_fade.png) repeat-y right center;
+}
+.sledz_html #profile_page table.profile_info_box tr {
+  background: 0;
+}
+.sledz_html #profile_page table.profile_info_box td {
+  background: 0;
+  border-bottom: 1px dotted #1e7cc0;
+}
+.sledzik_bg_wrapper #profile_page .sledzik .coolbox_bottom {
+  margin: 0;
+  top: 0;
+}
+#sledzik_toggle_button {
+  float: right;
+  width: 65px;
+  height: 16px;
+  margin-right: 2px;
+  background: transparent url(/img/buttons.gif) no-repeat 0 -675px;
+}
+#sledzik_toggle_button.nk2sledzik {
+  width: 84px;
+  background-position: 0 -693px;
+}
+#sledzik_friends .no_content_wrapper .no_content {
+  color: #175b95;
+  font-weight: bold;
+}
+
+/*--------------------------------------------------  login -----*/
+html.sledz_login {
+  background: #07508e;
+}
+.sledz_login body.sledz_body {
+  background: #07508e url(/img/bg_login.jpg) no-repeat 50% 0;
+}
+.sledz_login .login_first_column {
+  padding: 5px 0 28px 46px;
+  position: relative;
+}
+.sledz_login .logged_off .sledzik_bg_wrapper {
+  background: 0;
+  margin-right: -16px;
+  margin: 0;
+  padding: 0;
+}
+html.sledz_login #login_page #page {
+  width: 914px;
+  position: relative;
+}
+html.sledz_login #login_page #page_content,
+html.sledz_login #login_page #page .content_main_wide {
+  width: 914px;
+  border: 0;
+  margin-top: 0;
+  background: none;
+}
+.sledz_login  .sledzik_contentmain_btm {
+  display: none;
+}
+.sledz_login #content_main #logowanie {
+  position: relative;
+  padding-top: 44px;
+}
+.sledz_login .logged_off #login_hint {
+  position: absolute;
+  top: 246px;
+  right: -32px;
+  display: block;
+  width: 200px;
+  height: 113px;
+  background: transparent url(/img/buttons_wide.gif) no-repeat 0 -112px;
+}
+.sledz_login .logged_off #octopus_quote {
+  position: absolute;
+  top: -35px;
+  left: 20px;
+  display: block;
+  width: 167px;
+  height: 61px;
+  background: transparent url(/img/buttons_wide.gif) no-repeat -17px -239px;
+}
+.sledz_login .logged_off #monster_sledz {
+  display: none;
+}
+
+
+/* login form */
+.sledz_html #login_page,
+.sledz_html #login_holder_wide,
+.sledz_html #login_holder_wide form,
+.sledz_html #login_holder_wide .inner,
+.sledz_html #login_holder_wide form fieldset,
+.sledz_html #login_holder_wide .tips_content,
+.sledz_html #login_holder_wide form .questions {
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+.sledz_html #login_holder_wide {
+  width: 266px;
+}
+.sledz_html #login_holder_wide form fieldset {
+  width: 271px;
+  padding: 0;
+  margin: 0;
+  background: transparent url(/img/bg_login_fieldset.gif) no-repeat 0 -70px;
+}
+.sledz_html #login_holder_wide form fieldset.captcha_enabled {
+  background: transparent url(/img/bg_login_fieldset.gif) no-repeat 0 14px;
+}
+.sledz_html  #login_holder_wide .row {
+  zoom: 1;
+}
+.sledz_html  #login_holder_wide .top_row {
+  padding: 26px 0 3px 12px;
+  background: transparent url(/img/bg_login_fieldset.gif) no-repeat 0 -1px;
+}
+.sledz_html  #login_holder_wide fieldset label {
+  width: 35px;
+  padding: 3px 4px 0 0;
+  font-size: 11px;
+  text-align: right;
+}
+.sledz_html  #login_holder_wide fieldset label.small {
+  width: auto;
+}
+.sledz_html #login_holder_wide .top_row input {
+  width: 195px;
+  padding: 7px 4px 5px;
+  margin: 0 0 3px;
+  background: transparent url(/img/buttons_wide.gif) no-repeat 0 0;
+  border: 0;
+  color: #000;
+}
+.sledz_html #login .row #login_remember {
+  margin-top: 6px;
+}
+.sledz_html #login .row button {
+  float: right;
+  clear: both;
+  display: inline;
+  margin: 0 17px 0 0;
+  width: 89px;
+  height: 23px;
+  overflow: hidden;
+  background: transparent url(/img/buttons.gif) no-repeat 0 -583px;
+}
+.sledz_html #login .row button span{
+  display: none;
+}
+/* captcha */
+.sledz_html #content_main #logowanie #login_holder_wide #captcha {
+  height: 33px;
+  padding: 52px 0 0;
+}
+.sledz_html #content_main #logowanie #login_holder_wide #captcha img {
+  top: 5px;
+  left: 15px;
+}
+.sledz_html #content_main #logowanie #login_holder_wide #captcha input {
+  width: 148px;
+  border: 1px solid #003f75;
+}
+.sledz_html #login_holder_wide #row_extendable {
+  margin: 14px 0 0;
+  background: transparent url(/img/bg_login_fieldset.gif) no-repeat 0 100%;
+}
+.sledz_html #login_holder_wide form .questions {
+  padding: 0 0 10px 13px;
+  font-size: 10px;
+}
+.sledz_html #login_holder_wide form .questions ul {
+  line-height: 1.6em;
+}
+.sledz_html #promo_buttons {
+  width: 271px;
+  height: 39px;
+  margin: 0 0 10px;
+  padding: 10px 0 0;
+  background: transparent url(/img/buttons_wide.gif) no-repeat 0 -36px;
+}
+.sledz_html #promo_buttons .register {
+  float: right;
+  width: 124px;
+  height: 28px;
+  background: transparent url(/img/buttons.gif) no-repeat 0 -548px;
+}
+.sledz_html #promo_buttons h3{
+  float: left;
+  display: inline;
+  margin: 7px 0 0 13px;
+  font-weight: normal;
+  font-size: 11px;
+  color: #a3cfef;
+}
+
+/* tips and errors */
+.sledz_html #login_holder_wide .tips_holder {
+  width: auto;
+  background: 0;
+  padding: 2px 13px 0;
+}
+.sledz_html #login_holder_wide .tips_inner {
+  background: 0;
+  border-bottom: 1px solid #a3cfef;
+}
+.sledz_html #login_holder_wide .tips_content h4,
+.sledz_html #login_holder_wide .tips_content em,
+.sledz_html #login_holder_wide .tips_content p {
+  color: #a3cfef;
+}
+.sledz_html #login_holder_wide .tips_content p a {
+  color: #fff;
+}
+.sledz_html #content_main #logowanie .fancy_box {
+  width: 271px;
+  background: 0;
+  border: 0;
+}
+.sledz_html #content_main #logowanie .fancy_box span.title ,
+.sledz_html #content_main #logowanie .fancy_box ul li {
+  color: #ff4949;
+}
+
+/* how to */
+.sledz_html  #howto {
+  margin: 0;
+  padding: 0;
+}
+.sledz_html  #howto li{
+  position: absolute;
+  width: 240px;
+  list-style: none;
+  color: #a3cfef;
+  font-size: 11px;
+  line-height: 15px;
+}
+.sledz_html  #howto li h2 {
+  display: none;
+}
+.sledz_html  li#howto_1{
+  width: 257px;
+  top: -45px;
+  right: 248px;  
+}
+.sledz_html  li#howto_2{
+  width: 261px;
+  top: 71px;
+  right: 279px;  
+}
+.sledz_html  li#howto_3{
+  width: 303px;
+  top: 177px;
+  right: 128px;  
+}
+.sledz_html #howto li span {
+  display: block;
+  padding: 12px 0 0 8px;
+}
+
+/* Promoted ppl on login page*/
+.sledz_html  #login_promoted {
+  width: 876px;
+  height: 135px;
+  overflow: hidden;
+  margin: 0;
+  padding: 66px 0 0 33px;
+  background: transparent url(/img/btn_login_promoted.gif) no-repeat 0 0;
+}
+.sledz_html  #login_promoted li {
+  float: left;
+  width: 412px;
+  height: 117px;
+  padding: 13px 13px 0 2px;
+  margin: 0 10px 0 0;
+  background: transparent url(/img/bg_gradient.gif) repeat-x 0 0;
+  font-size: 11px;
+}
+.sledz_html  #login_promoted .header {
+  float: right;
+  width: 327px;
+}
+.sledz_html  #login_promoted .microavatar {
+  float: left;
+  width: 62px;
+  text-align: center;
+}
+.sledz_html  #login_promoted .microavatar_official span.top {
+  left: -4px;
+}
+.sledz_html  #login_promoted .microavatar  img{
+  border:1px solid #575757;
+  max-height: 50px;
+  max-width: 50px;
+}
+.sledz_html  #login_promoted .user_name {
+  color: #0a69ac;
+  display: block;
+  font-weight: bold;
+}
+.sledz_html  #login_promoted .whois {
+  color: #7c8c9a;
+  font-size: 10px;
+}
+.sledz_html  #login_promoted form {
+  float: right;
+}
+.sledz_html  #login_promoted button {
+  background: transparent url(/img/buttons.gif) no-repeat scroll 0 -308px;
+  height: 20px;
+  width: 71px;
+}
+.sledz_html  #login_promoted button span {
+  display: none;
+}
+.sledz_html  #login_promoted p {
+  clear: right;
+  float: right;
+  width: 327px;
+  padding: 0;
+}
+
+/*-------------------------------------------------- request confirmation page -----*/
+/*-------------------------------------------------- recover password page -----*/
+/*-------------------------------------------------- login onto deleted account page -----*/
+.sledz_html #recover_pas,
+.sledz_html #confirmation_req,
+.sledz_html #login_deleted {
+  padding-top: 0;
+}
+.sledz_html  #recover_pas #promo_buttons ,
+.sledz_html #confirmation_req  #promo_buttons  {
+  margin: 15px 0 0;
+}
+.sledz_html  #recover_pas #promo_buttons img,
+.sledz_html #confirmation_req  #promo_buttons img,
+.sledz_html #recover_pas .sledzik_contentmain_btm,
+.sledz_html #confirmation_req .sledzik_contentmain_btm {
+  display: none;
+}
+.sledz_html  #recover_pas .sledzik_bg_wrapper,
+.sledz_html  #recover_pas #page_content,
+.sledz_html  #recover_pas fieldset,
+.sledz_html  #recover_pas .tips_inner,
+.sledz_html  #recover_pas .tips_content,
+.sledz_html  #recover_pas form,
+.sledz_html  #recover_pas .inner,
+.sledz_html  #confirmation_req .sledzik_bg_wrapper,
+.sledz_html  #confirmation_req #page_content,
+.sledz_html #confirmation_req fieldset,
+.sledz_html #confirmation_req .tips_inner,
+.sledz_html #confirmation_req .tips_content,
+.sledz_html #confirmation_req form,
+.sledz_html #confirmation_req .inner {
+  background: 0;
+  border: 0;
+}
+.sledz_html #confirmation_req #confirmation_holder,
+.sledz_html  #recover_pas #recover_holder,
+.sledz_html #login_deleted .content_main_wide {
+  background: #195d97;
+  border: 1px solid #21639a;
+}
+.sledz_html #confirmation_req .tips_holder,
+.sledz_html  #recover_pas .tips_holder {
+  background: #2b699f;
+  border: 1px solid #2f6ca0;
+}
+.sledz_html #confirmation_req h4,
+.sledz_html #confirmation_req ul,
+.sledz_html  #recover_pas h4,
+.sledz_html  #recover_pas ul{
+  color: #a3cfef;
+}
+/* deleted user after login */
+.sledz_html #login_deleted {
+  background: transparent url(/img/sledzik_bg.jpg) no-repeat 50% 0;
+}
+.sledz_html #login_deleted .content_main_wide {
+  width: 888px;
+}
+.sledz_html #login_deleted #sledzik_header {
+  height: 189px;
+}
+.sledz_html #login_deleted #user_is_deleted {
+  margin: 20px;
+  background: #fff;
+}
+/* viewing profile of blocked user */
+.sledz_html #body_id #user_is_deleted {
+  padding:60px 0 26px;
+}
+.sledz_html #body_id #user_is_deleted h3 {
+  padding: 42px 0 0 51px;
+}
+/*-------------------------------------------------- following you -----*/
+#filter_input {
+  border:1px solid #7F9DB9;
+  font-size:11px;
+  height:13px;
+  margin:0;
+  padding:0;
+  position:relative;
+  top:-1px;
+  width:120px;
+}
+.sort_by_alpha,
+.sort_by_alpha_push,
+.sort_by_date,
+.sort_by_date_push {
+  position: absolute;
+  height: 21px;
+  top: 8px;
+  text-indent: -999em;
+  overflow: hidden;
+  cursor: pointer;
+}
+.sort_by_alpha {
+  width: 106px;
+  left: 93px;
+  background: transparent url(/img/button_sort_alfabet_off.gif) no-repeat scroll 0 0;
+}
+.sort_by_alpha_push {
+  width: 106px;
+  left: 93px;
+  background: transparent url(/img/button_sort_alfabet_on.gif) no-repeat scroll 0 0;
+}
+.sort_by_date {
+  width: 126px;
+  left: 205px;
+  background: transparent url(/img/button_sort_data_off.gif) no-repeat scroll 0 0;
+}
+.sort_by_date_push {
+  width: 126px;
+  left: 205px;
+  background: transparent url(/img/button_sort_data_on.gif) no-repeat scroll 0 0;
+}
+
+/*-------------------------------------------------- abuses -----*/
+.abuse_preview .sledzik_shout {
+  margin: 0;
+}
+.abuse_preview .shout_content {
+  width: 350px;
+}
+.sledzik_shout .comments_block .content a.abuse {
+  width: 13px;
+  height: 13px;
+  text-indent: 999em;
+  background: transparent url(/img/icons.gif) no-repeat -1px -637px;
+  float: right;
+  overflow: hidden;
+  display: none;
+  margin-right: 3px;
+}
+.sledzik_shout .comments_block .hover a.abuse {
+  display: block;
+}
+
+/*-------------------------------------------------- avatars -----*/
+.avatar_content {
+  position: relative;
+}
+.avatar_sledzik {
+  height: 19px;
+  background: transparent url(/img/avatar_additional_bottom.gif) no-repeat 0 0;
+}
+.avatar_sledzik form.remove_followee {
+  height: 19px;
+  background: transparent url(/img/buttons.gif) no-repeat 0 -380px;
+}
+.avatar_sledzik  button {
+  width: 93px;
+  padding: 2px 4px 1px 26px;
+  margin: 0;
+  background: transparent url(/img/icons.gif) no-repeat 9px -441px;
+  color: #255069;
+  font-weight: bold;
+  font-size: 10px;
+}
+.avatar_sledzik  button.dont_followee {
+  background: transparent url(/img/icons.gif) no-repeat 6px -284px;
+}
+.avatar_sledzik .follow_inactive {
+  height: 14px;
+  padding: 4px 0 2px 16px;
+  color: #b4bfc5;
+  font-size: 10px;
+  font-weight: bold;
+  background: transparent url(/img/buttons.gif) no-repeat 0 -723px;
+}
+
+/*-------------------------------------------------- celebrities -----*/
+
+#list_window {
+  position: relative;
+}
+.sledzik_promoted_list  .cool_box_inner .friends_list_tools {
+  margin-right: -3px;
+  padding-top: 1px;
+  background-position: 0 1px;
+  border-top: 1px solid #ddedfa;
+}
+.sledzik_promoted_list .button_bar {
+  height: 24px;
+  zoom: 1;
+  padding: 0 12px 0 0;
+  margin: -4px -4px 0 -4px;
+  background: transparent url(/img/profile/multitab.gif) repeat-x 0 -68px;
+}
+.sledzik_promoted_list.promoted_ranking .button_bar {
+  margin: -1px -1px 0 -1px;
+}
+.sledzik_promoted_list .button_bar .button {
+  float: right;
+  height: 22px;
+  padding: 0 18px;
+  color: #6d8ca6;
+  line-height: 21px;
+  font-size: 11px;
+  cursor: pointer;
+}
+.sledzik_promoted_list .button_bar .button:hover {
+  background: url(/img/profile/multitab.gif) no-repeat 0 -93px;
+}
+.sledzik_promoted_list .button_bar .button.push {
+  position: relative;
+  margin-top: -4px;
+  height: 28px;  
+  padding: 0 17px 0 18px;
+  background: url(/img/profile/multitab.gif) no-repeat 0 0;
+  color: #476c8b;
+  line-height: 28px;
+}
+.sledzik_promoted_list .button_bar .button.push span {
+  display: block;
+  height: 28px;
+  position: absolute;
+  right: -1px;
+  top: 0;
+  width:7px;
+  background: transparent url(/img/profile/multitab.gif) no-repeat 100% -33px;
+}
+.sledzik_promoted_list .promoted_categories {
+  padding: 9px 0 12px;
+  margin: 0 0 0 -3px;
+  color: #6d8ca8;
+  font-size: 11px;
+}
+.sledzik_promoted_list.promoted_ranking .promoted_categories {
+  margin: 0 0 -3px 0;
+}
+.sledzik_promoted_list  .promoted_categories a{
+  margin: 0 5px;
+  padding :0 6px;
+  color: #6d8ca8;
+}
+.sledzik_promoted_list  .promoted_categories a:hover {
+  background-color: #d5e0f2;
+  color: #466d8c;
+}
+
+
+/*--------------------------------------------------  NK home page -----*/
+
+/* common */
+#sledzik_star,
+#sledzik_promo  {
+  padding: 7px 0 0;
+  margin: 0 0 1px;
+  background: transparent url(/img/bg_gradient.gif) repeat-x 0 1px;
+  border-top: 10px solid #E2ECF4;
+}
+#sledzik_star  h4,
+#sledzik_promo h4{
+  padding: 0 0 0 15px;
+  margin: 0;
+}
+#sledzik_star  h4 .raquo,
+#sledzik_promo   h4 .raquo {
+  padding: 0 6px 0 0;
+  font-size: 12px;
+}
+#sledzik_star  h4 a,
+#sledzik_promo  h4 a{
+  color: #303030;
+  font-size: 11px;
+}
+#sledzik_star .sledzik_shout,
+#sledzik_promo .sledzik_shout {
+  padding: 10px 0 10px 15px;
+  margin: 0 0 1px 0;
+  background: 0;
+  overflow: auto;
+}
+#sledzik_star .shout_avatar,
+#sledzik_promo .shout_avatar{
+  height: auto;
+}
+#sledzik_star .shout_avatar,
+#sledzik_promo .shout_avatar {
+  padding-left: 30px;
+}
+
+#sledzik_star .shout_avatar img,
+#sledzik_promo .shout_avatar img {
+  max-height: 51px;
+}
+
+/* last star */
+#sledzik_star {  
+  border-bottom: 10px solid #e2ecf4;
+}
+#sledzik_star .right {
+  padding: 0 0 0 56px;
+  margin: 0 25px 0 0;
+  position: relative;
+  font-weight: bold;
+  color: #206596;
+  background:transparent url(/img/icons.gif) no-repeat scroll -12px -187px;
+}
+#sledzik_star .user_name {
+  float: left;
+  width: 230px;
+  overflow: hidden;
+  padding: 0 0 0 15px;
+}
+#sledzik_star .user_name a {
+  color: #206596;
+  font-weight: bold;
+  height: 1em;
+  overflow: hidden;
+}
+
+/* celebrity */
+#sledzik_promo {
+  overflow: hidden;
+  margin: 0 0 10px;
+}
+#sledzik_promo h4 {
+  margin-bottom: -8px;
+  position: relative;
+  z-index: 10;
+}
+#sledzik_promo ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+#sledzik_promo li.sledzik_shout {
+  float: left;
+  width: 182px;
+  margin: 10px 0 4px;
+  padding: 10px 0 10px 15px;
+  position: static;
+  overflow: hidden;
+  border-left: 1px solid #e1e8f0;
+}
+#sledzik_promo li.sledzik_shout:first-child {
+  border: none;
+}
+#sledzik_promo .shout_avatar {
+  float: left;
+  padding: 2px 0 0;
+}
+#sledzik_promo .microavatar_official span.inner_marker {
+  margin-top: 9px;
+}
+#sledzik_promo .sledzik_shout .user_name {
+  width: 115px;
+  padding: 0 3px 0 0;
+  color: #206596;
+  float: right;
+  font-weight: bold;
+  overflow: hidden;
+}
+#sledzik_promo .sledzik_shout .user_name a {
+  display: block;
+  height: 1.3em;
+  overflow: hidden;
+  color: #206596;
+}
+#sledzik_promo .sledzik_shout .user_name .job {
+  color: #626262;
+  font-weight: normal;
+  overflow:hidden;
+}
+#sledzik_promo .sledzik_shout  form.add_followee {
+  position: absolute;
+  bottom: 8px;
+  height: 22px;
+  margin: 0;
+}
+#sledzik_promo .sledzik_shout  form.add_promoted_ignored {
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+#promo_slot_0 .add_followee {
+  left: 76px;
+}
+#promo_slot_0 .add_promoted_ignored {
+  left: 178px;
+}
+#promo_slot_1 .add_followee {
+  left: 276px;
+}
+#promo_slot_1 .add_promoted_ignored {
+  left: 376px;
+}
+#promo_slot_1.sledzik_shout.nothing {
+  width: 380px;
+  height: 58px;
+}
+#promo_slot_2 .add_followee {
+  left: 476px;
+}
+#promo_slot_2 .add_promoted_ignored {
+  left: 577px;
+}
+.person_list form.add_promoted_ignored {
+  top: 4px;
+  right: 3px;
+}
+#sledzik_promo .sledzik_shout  form button {
+  width: 81px;
+  height: 20px;
+  padding: 0 0 0 16px;
+  background: transparent url(/img/buttons.gif) no-repeat scroll 0 -79px;
+  color: #255069;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: left;
+}
+#sledzik_promo .sledzik_shout  form.add_promoted_ignored  button {
+  width: 12px;
+  height: 11px;
+  float: left;
+  background: transparent url(/img/delete_might_know.gif) no-repeat scroll 0 0;
+  text-indent: -999em;
+}
+#sledzik_promo .sledzik_shout  form button span {
+  line-height: 20px;
+}
+#sledzik_promo .sledzik_shout  form button.dont_followee {
+  width: 88px;
+  background-position: 0 -109px;
+}
+#sledzik_promo .nothing p {
+  font-size: 11px;
+  color: #97a9c2;
+  text-align: center;
+}
+#sledzik_promo .nothing a {
+  color: #4a7095;
+}
+
+/*----- left boxes -----*/
+.person_list {
+  overflow: hidden;
+  position: relative;
+}
+.person_list li {
+  overflow: hidden;
+}
+.sledzik_celebrities_stars  .box_content {
+  padding: 0 2px 4px 3px;
+}
+.sledzik_celebrities_stars .coolbox_bottom  {
+  overflow: hidden;
+}
+.sledzik_celebrities_stars .coolbox_bottom  a {
+  font-weight: normal;
+}
+.sledzik_celebrities_stars .coolbox_bottom  .raquo {
+  color: #407da9;
+}
+.sledzik_celebrities_stars .coolbox_hint {
+  width: 68px;
+  height: 13px;
+}
+.sledzik_celebrities_stars .coolbox_hint a {
+  height: 13px;
+  padding: 0 0 0 17px;
+  zoom: 1;
+}
+.sledzik_celebrities_stars .raquo {
+  float: none;
+}
+.box_content ul li.no_propositions {
+  padding: 7px 15px;
+  text-align: center;
+  color: #7C8C9A;
+}
+.person_list li {
+  clear: both;
+  position: relative;
+  overflow: hidden;
+  padding: 9px 0 9px 7px;
+  border-top: 1px dotted #cfdde9;
+  zoom: 1;
+}
+.person_list li:first-child {
+  border: none;
+}
+.person_list form.add_promoted_ignored {
+  position: absolute;
+  top: 4px;
+  right: 3px;
+  width: 12px;
+}
+.person_list  form.add_promoted_ignored  button {
+  width: 12px;
+  height: 11px;
+  margin: 0;
+  float: left;
+  background: transparent url(/img/delete_might_know.gif) no-repeat scroll 0 0;
+  text-indent: -999em;
+}
+.last_stars_box .person_list li {
+  background: transparent url(/img/bg_gradient.gif) repeat-x 0 0;
+  border: 0;
+}
+.person_list li.first {
+  border: 0;
+}
+.person_list li .right {
+  width: 103px;
+}
+.person_list .microavatar {
+  float: left;
+  width: 53px;
+  text-align: center;
+}
+.person_list .microavatar  img{
+  border:1px solid #575757;
+  max-height: 50px;
+  max-width: 50px;
+}
+.last_stars_box .person_list .microavatar  img{
+  border:1px solid #bdc5cc;
+  max-height: 45px;
+  max-width: 45px;
+}
+.person_list .clear {
+  padding-top: 3px;
+}
+.person_list .right {
+  padding: 3px 6px 0 0;
+}
+.person_list button.followee {
+  width: 71px;
+  height: 20px;
+  overflow: hidden;
+  margin: 16px 0 0 27px;
+  background: transparent url(/img/buttons.gif) no-repeat 0 -308px;
+}
+.person_list button.followee span {
+  display: none;
+}
+.box_content .person_list  a.user_name {
+  display: block;
+  width: 150px;
+  float: none;
+  margin: 0 0 3px;
+  overflow: hidden;
+  color: #206596;
+  font-weight: bold;
+}
+.last_stars_box .box_content .person_list  a.user_name {
+  width: 95px;
+  color: #0a69ac;
+  font-weight: normal;
+  font-size: 10px;
+}
+.person_list .owner_link,
+.person_list .stardate {
+  overflow: hidden;
+  color: #7c8c9a;
+}
+.person_list .stardate {
+  display: block;
+  padding: 2px 0 0;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 11px;
+  color: #7c8c9a;
+}
+.box_content .person_list a.star_quote {
+  display: block;
+  clear: both;
+  padding: 13px 0 3px 48px;
+  overflow: hidden;
+  background: transparent url(/img/icons.gif) no-repeat 5px -486px;
+  color: #000;
+  zoom: 1;
+}
+
+/*----- Promoted - common styles-----*/
+.promoted_0 .avatar_sledzik form.remove_followee,
+.promoted_1 .avatar_sledzik form.remove_followee,
+.promoted_2 .avatar_sledzik form.remove_followee {
+  background: 0;
+}
+#list_with_js .promoted_0 table,
+#list_with_js .promoted_1 table,
+#list_with_js .promoted_2 table {
+  margin: 0;
+}
+
+/*----- type 0  ( type 1 in admin ) -----*/
+.promoted_0 .grid_row table {
+  border-collapse: collapse;
+  position: relative;
+  left: -1px;
+}
+.promoted_0 .grid_row td {
+  width: 166px;
+}
+#content_main .sledzik_promoted_list #list_with_js .promoted_0 .avatar,
+#content_main .sledzik_promoted_list #list_without_js  .avatar_no_js  {
+  width: 165px;
+  padding: 0;
+  margin: 0 12px;
+  background: transparent url(/img/avatar_0_mid.gif) repeat-y 0 0;
+}
+#content_main .promoted_0 .avatar_content {
+  padding: 4px 0 0;
+  background: transparent url(/img/avatar_0_top.gif) no-repeat 0 0;
+  position: relative;
+}
+.promoted_0 .avatar_user_info {
+  margin-top: -3px;
+}
+.promoted_0 .avatar_sledzik {
+  height: 34px;
+  padding-top: 17px;
+  background: transparent url(/img/avatar_0_bottom.gif) no-repeat 0 100%;
+}
+.promoted_0 .avatar_sledzik button {
+  background: transparent url(/img/buttons.gif) no-repeat 0 -37px;
+  color: #255069;
+  float: right;
+  font-size: 11px;
+  height: 22px;
+  margin-right: 15px;
+  padding-top: 0;
+  width: 132px;
+}
+.promoted_0 .avatar_sledzik button.dont_followee {
+  background-position: 0 -408px;
+}
+
+/*----- type 1  ( type 2 in admin ) -----*/
+.promoted_1 table {
+  border-collapse: collapse;
+}
+.promoted_1 .promoted_wraper {
+  width: 330px;
+  padding: 0;
+  margin: 0 2px 0 0;
+  float: left;
+  background: transparent url(/img/avatar_4_mid.gif) repeat-y 0 0;
+}
+.scroll .promoted_1 .promoted_wraper {
+  width: 320px;
+  margin: 0 29px;
+  background: transparent url(/img/avatar_4_mid.gif) repeat-y -341px 0;
+}
+#content_main .promoted_1 .avatar {
+  width: 330px;
+  padding: 0 0 12px;
+  margin: 0;
+  background: transparent url(/img/avatar_4_bottom.gif) no-repeat 0 100%;
+}
+#content_main #list_with_js .scroll .promoted_1 .avatar,
+#content_main #list_without_js .scroll .promoted_1 .avatar {
+  width: 318px;
+  padding: 0 0 12px;
+  background-position: -335px 100%;
+}
+#content_main #list_with_js .promoted_wrapper,
+#content_main #list_without_js .promoted_wrapper {
+  
+}
+.promoted_1 .avatar_sledzik_info {
+  float: right;
+  width: 164px;
+  height: 164px;
+  overflow: hidden;
+  padding: 10px 10px 7px 20px;
+  text-align: justify;
+  line-height: 17px;
+  color: #929ca4;
+}
+.scroll .promoted_1 .avatar_sledzik_info {
+  width: 152px;
+  height: 162px;
+  overflow: hidden;
+}
+.promoted_1 .avatar_content {
+  background: transparent url(/img/avatar_4_top.gif) no-repeat 0 0;
+  height: 197px;
+}
+.scroll .promoted_1 .avatar_content {
+  background-position: -342px 0;
+}
+.promoted_1 .avatar_new_photo,
+.promoted_1 .avatar_info,
+.promoted_1 .avatar_bar {
+  float: left;
+  clear: left;
+  margin: 6px 0 0 24px;
+  display: inline;
+}
+.promoted_1 .avatar_sledzik {
+  background: 0;
+}
+.promoted_1 .avatar_sledzik button {
+  float: right;
+  width: 132px;
+  height: 22px;
+  padding-top: 0;
+  margin-right: 10px;
+  background: transparent url(/img/buttons.gif) no-repeat 0 -37px;
+  color: #255069;
+  font-size: 11px;
+}
+.promoted_1 .avatar_sledzik button.dont_followee {
+  background-position: 0 -408px;
+}
+
+/*----- type 2  ( type 3 in admin ) -----*/
+/*  [   avatar_slim used also on promoted/ranking  ]   */
+.promoted_2 .grid_row table {
+  border-collapse: collapse;
+}
+.promoted_2 .grid_row td {
+  padding: 0;
+}
+.avatar_slim {
+  width: 770px;
+  padding: 11px 5px;
+  overflow: auto;
+  background: transparent url(/img/avatar_slim_wide.gif) no-repeat 0 0;
+}
+.scroll .avatar_slim {
+  width: 746px;
+  background-position: 0 -72px;
+}
+.avatar_slim a {
+  float: left;
+}
+.avatar_slim form {
+  float: right;
+  width: 81px;
+  height: 20px;
+  margin: 10px 5px 0 0;
+}
+.avatar_slim form button {
+  width: 81px;
+  height: 20px;
+  padding: 0 0 0 17px;
+  background: transparent url(/img/buttons.gif) no-repeat 0 -79px;
+  color: #255069;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: left;
+}
+.avatar_slim form button.dont_followee {
+  padding: 0 0 0 6px;
+  background-position: 0 -111px;
+}
+.avatar_slim .microavatar {
+  text-align: center;
+}
+.avatar_slim .microavatar img {
+  border: 1px solid #000;
+  width: auto;
+}
+.avatar_slim .user_name {
+  float: left;
+  width: 270px;
+  overflow: auto;
+  margin: 11px 20px 0 12px;
+  font-weight: bold;
+  color: #206596;
+}
+.avatar_slim .user_name a {
+  display: block;
+  height: 16px;
+  overflow: hidden;
+  color: #206596;
+}
+.avatar_slim .owner_link {
+  display: block;
+  width: 205px;
+  overflow: hidden;
+  margin: 1px 0 0;
+  color: #7c8c9a;
+  font-size: 10px;
+  font-weight: normal;
+}
+.avatar_slim .whois {
+  width: 220px;
+  margin: 12px 0 0;
+  float: right;
+  overflow: hidden;
+  font-size: 11px;
+  white-space: nowrap;
+  color: #7c8c9a;
+}
+.promoted_2 .microavatar_official span.top {
+  left: 0;
+  top: -2px;
+}
+
+/*--------------------------------------------------   promoted - ranking-----*/
+.promoted_ranking .cool_box_inner {
+  padding: 0;
+}
+.sledzik_promoted_list.promoted_ranking .cool_box_inner div.friends_list_tools {
+  left: 3px;
+  top: 0;
+  width: 786px;
+}
+.promoted_ranking .avatar_slim {
+  width: 758px;
+  padding-bottom: 9px;
+  background: transparent url(/img/bg_gradient.gif) repeat-x 0 0;
+}
+.promoted_ranking .scroll .avatar_slim {
+  width: 758px;
+}
+.promoted_ranking .rank {
+  float: left;
+}
+.promoted_ranking .rank {
+  width: 21px;
+  margin: 12px 7px 0 0;
+  color: #7c8c9a;
+  text-align: center;
+  font: bold 16px arial, verdana, sans-serif;
+}
+.promoted_ranking .microavatar img {
+  border: 1px solid #bdc5cc;
+}
+.promoted_ranking  dl {
+  width: 220px;
+  float: right;
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.promoted_ranking  dt {
+  float: left;
+  clear: both;
+  width: 90px;
+  padding: 0 3px 0 0;
+  color: #7C8C9A;
+  text-align: right;
+}
+.promoted_ranking  dd {
+  margin: 0;
+  font-weight: bold;
+}
+div.friends_list_tools div.sort_by_followee,
+div.friends_list_tools div.sort_by_followee_push,
+div.friends_list_tools div.sort_by_shouts,
+div.friends_list_tools div.sort_by_shouts_push {
+  cursor: pointer;
+  height: 21px;
+  left: 92px;
+  position: absolute;
+  text-indent: -999em;
+  top: 8px;
+  width: 114px;
+  background: transparent url(/img/buttons.gif) no-repeat 0 -209px;
+}
+div.friends_list_tools div.sort_by_followee {
+  background-position: 0 -797px;
+}
+div.friends_list_tools div.sort_by_followee_push {
+  background-position: 0 -818px;
+}
+div.friends_list_tools div.sort_by_shouts {
+  left: 215px;
+  background-position: 0 -750px;
+}
+div.friends_list_tools div.sort_by_shouts_push {
+  left: 215px;
+  background-position: 0 -771px;
+}
+
+/*-------------------------------------------------- last stars -----*/
+.starbox_wrapper {
+  margin: 5px 0;
+  background: transparent url(/img/allstar_mid.gif) repeat-y 0 0;
+}
+.starbox_wrapper .header {
+  padding: 5px 0 0;
+  background: transparent url(/img/allstar_top.gif) no-repeat 0 0;
+}
+.starbox_wrapper .header,
+.starbox_wrapper p {
+  padding: 0 0 0 8px;
+}
+.starbox_wrapper p {
+  margin: 11px 0 0;
+  font-size:11px;
+}
+.starbox_wrapper .header a {
+  padding: 0 7px 0 0;
+  color: #206596;
+  font-weight: bold;
+  font-size:10px;
+}
+.starbox_wrapper .date {
+  color: #7c8c9a;
+  font-size:10px;
+}
+.last_star_person {
+  padding: 22px 0 10px;
+  overflow: auto;
+  background: transparent url(/img/allstar_bottom.gif) no-repeat 0 100%;
+}
+.last_star_person a {
+  color: #206596;
+  font-weight: bold;
+  font-size:10px;
+}
+.last_star_person .allstars_link {
+  float: right;
+  display: inline;
+  margin: 0 12px 0 6px;
+}
+.starbox_wrapper .sledzik_star{
+  float: left;
+  height: 17px;
+  display: inline;
+  margin: 0 20px;
+}
+.starbox_wrapper .microavatar_wrapper {
+  float: left;
+  width: 53px;
+  height: 36px;
+  margin: -7px 7px 0 0;
+}
+.starbox_wrapper .microavatar {
+  text-align: center;
+}
+.starbox_wrapper .microavatar  img{
+  border:1px solid #575757;
+  max-height:34px;
+  max-width:50px;
+}
+/* temporary disabled till next iteration */
+.last_star_person .allstars_link {
+  display:none;
+}
+
+
+/*-------------------------------------------------- all stars -----*/
+.allstar_title {
+  margin: 0;
+  padding: 0 6px;
+  font-size: 11px;
+}
+.allstar {
+  padding: 0;
+  margin: 0;
+}
+.allstar li {
+  clear: both;
+  padding: 22px 0 0;
+  overflow: auto;
+  background: 0;
+  border-top: 1px solid #edeff1;
+}
+.allstar .header {
+  background: 0;
+}
+
+/*-------------------------------------------------- info box -----*/
+.navy_box_text .yes_no_box {
+  background: transparent;
+  border: 0;
+  color: #fff;
+}
+div.yes_no_box div.buttons {
+  margin: 10px 0 0;
+}
+div.yes_no_box div.buttons form {
+  padding: 0 13px;
+}
+.nk_popup_body  .popup_load {
+  height: 60px;
+  background: transparent url(/img/loading.gif) no-repeat  50% 50%;
+}
+
+
+/*--------------------------------------------------  stars popup -----*/
+.star_box {
+  background: #fff;
+  padding: 0 0 10px;
+  font-size: 11px;
+}
+.star_box .stars_contener {
+  margin: 0;
+  padding: 0 10px;
+  overflow: auto;
+  border-bottom: 1px solid #f2f2f2;
+  color: #000;
+}
+.star_box .stars_contener li {
+  clear: both;
+  height: 35px;
+  padding: 5px 0 0;
+  border-top: 1px solid #f2f2f2;
+  text-align: left;
+}
+.star_box .stars_contener li.parity {
+  background: #fafafa;
+}
+.star_box .stars_contener .header {
+  font-weight: bold;
+  line-height: 33px;
+}
+.star_box .stars_contener .sledzik_star {
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin: 6px 15px 0;
+  padding: 0;
+}
+.star_box .stars_contener li.star .microavatar {
+  float: left;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+}
+.star_box .stars_contener li.star .microavatar img {
+  border: 1px solid #cdcdcd;
+  max-height: 28px;
+  max-width: 28px;
+}
+.star_box .stars_contener span.star {
+  float: left;
+  width: 370px;
+  overflow: hidden;
+  margin: 6px 0 0;
+  height: 1.5em;
+}
+.star_box .stars_contener span.star a {
+  color: #0a69ac;
+  font-weight: bold;
+}
+.star_box .stars_contener .datetime {
+  float: right;
+  margin: 7px 9px 0 0;
+  color: #7c8c9a;
+  font-size:10px;
+}
+.star_box .paginator_wrapper {
+  padding: 14px 17px 0 0;
+  overflow: auto;
+  zoom: 1;
+}
+.star_box .paginator_wrapper .paginator {
+  float: right;
+}
+
+/*-------------------------------------------------- shout menu -----*/
+.shout_menu {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 3px;
+  padding: 19px 0 0;
+  margin: 0;
+}
+.shout_menu .top {
+  display: block;
+  width: 121px;
+  height: 25px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: transparent url(/img/buttons.gif) no-repeat  0 -143px;
+}
+#shout_collection .shout_menu ul {
+  padding: 1px;
+  margin: 0;
+  border:1px solid #c8dbec;
+  background: #f4faff;
+  font-size: 11px;
+}
+#shout_collection .shout_menu li a {
+  display: block;
+  width: 94px;
+  padding: 4px 2px 4px 34px;
+  color: #5e798c;
+}
+#shout_collection .shout_menu li a:hover,
+#shout_collection .shout_menu li button:hover {
+  color: #384b58;
+  background-color: #d8e5f0;
+}
+.shout_menu .report_abuse {
+  background: transparent url(/img/icons.gif) no-repeat 9px -129px;
+}
+.shout_menu .send_msg {
+  background: transparent url(/img/icons.gif) no-repeat 6px -325px;
+}
+.shout_menu .delete {
+  background: transparent url(/img/icons.gif) no-repeat 8px -304px;
+}
+.shout_menu form.delete_entry {
+  height: 21px;
+}
+.shout_menu button.dont_followee ,
+.shout_menu button.hide_out {
+  display: block;
+  width: 130px;
+  padding: 2px 2px 4px 0;
+  margin: 0;
+  text-indent: 31px;
+  background: transparent url(/img/icons.gif) no-repeat 6px -284px;
+  color: #5e798c;
+  font-size: 11px;
+  text-align: left;
+}
+.shout_menu button.hide_out {
+  background-position: 11px -422px;
+}
+.shout_menu .show_link {
+  padding: 3px 0px 4px 9px;
+  cursor: pointer;
+  color: #5E798C;
+}
+.shout_menu .show_link.hover {
+  color: #384B58;
+  background: #D8E5F0;
+}
+.shout_menu .show_link span {
+  display: inline-block;
+  height: 12px;
+  padding-right: 12px;
+  margin-right: 13px;
+  line-height: 12px;
+  background: url(/img/icons.gif) no-repeat 0 -658px;
+}
+
+/*-------------------------------------------------- paginator -----*/
+.sledzik .right .paginator {
+  margin-top: 7px;
+}
+.sledzik .paginator_wrapper  {
+  overflow: hidden;
+  height: 20px;
+  margin: 1px 0;
+  padding: 4px 4px 2px;
+  background: #f1f6fb; 
+  border-top: 1px solid #ccdce8;
+  border-bottom: 1px solid #ccdce8;
+}
+html.sledz_html .sledzik .paginator_wrapper {
+  border: 1px solid #ccdce8;
+  margin: 3px 0;
+}
+.sledzik_narrow .paginator_wrapper {
+  width: auto;
+}
+.sledzik .paginator_wrapper .paginator {
+  float: right;
+}
+#sledzik_box .graphic_paginator a span,
+.star_box .graphic_paginator a span{
+ color: #0a68ab;
+}
+.sledzik_shout .footer .paginator span.clear {
+  width: 0;
+}
+.sledzik_shout .footer .paginator .next,
+.sledzik .paginator_wrapper .graphic_paginator .next,
+.star_box .graphic_paginator .next,
+.star_box .graphic_paginator a.next:hover {
+  width: 17px;
+  height: 17px;
+  background-image: url(/img/paginator_next);
+  text-decoration: none;
+}
+.sledzik_shout .footer .graphic_paginator .previous,
+.sledzik .paginator_wrapper .graphic_paginator .previous,
+.star_box .graphic_paginator .previous,
+.star_box .graphic_paginator a.previous:hover {
+  width: 17px;
+  height: 17px;
+  background-image: url(/img/paginator_prev);
+  text-decoration: none;
+}
+.sledzik_shout .footer .graphic_paginator span.next,
+.sledzik_shout .footer .graphic_paginator span.previous {
+  background-position: 0 100%;
+}
+.sledzik_shout .footer .graphic_paginator a.next,
+.sledzik_shout .footer .graphic_paginator a.previous {
+  background-position: 0 0;
+}
+.sledzik_shout .footer .graphic_paginator a.next:hover,
+.sledzik .paginator_wrapper .graphic_paginator a.next:hover,
+.star_box .graphic_paginator a.next:hover,
+.sledzik_shout .footer .graphic_paginator a.previous:hover,
+.sledzik .paginator_wrapper .graphic_paginator a.previous:hover,
+.star_box .graphic_paginator a.previous:hover {
+  background-position: 0 50%;
+}
+.sledzik .paginator_wrapper .graphic_paginator .clear {
+  display: none;
+}
+
+/*-------------------------------------------------- followee list, followers list -----*/
+html.sledz_html #list_with_js .friends_list_tools {
+  margin-right: -3px;
+}
+ #list_with_js  table {
+  margin-left: 16px;
+}
+div.friends_list_tools div.only_unknow_followers ,
+div.friends_list_tools div.only_unknow_followers_push,
+div.friends_list_tools div.sort_by_rank,
+div.friends_list_tools div.sort_by_rank_push {
+  position: absolute;
+  top: 8px;
+  left: 337px; 
+  width: 114px;
+  height: 21px;
+  overflow: hidden;
+  text-indent: -999em;
+  background: transparent url(/img/buttons.gif) no-repeat 0 -209px;
+  cursor: pointer; 
+}
+div.friends_list_tools div.only_unknow_followers_push {
+  background-position: 0 -230px;
+}
+div.friends_list_tools div.sort_by_rank {
+  background-position: 0 -258px;
+}
+div.friends_list_tools div.sort_by_rank_push {
+  background-position: 0 -279px;
+}
+
+/* ---------------------------------------------- friends list ------*/
+.friendslist_noJS_info {
+  padding: 7px 2px;
+  margin: 5px 15px;
+  text-align: center;
+  border: 1px solid #e6edf1;
+  background: #f4f6f8;
+}
+#user_list_menu {
+  height: 24px;
+  padding: 0 12px 3px 0;
+  background: transparent url(/img/profile/multitab.gif) repeat-x 0 -68px;
+  margin: -1px -3px 0;
+  position: relative;
+  top: -2px;
+}
+#user_list_menu li{
+  float: right;
+  position: relative;
+}
+#user_list_menu li a {
+  float: left;
+  display: inline;
+  height: 22px;
+  padding: 0 18px;
+  color: #6d8ca6;
+  line-height: 21px;
+  font-size: 11px;
+  cursor: pointer;
+}
+#user_list_menu li a:hover {
+  background: url(/img/profile/multitab.gif) no-repeat 0 -93px;
+}
+#user_list_menu li.active {
+  position: relative;
+  top: -4px;  
+}
+#user_list_menu li.active a, #user_list_menu li.active a:hover {
+  height: 28px;  
+  padding: 0 17px 0 18px;
+  background: url(/img/profile/multitab.gif) no-repeat 0 0;
+  color: #476c8b;
+  line-height: 28px;
+}
+#user_list_menu li.active  span {
+  display: block;
+  height: 28px;
+  position: absolute;
+  right: -1px;
+  top: 0;
+  width:7px;
+  background: transparent url(/img/profile/multitab.gif) no-repeat 100% -33px;
+}
+
+
+/*--------------------------------------------------  regulations -----*/
+/*--------------------------------------------------  regulations after activation -----*/
+/*--------------------------------------------------  faq page -----*/
+/*--------------------------------------------------  policy page -----*/
+/*--------------------------------------------------  contact page -----*/
+html.sledz_html .logged_off #policy_page #page,
+html.sledz_html .logged_off #contact_page #page {
+  padding: 0 0 160px;
+}
+html.sledz_html #regulations_page .sledzik_bg_wrapper,
+html.sledz_html .logged_off #policy_page .sledzik_bg_wrapper,
+html.sledz_html .logged_off #contact_page .sledzik_bg_wrapper,
+html.sledz_html .logged_off #regulations_sledzik .sledzik_bg_wrapper,
+html.sledz_html .logged_off #sledz_register .sledzik_bg_wrapper,
+html.sledz_html #sledzik_widgets .sledzik_bg_wrapper {
+  margin: 0;
+  background: transparent url(/img/bg_translucent.gif) repeat-y -1020px 0;
+}
+html.sledz_html #regulations_page #content_main,
+html.sledz_html .logged_off #policy_page #content_main,
+html.sledz_html .logged_off #contact_page #content_main,
+html.sledz_html .logged_off #regulations_sledzik #content_main,
+html.sledz_html .logged_off #sledz_register #content_main,
+html.sledz_html #sledzik_widgets #content_main {
+  background: transparent url(/img/bg_translucent.gif) no-repeat -2045px 100%;
+  
+}
+html.sledz_html #regulations_page .sledzik_contentmain_btm,
+html.sledz_html .logged_off #policy_page .sledzik_contentmain_btm,
+html.sledz_html .logged_off #contact_page .sledzik_contentmain_btm,
+html.sledz_html .logged_off #regulations_sledzik .sledzik_contentmain_btm,
+html.sledz_html #sledzik_widgets .sledzik_contentmain_btm {
+  display: none;
+}
+.sledz_html .logged_off  #policy_content,
+.sledz_html .logged_off #sledzik_terms {
+  margin: 20px  24px 30px 28px;
+  color: #cceef3;
+  font-size: 11px;
+  line-height: 17px;
+}
+html.sledz_html .logged_off #faq_page.sledz_wrapper_wide #content_main {
+  width: 946px;
+  padding: 6px 25px 0 25px;
+  background: #F4F5F7 url(/img/pomoc/bg.gif) no-repeat scroll 0 0;
+}
+.sledz_html .logged_off  #policy_content h2 {
+  color: #e6f7aa;
+  border-color: #e6f7aa;
+}
+html.sledz_html #regulations_page  #regulamin,
+html.sledz_html #sledzik_widgets #widgets {
+  padding: 8px 27px 0 28px;
+  color: #cceef3;
+  font-size: 11px;
+}
+html.sledz_html #regulations_page #regulamin h2 {
+  width: 133px;
+  height: 23px;
+  border: 0;
+  text-indent: -999em;
+  overflow: hidden;
+  background: transparent url(/img/bg_headers.gif) no-repeat 0 0;
+}
+html.sledz_html #regulations_page #regulamin h3 {
+  margin: 5px 0 24px;
+  font-size: 13px;
+  color: #fff;
+}
+html.sledz_html #regulations_page #regulamin .sections {
+  padding: 0 0 30px;
+}
+html.sledz_html #regulations_page  #regulamin b {
+  color: #e9f7f9;
+}
+html.sledz_html #regulations_page  #regulamin ul.index {
+  margin: 0 0 25px 40px;
+}
+html.sledz_html #regulations_page  #regulamin ul.index a:active, 
+html.sledz_html #regulations_page  #regulamin ul.index a:link, 
+html.sledz_html #regulations_page #regulamin ul.index a:visited, 
+html.sledz_html #regulations_page  #regulamin ul.index a:hover {
+  color: #e6f7aa;
+}
+html.sledz_html #regulations_page  #regulamin ul.index .section_name {
+  font-weight: normal;
+}
+html.sledz_html #regulations_page  #regulamin a,
+html.sledz_html .logged_off  #policy_content a,
+html.sledz_html .logged_off #sledzik_terms a {
+  color: #e6f7aa;
+}
+html.sledz_html #regulations_page  #regulamin h4.section_header,
+html.sledz_html .logged_off  #policy_content h4.section_header,
+html.sledz_html .logged_off #sledzik_terms h4.section_header {
+  padding: 17px 0 0 0;
+  margin: 15px 0 1px;
+  border-top: 1px solid #2c6b9f;
+  border-bottom: 0;
+  color: #fff;
+}
+html.sledz_html .logged_off #sledzik_terms strong {
+  color: #fff;
+}
+html.sledz_html #regulations_page #regulamin .section {
+  line-height: 17px;
+}
+html.sledz_html #regulations_page #regulamin ol {
+  padding: 0 0 0 31px;
+}
+html.sledz_html #regulations_page #regulamin ol ol {
+  padding: 0 0 0 19px;
+}
+html.sledz_html #regulations_page #regulamin ol li{
+  clear: both;
+}
+html.sledz_html #regulations_page #regulamin ol li .counter {
+  width: 28px;
+  margin-left: -28px;
+  float: left;
+}
+html.sledz_html #regulations_page #regulamin ol li .subcounter {
+   float: left;
+   width: 18px;
+  margin-left: -18px;
+}
+
+
+/* regulations */
+html.sledz_html  #regulations_page  #sledzik_header #sledzik_header {
+  height: 191px;
+}
+
+/* regulations after activation  */
+html.sledz_html #regulations_page button {
+  margin: 0 8px;
+}
+html.sledz_html #regulations_page label {
+  color: #e9f7f9;
+}
+html.sledz_html #regulations_page  #form1 {
+  display: block;
+  margin: 22px 10px 0;
+  color: #fff;
+}
+html.sledz_html #regulations_page  #regulamin_tresc {
+  height: 243px;
+  margin: 32px 0 0;
+  color: #000;
+}
+html.sledz_html #regulations_page  #content_main {
+ padding-bottom: 10px;
+}
+html.sledz_html #regulations_page  #form1_accept {
+  margin-left: 10px;
+}
+/* sledzik regulations - 3rd attachment */
+html.sledz_html .logged_off #sledzik_terms h2 {
+  width: 242px;
+  height: 29px;
+  border: none;
+  background: transparent url(/img/bg_headers.gif) no-repeat -1012px 2px;
+}
+html.sledz_html .logged_off #sledzik_terms h2 span {
+  display: none;
+}
+/* policy page */
+html.sledz_html .logged_off #policy_page #policy_content h2 {
+  width: 393px;
+  height: 34px;
+  background: transparent url(/img/bg_headers.gif) no-repeat -153px 0;
+  border: 0;
+}
+html.sledz_html .logged_off #policy_page #policy_content h2 span {
+  display: none;
+}
+/* contact page */
+html.sledz_html .logged_off #contact_page .baner img {
+  display: none;
+}
+html.sledz_html .logged_off #contact_page .content .cool_box_21,
+html.sledz_html .logged_off #contact_page .content .cool_box_21 * {
+  background: 0;
+  border: 0;
+}
+html.sledz_html .logged_off #contact_page .content .cool_box_21 {
+  margin: 15px 27px 69px 23px;
+  color: #cceef3;
+  font-size: 15px;
+}
+html.sledz_html .logged_off #contact_page .content .cool_box_21 .contacts_inner_table {
+  font-size: 12px;
+}
+html.sledz_html .logged_off #contact_page .content .cool_box_21 a,
+html.sledz_html .logged_off #contact_page .content .cool_box_21 .contacts_email,
+html.sledz_html .logged_off #contact_page .content .cool_box_21 .contacts_nk_signup {
+  color: #e6f7aa;
+  font-weight: normal;
+}
+html.sledz_html .logged_off #contact_page .content .cool_box_21 .contacts_inner_table_head {
+  padding: 9px 1px 19px;
+  font-weight: bold;
+  color: #fff;
+}
+html.sledz_html .logged_off #contact_page .content .cool_box_21 .contacts_inner_table_underlined {
+  padding: 10px 25px;
+}
+html.sledz_html .logged_off #contact_page .content .cool_box_header_inner {
+  padding: 5px 0 0;
+}
+html.sledz_html .logged_off #contact_page .content .cool_box_limiter {
+  width: 103px;
+  height: 27px;
+  margin: 0 0 24px;
+  background: transparent url(/img/bg_headers.gif) no-repeat -902px 0;
+}
+html.sledz_html .logged_off #contact_page .cool_box_limiter * {
+  display: none;
+}
+
+/*  - - - - - - - - - - - - - - - - [ 404 when logged off ] - - - - - - - */
+html.sledz_html .logged_off #error_404 #page_content {
+  min-height: inherit;
+}
+html.sledz_html .logged_off #error_404 #page_content #content_main {
+  padding: 0;
+  background: #fff;
+}
+
+/*  - - - - - - - - - - - - - - - - [ Safety when logged off ] - - - - - - - */
+#safety #page #safety_logged_off_top {
+  display: block;
+  height: 0;
+  margin: 0 -11px 0;
+  background: url(/img/bg_content.gif) no-repeat 0 -24px;
+}
+
+/*  - - - - - - - - - - - - - - - - [ registration ] - - - - - - - */
+html.sledz_html #sledz_register #register_top {
+  margin: 0 0 10px 22px;
+  border: 0;
+}
+html.sledz_html #sledz_register #register_top h3{
+  display: none;
+}
+html.sledz_html #sledz_register #register_top p{
+  padding: 0 0 10px 0;
+  border: 0;
+  border-bottom: 1px solid #2D6B9F;
+  background: 0;
+  color: #E6F7AA;
+  font-size: 12px;
+}
+html.sledz_html #sledz_register p.dotted_bottom {
+  padding-right: 483px;
+  border-bottom: 1px solid #2d6b9f;
+}
+html.sledz_html #sledz_register p.ssl_hint {
+  font-size: 12px;
+}
+
+html.sledz_html #sledz_register .sledzik_contentmain_btm {
+  display: none;
+}
+html.sledz_html #sledz_register #page_content {
+  color: #e9f7f9;
+}
+html.sledz_html #sledz_register h2 {
+  width: 421px;
+  height: 29px;
+  margin: 22px 0 17px 22px;
+  background: transparent url(/img/bg_headers.gif.gif) no-repeat -1280px 0;
+}
+html.sledz_html #sledz_register p.ssl_hint {
+  margin-left: 22px;
+}
+html.sledz_html #sledz_register #content_main a {
+  color: #e6f7aa;
+}
+html.sledz_html #sledz_register #nice_wrapper {
+  margin-left: 18px;
+  background: 0;
+  border: 0;
+}
+html.sledz_html #sledz_register #nice_wrapper .column_right input,
+html.sledz_html #sledz_register #nice_wrapper #form1_first_name,
+html.sledz_html #sledz_register #nice_wrapper #form1_last_name {
+  width: 198px;
+  padding: 6px 3px 6px;
+  background: transparent url(/img/buttons_wide.gif) no-repeat 0 0;
+  border: 0;
+  color: #000;
+}
+html.sledz_html #sledz_register #nice_wrapper .regulamin,
+html.sledz_html #sledz_register #nice_wrapper .regulamin label {
+  color: #e9f7f9;
+  background: transparent;
+  border: 0;
+}
+html.sledz_html #sledz_register div.column_left {
+  color: #e9f7f9;
+}
+html.sledz_html #sledz_register .blue_arrow {
+  display: none;
+}
+html.sledz_html #sledz_register .small_blue_info {
+  color: #fff;
+}
+html.sledz_html #sledz_register .fancy_box_yellow {
+  background: #2c6b9f;
+  border: 0;
+}
+html.sledz_html #sledz_register .fancy_box span.title {
+  color: #e6f7aa;
+  background: 0;
+  border: 0;
+}
+
+
+/*--------------------------------------------------  gallery -----*/
+html.sledz_html #photos .yes_no_box {
+  color: #000;
+}
+html.sledz_html .navy_box_text #photos .yes_no_box,
+html.sledz_html .nk_popup_body #photos .yes_no_box {
+  color: #fff;
+}
+html.sledz_html #report_abuse button {
+  display: block;
+}
+
+/*--------------------------------------------------  debug -----*/
+html.sledz_html span.debug {
+  color: #bff;
+}
+
+/*--------------------------------------------------  sending message -----*/
+html.sledz_html #form_mail_container #gift_banner {
+  margin: 0;
+  height: 90px;
+}
+html.sledz_html #form_mail_container #gift_banner * {
+  display: none;
+}
+
+
+/*--------------------------------------------------  events -----*/
+#last_events_splitter {
+  display: block;
+  height: 2px;
+  margin: 0 -11px 7px;
+}
+html.sledz_html #last_events_splitter {
+  height: 30px;
+  margin-bottom: 5px;
+  background: transparent url(/img/sledzik_bg_content_translucent.png) no-repeat -2574px 0;
+}
+#content_main div.events_action form {
+  margin-right: 0;
+}
+#blog_div .blog_div_inner {
+  overflow: auto;
+}
+.watched_events .event a {
+  font-size: 11px;
+}
+.watched_events .event a span {
+  color: #000;
+}
+.watched_events .event a .comment_demo {
+  color: #7c8c9a;
+}
+html.sledz_html .watched_events {
+  padding: 0 0 11px;
+}
+html.sledz_html .watched_events table.event td {
+  padding: 4px 0 7px;
+}
+html.sledz_html .watched_events table.event td.time {
+  padding: 6px 6px 7px 0;
+}
+/*--------------------------------------------------  widgets ---------*/
+#sledzik_widgets h1, 
+#sledzik_widgets h2,
+#sledzik_widgets h3 {
+  color: #e6f7aa;
+  overflow: hidden;
+  text-indent: -999em;
+  background: transparent url(/img/bg_headers.gif) no-repeat;
+}
+#sledzik_widgets h4 {
+  color: #e6f7aa;
+  border-top: 1px solid #2C6B9F;
+  padding-top: 15px;
+  font-size: 12px;
+}
+#sledzik_widgets h4.anonymous {
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+#sledzik_widgets h4.anonymous  a{
+  color: #e6f7aa;
+}
+#sledzik_widgets p {
+  line-height: 16px;
+}
+#sledzik_widgets h2 {
+  height: 28px;
+  width: 102px;
+  background-position: -1702px 0;
+}
+#sledzik_widgets h3.dodaj {
+  width: 191px;
+  height: 26px;
+  background-position: -1807px 0;
+}
+#sledzik_widgets h3.sledz {
+   width: 104px;
+   height: 28px;
+   background-position: -2002px 0;
+}
+#sledzik_widgets .widget {
+  padding: 10px 0 10px 280px;
+  margin-bottom: 20px;
+  background: transparent url(/img/widgets/sledzik_widgety_sprite.gif) no-repeat;
+}
+#sledzik_widgets div#widgets div.widget strong {
+  display: block;
+}
+#sledzik_widgets div#widgets div.widget input {
+  background: #2a6aa1;
+  border: 1px solid #4880b2;
+  color: #cceef3;
+  padding: 5px;
+  width: 530px;
+}
+#sledzik_widgets .duza_ciemne {
+  background-position: 0px 15px;
+}
+#sledzik_widgets .duza_jasne {
+  background-position: 0px -86px;
+}
+#sledzik_widgets .a_ciemne {
+  background-position: 0px -186px;
+}
+#sledzik_widgets .a_jasne {
+  background-position: 0px -292px;
+}
+#sledzik_widgets .b_ciemne {
+  background-position: 0px -402px;
+}
+#sledzik_widgets .b_jasne {
+  background-position: 0px -508px;
+}
+#sledzik_widgets .mini {
+  background-position: 0px -626px;
+}
+#sledzik_widgets .sledz_duzy_ciemne {
+  background-position: 0px -719px;
+}
+#sledzik_widgets .sledz_duzy_jasne {
+  background-position: 0px -816px;
+}
+#sledzik_widgets .sledz_a_ciemne {
+  background-position: 0px -927px;
+}
+#sledzik_widgets .sledz_a_jasne {
+  background-position: 0px -1030px;
+}
+#sledzik_widgets .sledz_b_ciemne {
+  background-position: 0px -1143px;
+}
+#sledzik_widgets .sledz_b_jasne {
+  background-position: 0px -1244px;
+}
+#sledzik_widgets .sledz_mini_a {
+  background-position: 0px -1357px;
+}
+#sledzik_widgets .sledz_mini_b {
+  background-position: 0px -1453px;
+}
+/* popup for sending shouts */
+.nk_popup_body.sledzik_shout_sender textarea {
+  display: block;
+  width: 460px;
+  height: 50px;
+  margin: 1px auto;
+}
+/*--------------------------------------------------  widgets end -----*/
